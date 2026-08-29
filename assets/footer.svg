@@ -1,0 +1,25 @@
+<svg width="1000" height="120" viewBox="0 0 1000 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footBg" x1="0" y1="0" x2="1000" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B0F19"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="footWave" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7AF2FF" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="footText" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7AF2FF"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="120" rx="16" fill="url(#footBg)"/>
+  <rect x="1" y="1" width="998" height="118" rx="15" stroke="#7AF2FF" stroke-opacity="0.2" stroke-width="1.2"/>
+  <path d="M0 60 C 250 20, 500 100, 750 40 C 850 20, 950 60, 1000 50 L 1000 120 L 0 120 Z" fill="url(#footWave)"/>
+
+  <text x="500" y="68" text-anchor="middle" fill="url(#footText)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" letter-spacing="3">LEARNING  •  BUILDING  •  INNOVATING  •  EXPLORING</text>
+</svg>

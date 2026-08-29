@@ -1,0 +1,76 @@
+<svg width="860" height="240" viewBox="0 0 860 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Developer workspace illustration">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#090D16"/>
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#131F33"/>
+      <stop offset="100%" stop-color="#0B1120"/>
+    </linearGradient>
+    <linearGradient id="neonGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7AF2FF"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base Card -->
+  <rect x="15" y="15" width="830" height="210" rx="24" fill="url(#bgGrad)" stroke="#7AF2FF" stroke-opacity="0.35" stroke-width="1.5"/>
+  
+  <!-- Background Glow Orbs -->
+  <circle cx="140" cy="70" r="35" fill="#7AF2FF" fill-opacity="0.12" filter="url(#glow)"/>
+  <circle cx="720" cy="75" r="45" fill="#8B5CF6" fill-opacity="0.14" filter="url(#glow)"/>
+  <circle cx="770" cy="170" r="30" fill="#34D399" fill-opacity="0.12" filter="url(#glow)"/>
+
+  <!-- Left Code Terminal Panel -->
+  <g transform="translate(65, 40)">
+    <rect x="0" y="0" width="370" height="155" rx="16" fill="url(#panelGrad)" stroke="#7AF2FF" stroke-opacity="0.5" stroke-width="1.2"/>
+    <rect x="14" y="14" width="342" height="127" rx="10" fill="#0B1120" stroke="#8B5CF6" stroke-opacity="0.4"/>
+    <!-- Window Controls -->
+    <circle cx="34" cy="28" r="4.5" fill="#F87171"/>
+    <circle cx="48" cy="28" r="4.5" fill="#FBBF24"/>
+    <circle cx="62" cy="28" r="4.5" fill="#34D399"/>
+    <!-- Code lines -->
+    <path d="M34 52H140" stroke="#7AF2FF" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M34 68H240" stroke="#8B5CF6" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M34 84H180" stroke="#67E8F9" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M34 100H210" stroke="#34D399" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M34 116H130" stroke="#F472B6" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- Glowing Badge on Terminal -->
+    <circle cx="300" cy="80" r="26" fill="url(#neonGrad)" fill-opacity="0.85"/>
+    <path d="M288 80L297 90L314 70" stroke="#0B1120" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Right Analytics & Tech Display -->
+  <g transform="translate(480, 45)" filter="url(#glow)">
+    <rect x="0" y="0" width="200" height="145" rx="16" fill="#0B1120" stroke="#7AF2FF" stroke-opacity="0.4" stroke-width="1.2"/>
+    <!-- Wave Analytics -->
+    <path d="M25 105C55 55 85 45 115 75C145 105 160 45 175 40" stroke="#7AF2FF" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M25 115C60 85 95 95 130 65C155 45 165 70 175 60" stroke="#8B5CF6" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <path d="M25 125C50 120 90 100 125 110C150 115 165 95 175 80" stroke="#34D399" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <!-- Data Nodes -->
+    <circle cx="60" cy="62" r="5" fill="#7AF2FF"/>
+    <circle cx="115" cy="75" r="5" fill="#8B5CF6"/>
+    <circle cx="160" cy="45" r="5" fill="#34D399"/>
+  </g>
+
+  <!-- Side Micro Cards -->
+  <g transform="translate(710, 55)">
+    <rect x="0" y="0" width="70" height="60" rx="12" fill="#0B1120" stroke="#7AF2FF" stroke-opacity="0.4"/>
+    <path d="M35 18L47 30L35 42L23 30L35 18Z" fill="#7AF2FF" fill-opacity="0.8"/>
+    <path d="M35 18V42" stroke="#0B1120" stroke-width="2"/>
+  </g>
+  <g transform="translate(710, 125)">
+    <rect x="0" y="0" width="70" height="60" rx="12" fill="#0B1120" stroke="#8B5CF6" stroke-opacity="0.4"/>
+    <path d="M23 23H47V37H23V23Z" fill="#8B5CF6" fill-opacity="0.8"/>
+    <path d="M26 41H44" stroke="#7AF2FF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
