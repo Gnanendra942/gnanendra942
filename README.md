@@ -3,11 +3,11 @@
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=7AF2FF&center=true&vCenter=true&lines=Hi+%F0%9F%91%8B%2C+I%27m+Gnanu;Computer+Science+Student;Java+Developer;Web+Developer;Technology+Enthusiast;Problem+Solver;Future+Software+Engineer" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=7AF2FF&center=true&vCenter=true&lines=Hi%2C+I%27m+Gnanu;Computer+Science+Student;Java+Developer;Web+Developer;Problem+Solver;Technology+Enthusiast;Building+the+future" alt="Typing animation for Gnanu portfolio" />
 </p>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/B.Tech-Computer%20Science-0D1117?style=for-the-badge&logo=graduation-cap&logoColor=7AF2FF" alt="B.Tech in Computer Science" />
+  <img src="https://img.shields.io/badge/B.Tech-Computer%20Science-0D1117?style=for-the-badge&logo=graduation-cap&logoColor=7AF2FF" alt="B.Tech Computer Science" />
   <img src="https://img.shields.io/badge/VelTech-University-0D1117?style=for-the-badge&logo=google-colab&logoColor=7AF2FF" alt="VelTech University" />
   <img src="https://img.shields.io/badge/CGPA-8.6-0D1117?style=for-the-badge&logo=hexo&logoColor=7AF2FF" alt="CGPA 8.6" />
 </div>
@@ -85,6 +85,7 @@
       <path d="M16 26L26 16L36 26L26 36L16 26Z" fill="#7AF2FF"/>
       <path d="M26 16V36" stroke="#0B1120" stroke-width="2"/>
     </g>
+
     <g transform="translate(55 168)">
       <rect x="0" y="0" width="50" height="50" rx="12" fill="#0B1120" stroke="#8B5CF6" stroke-opacity="0.45"/>
       <path d="M15 17H35V31H15V17Z" fill="#8B5CF6"/>
@@ -127,7 +128,7 @@
 <h2 align="center">About Me</h2>
 
 <p align="center">
-  I’m <b>Chowreddygari Gnanendra Reddy</b>, known as <b>Gnanu</b>, a Computer Science student at <b>VelTech University</b> in Avadi, Chennai. I am passionate about developing tools, exploring new technologies, building projects, and improving my problem-solving skills. My current focus is strengthening Java fundamentals while expanding into modern web development and practical software engineering.
+  I’m <b>Chowreddygari Gnanendra Reddy</b>, known as <b>Gnanu</b>. I’m a passionate <b>Computer Science student</b> at <b>VelTech University</b> with a strong interest in software development, problem solving, and real-world engineering. I enjoy building practical solutions, exploring technologies, and continuously improving my skills in Java, web development, and software design.
 </p>
 
 <div align="center">
@@ -144,25 +145,25 @@
       <td width="25%" valign="top">
         <div style="background: linear-gradient(135deg, rgba(18,27,42,0.95), rgba(13,17,23,0.86)); border: 1px solid rgba(122,242,255,0.35); border-radius: 16px; padding: 16px; min-height: 160px; box-shadow: 0 0 25px rgba(122,242,255,0.12);">
           <h3>Java</h3>
-          <p>Improving object-oriented programming, logic building, and efficient problem solving.</p>
+          <p>Strengthening OOP, logic building, and clean coding practices.</p>
         </div>
       </td>
       <td width="25%" valign="top">
         <div style="background: linear-gradient(135deg, rgba(18,27,42,0.95), rgba(13,17,23,0.86)); border: 1px solid rgba(122,242,255,0.35); border-radius: 16px; padding: 16px; min-height: 160px; box-shadow: 0 0 25px rgba(122,242,255,0.12);">
           <h3>Web</h3>
-          <p>Exploring frontend design, React, HTML, CSS, and user-focused digital products.</p>
+          <p>Learning modern frontend workflows, responsive design, and user-first interfaces.</p>
         </div>
       </td>
       <td width="25%" valign="top">
         <div style="background: linear-gradient(135deg, rgba(18,27,42,0.95), rgba(13,17,23,0.86)); border: 1px solid rgba(122,242,255,0.35); border-radius: 16px; padding: 16px; min-height: 160px; box-shadow: 0 0 25px rgba(122,242,255,0.12);">
           <h3>Problem Solving</h3>
-          <p>Turning ideas into effective solutions through analytical thinking and practical execution.</p>
+          <p>Turning ideas into practical solutions with logic, structure, and execution.</p>
         </div>
       </td>
       <td width="25%" valign="top">
         <div style="background: linear-gradient(135deg, rgba(18,27,42,0.95), rgba(13,17,23,0.86)); border: 1px solid rgba(122,242,255,0.35); border-radius: 16px; padding: 16px; min-height: 160px; box-shadow: 0 0 25px rgba(122,242,255,0.12);">
           <h3>Learning</h3>
-          <p>Constantly exploring modern tools, technologies, and methodologies to grow as a developer.</p>
+          <p>Exploring new tools, technologies, and best practices in software development.</p>
         </div>
       </td>
     </tr>
@@ -180,21 +181,22 @@
 </div>
 
 <div align="center">
-  <h3>Web</h3>
+  <h3>Frontend</h3>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 </div>
 
 <div align="center">
   <h3>Database</h3>
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/DBMS-Database-0D1117?style=for-the-badge&logo=database&logoColor=7AF2FF" alt="DBMS" />
+  <img src="https://img.shields.io/badge/DBMS-Database-0D1117?style=for-the-badge&logo=database&logoColor=7AF2FF" alt="Database" />
 </div>
 
 <div align="center">
-  <h3>Concepts</h3>
-  <img src="https://img.shields.io/badge/OOP-Object%20Oriented%20Programming-0D1117?style=for-the-badge&logo=codeforces&logoColor=7AF2FF" alt="Object-oriented programming" />
+  <h3>Core Concepts</h3>
+  <img src="https://img.shields.io/badge/OOP-Object%20Oriented%20Programming-0D1117?style=for-the-badge&logo=codeforces&logoColor=7AF2FF" alt="OOP" />
+  <img src="https://img.shields.io/badge/DSA-Data%20Structures%20%26%20Algorithms-0D1117?style=for-the-badge&logo=python&logoColor=7AF2FF" alt="DSA" />
 </div>
 
 <br>
@@ -229,23 +231,23 @@
     <tr>
       <td width="33%" valign="top">
         <div style="background: linear-gradient(135deg, rgba(18,27,42,0.95), rgba(13,17,23,0.86)); border: 1px solid rgba(122,242,255,0.35); border-radius: 18px; padding: 18px; min-height: 260px; box-shadow: 0 0 25px rgba(122,242,255,0.12);">
-          <h3>Road Safety and Accident Prevention on Curved Roads</h3>
-          <p>A smart road-safety concept centered on speed-control measures, risk assessment of sharp bends, identification of accident-prone zones, defensive driving awareness, and accident-data analysis.</p>
-          <p><strong>Focus:</strong> safety awareness, risk prediction, smarter travel infrastructure.</p>
+          <h3>Road Safety and Accident Prevention</h3>
+          <p>A smart concept focused on curved-road hazard detection, preventive safety strategies, risk assessment, and awareness for safer driving.</p>
+          <p><strong>Focus:</strong> safety, awareness, risk prediction.</p>
         </div>
       </td>
       <td width="33%" valign="top">
         <div style="background: linear-gradient(135deg, rgba(18,27,42,0.95), rgba(13,17,23,0.86)); border: 1px solid rgba(122,242,255,0.35); border-radius: 18px; padding: 18px; min-height: 260px; box-shadow: 0 0 25px rgba(122,242,255,0.12);">
           <h3>Pulse Rate Monitoring System</h3>
-          <p>Developed around Arduino and pulse sensor technology for real-time BPM monitoring, data acquisition, signal processing, and low-power continuous health tracking.</p>
+          <p>A health-tracking solution using Arduino and pulse sensor technology to monitor heartbeat activity and visualize real-time data.</p>
           <p><strong>Stack:</strong> Arduino, embedded systems, sensor analytics.</p>
         </div>
       </td>
       <td width="33%" valign="top">
         <div style="background: linear-gradient(135deg, rgba(18,27,42,0.95), rgba(13,17,23,0.86)); border: 1px solid rgba(122,242,255,0.35); border-radius: 18px; padding: 18px; min-height: 260px; box-shadow: 0 0 25px rgba(122,242,255,0.12);">
           <h3>Women’s Online Marketplace</h3>
-          <p>A responsive web application supporting women entrepreneurs and local artisans through product listings, digital visibility, frontend and backend development, and database-backed workflows.</p>
-          <p><strong>Goal:</strong> empower local talent and strengthen online selling opportunities.</p>
+          <p>A responsive digital platform designed to support women entrepreneurs and local artisans through product listings and online visibility.</p>
+          <p><strong>Goal:</strong> empower small businesses with digital reach.</p>
         </div>
       </td>
     </tr>
@@ -322,44 +324,6 @@
 
 <br>
 
-<h2 align="center">Contribution Rhythm</h2>
-
-<div align="center">
-  <svg width="760" height="170" viewBox="0 0 760 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Contribution rhythm preview">
-    <defs>
-      <linearGradient id="c0" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%" stop-color="#161B22"/>
-        <stop offset="100%" stop-color="#0D1117"/>
-      </linearGradient>
-      <linearGradient id="c1" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%" stop-color="#7AF2FF"/>
-        <stop offset="100%" stop-color="#34D399"/>
-      </linearGradient>
-      <linearGradient id="c2" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%" stop-color="#22D3EE"/>
-        <stop offset="100%" stop-color="#8B5CF6"/>
-      </linearGradient>
-      <linearGradient id="c3" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%" stop-color="#14B8A6"/>
-        <stop offset="100%" stop-color="#6366F1"/>
-      </linearGradient>
-      <linearGradient id="c4" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%" stop-color="#34D399"/>
-        <stop offset="100%" stop-color="#7C3AED"/>
-      </linearGradient>
-    </defs>
-    <rect x="25" y="20" width="710" height="130" rx="18" fill="#0D1117" stroke="#7AF2FF" stroke-opacity="0.25"/>
-    <g transform="translate(52,42)">
-      <g fill="url(#c0)"><rect x="0" y="0" width="12" height="12" rx="3"/><rect x="22" y="0" width="12" height="12" rx="3"/><rect x="44" y="0" width="12" height="12" rx="3"/><rect x="66" y="0" width="12" height="12" rx="3"/><rect x="88" y="0" width="12" height="12" rx="3"/><rect x="110" y="0" width="12" height="12" rx="3"/><rect x="132" y="0" width="12" height="12" rx="3"/><rect x="154" y="0" width="12" height="12" rx="3"/><rect x="176" y="0" width="12" height="12" rx="3"/><rect x="198" y="0" width="12" height="12" rx="3"/><rect x="220" y="0" width="12" height="12" rx="3"/><rect x="242" y="0" width="12" height="12" rx="3"/><rect x="264" y="0" width="12" height="12" rx="3"/><rect x="286" y="0" width="12" height="12" rx="3"/></g>
-      <g fill="url(#c1)"><rect x="0" y="26" width="12" height="12" rx="3"/><rect x="22" y="26" width="12" height="12" rx="3"/><rect x="44" y="26" width="12" height="12" rx="3" fill="url(#c2)"/><rect x="66" y="26" width="12" height="12" rx="3"/><rect x="88" y="26" width="12" height="12" rx="3" fill="url(#c3)"/><rect x="110" y="26" width="12" height="12" rx="3" fill="url(#c2)"/><rect x="132" y="26" width="12" height="12" rx="3" fill="url(#c4)"/><rect x="154" y="26" width="12" height="12" rx="3"/><rect x="176" y="26" width="12" height="12" rx="3" fill="url(#c1)"/><rect x="198" y="26" width="12" height="12" rx="3" fill="url(#c3)"/><rect x="220" y="26" width="12" height="12" rx="3" fill="url(#c2)"/><rect x="242" y="26" width="12" height="12" rx="3"/><rect x="264" y="26" width="12" height="12" rx="3" fill="url(#c4)"/><rect x="286" y="26" width="12" height="12" rx="3"/></g>
-      <g fill="url(#c2)"><rect x="0" y="52" width="12" height="12" rx="3"/><rect x="22" y="52" width="12" height="12" rx="3" fill="url(#c3)"/><rect x="44" y="52" width="12" height="12" rx="3" fill="url(#c4)"/><rect x="66" y="52" width="12" height="12" rx="3"/><rect x="88" y="52" width="12" height="12" rx="3" fill="url(#c4)"/><rect x="110" y="52" width="12" height="12" rx="3" fill="url(#c1)"/><rect x="132" y="52" width="12" height="12" rx="3" fill="url(#c3)"/><rect x="154" y="52" width="12" height="12" rx="3" fill="url(#c2)"/><rect x="176" y="52" width="12" height="12" rx="3"/><rect x="198" y="52" width="12" height="12" rx="3" fill="url(#c4)"/><rect x="220" y="52" width="12" height="12" rx="3"/><rect x="242" y="52" width="12" height="12" rx="3" fill="url(#c2)"/><rect x="264" y="52" width="12" height="12" rx="3" fill="url(#c3)"/><rect x="286" y="52" width="12" height="12" rx="3"/></g>
-      <g fill="url(#c3)"><rect x="0" y="78" width="12" height="12" rx="3" fill="url(#c1)"/><rect x="22" y="78" width="12" height="12" rx="3" fill="url(#c4)"/><rect x="44" y="78" width="12" height="12" rx="3"/><rect x="66" y="78" width="12" height="12" rx="3" fill="url(#c2)"/><rect x="88" y="78" width="12" height="12" rx="3"/><rect x="110" y="78" width="12" height="12" rx="3" fill="url(#c4)"/><rect x="132" y="78" width="12" height="12" rx="3" fill="url(#c2)"/><rect x="154" y="78" width="12" height="12" rx="3" fill="url(#c3)"/><rect x="176" y="78" width="12" height="12" rx="3"/><rect x="198" y="78" width="12" height="12" rx="3" fill="url(#c1)"/><rect x="220" y="78" width="12" height="12" rx="3" fill="url(#c2)"/><rect x="242" y="78" width="12" height="12" rx="3" fill="url(#c3)"/><rect x="264" y="78" width="12" height="12" rx="3"/><rect x="286" y="78" width="12" height="12" rx="3" fill="url(#c4)"/></g>
-    </g>
-  </svg>
-</div>
-
-<br>
-
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&text=Learning%20%E2%80%A2%20Building%20%E2%80%A2%20Exploring%20%E2%80%A2%20Innovating&fontColor=ffffff&backgroundColor=0d1117&height=90&section=footer&reversal=false&fontSize=22" alt="Footer banner" />
 </div>
@@ -367,4 +331,3 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Developer%20Profile-Gnanu-0D1117?style=flat-square&logo=github&logoColor=7AF2FF" alt="Developer profile" />
 </p>
-
