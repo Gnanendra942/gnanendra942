@@ -1,7 +1,9 @@
-# Hi, I’m Gnanu 👋
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=timeGradient&text=Gnanu%20%7C%20Developer%20Portfolio&fontColor=ffffff&backgroundColor=0d1117&height=180&section=header&reversal=false&fontSize=42" alt="Gnanu developer portfolio banner" />
+</div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=3000&pause=1000&color=7AF2FF&center=true&vCenter=true&lines=Computer+Science+Student;Java+Developer;Web+Developer;Problem+Solver;Technology+Enthusiast;Building+Real+Solutions" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=3000&pause=1000&color=7AF2FF&center=true&vCenter=true&lines=Hi+%F0%9F%91%8B%2C+I%27m+Gnanu;Computer+Science+Student;Java+Developer;Web+Developer;Problem+Solver;Tech+Enthusiast;Building+Real+Solutions" alt="Typing animation for Gnanu" />
 </p>
 
 <p align="center">
@@ -22,82 +24,84 @@
   </a>
 </p>
 
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=timeGradient&text=Gnanu%20%7C%20Developer%20Portfolio&fontColor=ffffff&backgroundColor=0d1117&height=180&section=header&reversal=false&fontSize=42" alt="Portfolio banner" />
-</div>
+<br>
 
-## About Me
+## 🚀 About Me
 
-I’m Chowreddygari Gnanendra Reddy, known as Gnanu. I’m a Computer Science student at VelTech University with a strong passion for software development, problem solving, and learning new technologies. I enjoy building projects, improving my coding skills, and turning ideas into practical solutions.
+I’m <b>Chowreddygari Gnanendra Reddy</b>, known as <b>Gnanu</b>. I’m a passionate <b>Computer Science student</b> at <b>VelTech University</b> with a strong interest in software development, problem-solving, and building meaningful digital experiences. I enjoy learning new technologies, improving my coding skills, and creating projects that solve real-world challenges.
 
-## Current Focus
+## 🎯 Current Focus
 
-- Java programming and OOP concepts
+- Java programming and object-oriented design
 - Web development with React, HTML, and CSS
 - Problem solving and logical thinking
-- Exploring modern technology and software engineering tools
+- Exploring modern tools and software engineering practices
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Languages
+
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ### Frontend
+
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### Database
+
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sqlite&logoColor=white)
 ![DBMS](https://img.shields.io/badge/DBMS-Database-0D1117?style=for-the-badge&logo=database&logoColor=7AF2FF)
 
 ### Core Concepts
+
 ![OOP](https://img.shields.io/badge/OOP-Object%20Oriented%20Programming-0D1117?style=for-the-badge&logo=codeforces&logoColor=7AF2FF)
 ![DSA](https://img.shields.io/badge/DSA-Data%20Structures%20%26%20Algorithms-0D1117?style=for-the-badge&logo=python&logoColor=7AF2FF)
 
-## Skills
+## 💡 Skills
 
-- Problem solving
-- Analytical thinking
-- Quick learning
+- Problem Solving
+- Analytical Thinking
+- Quick Learning
 - Communication
 - Creativity
 
-## Featured Projects
+## 🌟 Featured Projects
 
 ### 1. Road Safety and Accident Prevention
-A project focused on road safety, accident-prone zone analysis, defensive driving awareness, and preventive safety measures.
+A smart safety-focused project that analyzes risky curved roads, speed issues, accident-prone areas, and preventive driving measures.
 
 ### 2. Pulse Rate Monitoring System
-A health-monitoring project using Arduino and sensor technology to track pulse rate and analyze real-time data.
+A health-tech project based on Arduino and a pulse sensor to monitor real-time heart rate and process sensor data.
 
 ### 3. Women’s Online Marketplace
-A responsive web platform designed to help women entrepreneurs and local artisans showcase and sell products online.
+A responsive marketplace platform intended to support women entrepreneurs and local artisans by helping them sell products online.
 
-## GitHub Stats
+## 📊 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Gnanendra942&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Gnanendra942&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub statistics" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gnanendra942&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Gnanendra942&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com/?user=Gnanendra942&theme=tokyonight&hide_border=true" alt="GitHub streak stats" />
 </p>
 
-## Education
+## 🎓 Education
 
-- B.Tech in Computer Science, VelTech University, CGPA: 8.6
-- MPC, Sri Chaitanya Junior College, Marks: 8.51
+- B.Tech in Computer Science, VelTech University — CGPA: 8.6
+- MPC, Sri Chaitanya Junior College — Marks: 8.51
 
-## Languages
+## 🌍 Languages
 
 - English
 - Telugu
 - Hindi
 
-## Connect With Me
+## 📬 Connect With Me
 
 - [LinkedIn](https://www.linkedin.com/feed/)
 - [GitHub](https://github.com/Gnanendra942)
