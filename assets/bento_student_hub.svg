@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hub-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <style>
+      .font-display { font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace; }
+      .hub-title { font-weight: 700; font-size: 15px; fill: #F8FAFC; }
+      .hub-sub { font-size: 11px; fill: #94A3B8; }
+      .hub-tag { font-size: 10px; font-weight: 600; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="220" rx="14" fill="url(#hub-bg)" stroke="#1E293B" stroke-width="1.2"/>
+
+  <!-- Quadrant 1: Vel Tech University Academic Orbit -->
+  <g transform="translate(24, 20)">
+    <rect width="270" height="180" rx="10" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <rect x="0" y="0" width="270" height="2" rx="1" fill="#38BDF8"/>
+    
+    <text x="18" y="32" class="font-display hub-title">Vel Tech University</text>
+    <text x="18" y="50" class="font-mono hub-sub">B.Tech in CSE · Chennai, TN</text>
+    
+    <line x1="18" y1="65" x2="252" y2="65" stroke="#1E293B" stroke-width="1"/>
+    
+    <text x="18" y="88" class="font-mono hub-sub">Student ID: <tspan fill="#38BDF8" font-weight="600">VTU29661</tspan></text>
+    <text x="18" y="108" class="font-mono hub-sub">Register No: <tspan fill="#F8FAFC">24UECS0503</tspan></text>
+    <text x="18" y="128" class="font-mono hub-sub">Academic CGPA: <tspan fill="#F59E0B" font-weight="700">8.6 / 10.0</tspan></text>
+    
+    <rect x="18" y="142" width="125" height="22" rx="4" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
+    <text x="80" y="157" text-anchor="middle" class="font-mono hub-tag" fill="#38BDF8">CSE 2024–2028</text>
+  </g>
+
+  <!-- Quadrant 2: Java & OOP Architecture Core -->
+  <g transform="translate(314, 20)">
+    <rect width="270" height="180" rx="10" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <rect x="0" y="0" width="270" height="2" rx="1" fill="#ED8B00"/>
+    
+    <text x="18" y="32" class="font-display hub-title">Java &amp; OOP Core</text>
+    <text x="18" y="50" class="font-mono hub-sub">Applied Coding &amp; Testing</text>
+    
+    <line x1="18" y1="65" x2="252" y2="65" stroke="#1E293B" stroke-width="1"/>
+    
+    <text x="18" y="88" class="font-mono hub-sub">Paradigm: <tspan fill="#ED8B00" font-weight="600">OOP &amp; Modularity</tspan></text>
+    <text x="18" y="108" class="font-mono hub-sub">Mastery: <tspan fill="#F8FAFC">Data Structures &amp; ACS</tspan></text>
+    <text x="18" y="128" class="font-mono hub-sub">Focus: <tspan fill="#10B981">● Clean Algorithmic Logic</tspan></text>
+    
+    <rect x="18" y="142" width="135" height="22" rx="4" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
+    <text x="85" y="157" text-anchor="middle" class="font-mono hub-tag" fill="#ED8B00">JAVA DEVELOPER</text>
+  </g>
+
+  <!-- Quadrant 3: Web & Full-Stack Development -->
+  <g transform="translate(604, 20)">
+    <rect width="270" height="180" rx="10" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <rect x="0" y="0" width="270" height="2" rx="1" fill="#818CF8"/>
+    
+    <text x="18" y="32" class="font-display hub-title">Full-Stack Web</text>
+    <text x="18" y="50" class="font-mono hub-sub">Modern React &amp; Tailwind</text>
+    
+    <line x1="18" y1="65" x2="252" y2="65" stroke="#1E293B" stroke-width="1"/>
+    
+    <text x="18" y="88" class="font-mono hub-sub">Frontend: <tspan fill="#818CF8" font-weight="600">React · JavaScript ES6+</tspan></text>
+    <text x="18" y="108" class="font-mono hub-sub">Styling: <tspan fill="#F8FAFC">Tailwind · Glassmorphism</tspan></text>
+    <text x="18" y="128" class="font-mono hub-sub">Storage: <tspan fill="#38BDF8">MySQL · Relational DBMS</tspan></text>
+    
+    <rect x="18" y="142" width="125" height="22" rx="4" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
+    <text x="80" y="157" text-anchor="middle" class="font-mono hub-tag" fill="#818CF8">REACT &amp; WEB DEV</text>
+  </g>
+
+  <!-- Quadrant 4: Smart IoT & Embedded Systems -->
+  <g transform="translate(894, 20)">
+    <rect width="282" height="180" rx="10" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <rect x="0" y="0" width="282" height="2" rx="1" fill="#10B981"/>
+    
+    <text x="18" y="32" class="font-display hub-title">Smart IoT Hardware</text>
+    <text x="18" y="50" class="font-mono hub-sub">Sensors &amp; Telemetry Systems</text>
+    
+    <line x1="18" y1="65" x2="264" y2="65" stroke="#1E293B" stroke-width="1"/>
+    
+    <text x="18" y="88" class="font-mono hub-sub">Hardware: <tspan fill="#10B981" font-weight="600">Arduino · Sensors</tspan></text>
+    <text x="18" y="108" class="font-mono hub-sub">Projects: <tspan fill="#F8FAFC">Curve Road Safety · BPM</tspan></text>
+    <text x="18" y="128" class="font-mono hub-sub">Pipeline: <tspan fill="#38BDF8">● Real-time Telemetry</tspan></text>
+    
+    <rect x="18" y="142" width="135" height="22" rx="4" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
+    <text x="85" y="157" text-anchor="middle" class="font-mono hub-tag" fill="#10B981">EMBEDDED IOT LEAD</text>
+  </g>
+</svg>

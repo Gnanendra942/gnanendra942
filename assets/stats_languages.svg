@@ -1,0 +1,37 @@
+<svg width="495" height="220" viewBox="0 0 495 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGrad2)" stroke="#1E293B" stroke-width="1.2"/>
+  <rect x="24" y="1" width="80" height="2" rx="1" fill="#818CF8"/>
+
+  <g transform="translate(24, 24)">
+    <circle cx="5" cy="5" r="4" fill="#818CF8"/>
+    <text x="16" y="9" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC" letter-spacing="0.5">MOST USED LANGUAGES</text>
+    <text x="447" y="9" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="10" font-weight="600" fill="#94A3B8">BY CODE VOLUME</text>
+  </g>
+
+  <!-- Progress Bar Container -->
+  <g transform="translate(24, 48)">
+    <rect width="447" height="10" rx="5" fill="#141C2E"/>
+    <rect x="0.0" y="0" width="447.0" height="10" fill="#ED8B00" rx="2"/>
+
+  </g>
+
+  <!-- Language List Grid -->
+  <g transform="translate(24, 76)">
+    
+    <g transform="translate(0, 0)">
+      <rect width="216" height="34" rx="6" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="16" cy="17" r="5" fill="#ED8B00"/>
+      <text x="30" y="21" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">Java</text>
+      <text x="202" y="21" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="11" font-weight="700" fill="#ED8B00">100.0%</text>
+    </g>
+  </g>
+
+  <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#64748B">Automated repository language analytics · Updated Daily</text>
+</svg>

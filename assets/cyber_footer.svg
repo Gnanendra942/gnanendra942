@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" width="100%" height="60">
+  <defs>
+    <linearGradient id="footer-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <style>
+      .font-display { font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="60" rx="8" fill="url(#footer-bg)" stroke="#1E293B" stroke-width="1.2"/>
+
+  <!-- Left: Signature -->
+  <text x="24" y="35" class="font-mono" font-size="11" fill="#94A3B8">
+    Crafted with <tspan fill="#EF4444">♥</tspan> &amp; Precision by <tspan fill="#38BDF8" font-weight="700">Chowreddygari Gnanendra Reddy</tspan>
+  </text>
+
+  <!-- Right: Verification Node -->
+  <g transform="translate(1000, 18)">
+    <rect width="176" height="24" rx="4" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="12" cy="12" r="3.5" fill="#10B981"/>
+    <text x="22" y="16" class="font-mono" font-size="9.5" font-weight="600" fill="#10B981">ALL SYSTEMS OPERATIONAL</text>
+  </g>
+</svg>

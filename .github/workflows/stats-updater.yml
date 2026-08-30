@@ -1,0 +1,58 @@
+name: "⚡ Automated Profile Stats & Graph Updater"
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Midnight UTC
+    - cron: "0 12 * * *" # Midday UTC
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile-stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r scripts/requirements.txt
+
+      - name: Execute Stats & Graph Generator
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: "Gnanendra942"
+        run: |
+          python3 scripts/stats_updater.py --username Gnanendra942 --output-dir assets
+
+      - name: Generate Contribution Snake Animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Gnanendra942
+          outputs: |
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#38BDF8&color_dots=#0B0F19,#141C2E,#1E293B,#2563EB,#38BDF8
+        continue-on-error: true
+
+      - name: Commit and Push Updated Assets
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "⚡ chore(auto): refresh profile analytics, states & graphs [skip ci]"
+          file_pattern: "assets/*.svg README.md"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
