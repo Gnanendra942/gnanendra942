@@ -1,10 +1,7 @@
 <div align="center">
 
-<!-- ============================================================================== -->
-<!-- 00. ANIMATED HERO HEADER -->
-<!-- ============================================================================== -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0D1117,25:1E1B4B,50:3B82F6,75:8B5CF6,100:EC4899&height=220&section=header&text=Chowreddygari%20Gnanendra%20Reddy&fontSize=38&fontColor=ffffff&fontAlignY=40&desc=Full-Stack%20%7C%20Backend%20Engineering%20%7C%20System%20Design&descAlignY=62&descAlign=50&stroke=38BDF8&strokeWidth=1" width="100%" alt="Header Banner" />
+<!-- External Image: Capsule Render Header Banner (Do not edit as raw text/code) -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0D1117,25:1E1B4B,50:3B82F6,75:8B5CF6,100:EC4899&height=220&section=header&text=Chowreddygari%20Gnanendra%20Reddy&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Backend%20Engineer%20%7C%20System%20Design&descAlignY=58&descAlign=50" width="100%" alt="Header Wave Banner" />
 
 <br/>
 
@@ -19,7 +16,7 @@
 
 <br/><br/>
 
-<!-- Quick Status & Metric Badges -->
+<!-- Quick Status, Location & Profile View Badges -->
 <p align="center">
   <a href="https://github.com/Gnanendra942">
     <img src="https://img.shields.io/badge/Status-Open_To_Work-10B981?style=for-the-badge&logo=statuspage&logoColor=white&labelColor=0B0F19" alt="Status: Open to Work" />
@@ -38,26 +35,28 @@
 <!-- 01. ABOUT ME -->
 <!-- ============================================================================== -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:00F2FE,100:4FACFE&height=90&section=header&text=About%20Me&fontSize=24&fontColor=ffffff&fontAlignY=45" width="100%" alt="About Me Wave" />
+<!-- External Image: About Me Section Wave Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:00F2FE,100:4FACFE&height=90&section=header&text=About%20Me&fontSize=24&fontColor=ffffff&fontAlignY=45" width="100%" alt="About Me Wave Banner" />
 
 <br/>
 
-> **Computer Science Engineer** focused on engineering reliable, scalable, and user-centric digital products. I specialize in full-stack web architecture, robust backend systems, and responsive modern user interfaces.
+> **Computer Science Engineer** focused on engineering reliable, scalable, and user-centric digital products. I build across the entire stack — responsive frontend interfaces, robust server architecture, resilient database design, and streamlined cloud deployments. Dedicated to backend engineering, full-stack development, and distributed system design.
 
 <br/>
 
 ```yaml
-name: Chowreddygari Gnanendra Reddy (Gnanu)
-role: Full-Stack & Backend Developer
-education: B.Tech in CSE @ Vel Tech, Chennai (2024 – Present, 3rd Year)
-location: Chennai, India
-interests: [Backend Architecture, Distributed Systems, Modern Frontend, API Design]
-status: Open to Work & Collaborations 🚀
+profile:
+  name: Chowreddygari Gnanendra Reddy
+  role: Full-Stack Developer & Backend Engineer
+  education: B.Tech in Computer Science Engineering @ Vel Tech, Chennai (2024 – Present, 3rd Year)
+  location: Chennai, India
+  interests: [Backend Systems, Scalable Web Architecture, Distributed Services, Cloud Deployments]
+  status: Open to Work 🚀
 ```
 
-- 💡 **Engineering Philosophy:** Building high-performance systems with clean architecture, strict type safety, and seamless user experiences.
-- ⚡ **Core Strengths:** End-to-end full-stack development, RESTful microservices, relational & document database optimization, and CI/CD pipelines.
-- 🔭 **Current Focus:** Deep diving into system design patterns, distributed backend services, and cloud-native deployments.
+- 💡 **Engineering Philosophy:** Building performant, clean, and maintainable systems designed for scale and exceptional user experience.
+- ⚡ **Core Capabilities:** End-to-end full-stack web development, RESTful API architecture, JWT authentication, and relational & document database optimization.
+- 🎯 **Primary Focus:** Deepening expertise in distributed systems, backend performance tuning, and cloud-native application design.
 
 <br/>
 
@@ -65,15 +64,16 @@ status: Open to Work & Collaborations 🚀
 <!-- 02. TECH STACK & ARSENAL -->
 <!-- ============================================================================== -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:FA709A,100:FEE140&height=90&section=header&text=Tech%20Stack%20%26%20Arsenal&fontSize=24&fontColor=ffffff&fontAlignY=45" width="100%" alt="Tech Stack Wave" />
+<!-- External Image: Tech Stack Section Wave Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:FA709A,100:FEE140&height=90&section=header&text=Tech%20Stack%20%26%20Arsenal&fontSize=24&fontColor=ffffff&fontAlignY=45" width="100%" alt="Tech Stack Wave Banner" />
 
 <br/>
 
 <div align="center">
 
-<!-- Animated Interactive Skill Icons Strip -->
+<!-- Quick Skill Icon Strip -->
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=java,js,ts,py,c,react,nextjs,html,css,tailwind,nodejs,express,mysql,mongodb,postgres,git,github,githubactions,vercel,docker&perline=10&theme=dark" alt="Animated Skill Icons" />
+  <img src="https://skillicons.dev/icons?i=java,js,ts,py,c,react,nextjs,html,css,tailwind,nodejs,express,mysql,mongodb,postgres,git,github,githubactions,vercel,docker&perline=10&theme=dark" alt="Skill Icons Strip" />
 </a>
 
 <br/><br/>
@@ -96,15 +96,15 @@ status: Open to Work & Collaborations 🚀
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white&labelColor=0B0F19" alt="Tailwind CSS" />
 </p>
 
-### ⚙️ Backend, APIs & Authentication
+### ⚙️ Backend, APIs & Security
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=0B0F19" alt="Node.js" />
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white&labelColor=0B0F19" alt="Express.js" />
   <img src="https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0B0F19" alt="REST APIs" />
-  <img src="https://img.shields.io/badge/JWT_Auth-black?style=for-the-badge&logo=jsonwebtokens&logoColor=white&labelColor=0B0F19" alt="JWT" />
+  <img src="https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white&labelColor=0B0F19" alt="JWT" />
 </p>
 
-### 🗄️ Databases & Data Storage
+### 🗄️ Databases & Data Architecture
 <p align="center">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=0B0F19" alt="MySQL" />
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=0B0F19" alt="PostgreSQL" />
@@ -112,7 +112,7 @@ status: Open to Work & Collaborations 🚀
   <img src="https://img.shields.io/badge/SQL-CC292B?style=for-the-badge&logo=sqlite&logoColor=white&labelColor=0B0F19" alt="SQL" />
 </p>
 
-### 🚀 DevOps, Cloud & Tools
+### 🚀 DevOps, Cloud & Tooling
 <p align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=0B0F19" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0B0F19" alt="GitHub" />
@@ -129,24 +129,49 @@ status: Open to Work & Collaborations 🚀
 <!-- 03. FEATURED PROJECTS -->
 <!-- ============================================================================== -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:667EEA,100:764BA2&height=90&section=header&text=Featured%20Projects&fontSize=24&fontColor=ffffff&fontAlignY=45" width="100%" alt="Featured Projects Wave" />
+<!-- External Image: Featured Projects Section Wave Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:667EEA,100:764BA2&height=90&section=header&text=Featured%20Projects&fontSize=24&fontColor=ffffff&fontAlignY=45" width="100%" alt="Featured Projects Wave Banner" />
 
 <br/>
 
 | Project | Tech Stack | Highlights | Links |
 | :--- | :--- | :--- | :---: |
-| **🛍️ Women Entrepreneur Marketplace** | `React` `Node.js` `Express` `MongoDB` | Full-stack e-commerce marketplace empowering women entrepreneurs with product listings, seller dashboards, JWT authentication, and secure order processing. | [Code](https://github.com/Gnanendra942) |
-| **🚗 Road Safety Analytics System** | `JavaScript` `HTML5` `CSS3` `Analytics` | Interactive accident-prevention & road hazard simulation platform using algorithmic collision detection and telemetry visualizer for sharp curves. | [Code](https://github.com/Gnanendra942) |
-| **💓 Pulse Monitoring Telemetry** | `Embedded Systems` `Sensor Data` `JavaScript` | Real-time biomedical pulse monitoring application streaming live sensor data into an intuitive dashboard with dynamic threshold alerts. | [Code](https://github.com/Gnanendra942) |
-| **⚡ Developer Portfolio Dashboard** | `React` `Tailwind CSS` `UI Design` | High-performance developer showcase featuring glassmorphic UI components, dynamic GitHub live stats integrations, and mobile-first responsiveness. | [Code](https://github.com/Gnanendra942) |
+| **🛍️ Women Entrepreneur Marketplace** | `React` `Node.js` `Express` `MongoDB` | Full-stack e-commerce marketplace empowering women entrepreneurs with product management, seller dashboards, secure JWT authentication, and order workflows. | [Repository](https://github.com/Gnanendra942) |
+| **🚗 Road Safety Project** | `JavaScript` `HTML5` `CSS3` `Analytics` | Interactive accident-prevention and road hazard simulation platform featuring algorithmic collision detection and telemetry visualizer for sharp curves. | [Repository](https://github.com/Gnanendra942) |
+| **💓 Pulse Monitoring System** | `Embedded Systems` `Sensor Data` `JavaScript` | Real-time biomedical pulse monitoring application streaming live sensor data into an intuitive dashboard with dynamic threshold alerts. | [Repository](https://github.com/Gnanendra942) |
+| **⚡ Developer Portfolio Dashboard** | `React` `Tailwind CSS` `UI Design` | High-performance developer showcase featuring modern glassmorphic UI components, dynamic GitHub live stats integrations, and mobile-first responsiveness. | [Repository](https://github.com/Gnanendra942) |
 
 <br/>
 
 <!-- ============================================================================== -->
-<!-- 04. GITHUB ANALYTICS & ACTIVITY -->
+<!-- 04. CERTIFICATIONS & QUALIFICATIONS -->
 <!-- ============================================================================== -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:43E97B,100:38F9D7&height=90&section=header&text=GitHub%20Analytics%20%26%20Activity&fontSize=24&fontColor=0D1117&fontAlignY=45" width="100%" alt="GitHub Analytics Wave" />
+<!-- External Image: Certifications Section Wave Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:F093FB,100:F5576C&height=90&section=header&text=Certifications%20%26%20Qualifications&fontSize=24&fontColor=ffffff&fontAlignY=45" width="100%" alt="Certifications Wave Banner" />
+
+<br/>
+
+```
+📜 NPTEL Certified: Introduction to Industry 4.0 and Industrial Internet of Things
+   ├─ Classification: Elite (Score: 64/100) — Year: 2026
+   ├─ Issuer: National Programme on Technology Enhanced Learning (NPTEL) / IIT
+   └─ Key Focus: Industrial IoT, Cyber-Physical Systems, Embedded Sensors & Smart Automation
+
+🏛️ Bachelor of Technology (B.Tech) in Computer Science and Engineering
+   ├─ Institution: Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Chennai
+   ├─ Timeline: 2024 – Present (3rd Year)
+   └─ Key Domains: Data Structures & Algorithms, Backend Engineering, Database Systems, System Design
+```
+
+<br/>
+
+<!-- ============================================================================== -->
+<!-- 05. GITHUB ANALYTICS & ACTIVITY -->
+<!-- ============================================================================== -->
+
+<!-- External Image: GitHub Analytics Section Wave Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:43E97B,100:38F9D7&height=90&section=header&text=GitHub%20Analytics%20%26%20Activity&fontSize=24&fontColor=0D1117&fontAlignY=45" width="100%" alt="GitHub Analytics Wave Banner" />
 
 <br/>
 
@@ -166,9 +191,8 @@ status: Open to Work & Collaborations 🚀
 
 <br/>
 
-<!-- NOTE: The following Contribution Snake Animation requires the GitHub Actions workflow at .github/workflows/stats-updater.yml -->
-<!-- The workflow uses Platane/snk@v3 to automatically generate and commit this SVG file on a schedule. -->
-### 🐍 Contribution Graph Snake
+<!-- Contribution Snake Animation -->
+### 🐍 Contribution Graph Activity
 
 <img src="./assets/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake Animation" />
 
@@ -177,27 +201,11 @@ status: Open to Work & Collaborations 🚀
 <br/>
 
 <!-- ============================================================================== -->
-<!-- 05. EDUCATION & QUALIFICATIONS -->
-<!-- ============================================================================== -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:F093FB,100:F5576C&height=90&section=header&text=Education%20%26%20Qualifications&fontSize=24&fontColor=ffffff&fontAlignY=45" width="100%" alt="Education Wave" />
-
-<br/>
-
-```
-🏛️ Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Chennai
-   └─ Bachelor of Technology (B.Tech) in Computer Science and Engineering
-   └─ Timeline: 2024 – Present (3rd Year)
-   └─ Focus: Data Structures & Algorithms, System Architecture, Database Engineering, Full-Stack Design
-```
-
-<br/>
-
-<!-- ============================================================================== -->
 <!-- 06. CONNECT & COLLABORATE -->
 <!-- ============================================================================== -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:30CFD0,100:330867&height=90&section=header&text=Let's%20Connect&fontSize=24&fontColor=ffffff&fontAlignY=45" width="100%" alt="Connect Wave" />
+<!-- External Image: Connect Section Wave Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:30CFD0,100:330867&height=90&section=header&text=Connect%20%26%20Collaborate&fontSize=24&fontColor=ffffff&fontAlignY=45" width="100%" alt="Connect Wave Banner" />
 
 <br/>
 
@@ -224,7 +232,7 @@ I am actively seeking software engineering opportunities, open-source collaborat
 
 <br/>
 
-<!-- Animated Footer Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0D1117,50:3B82F6,100:8B5CF6&height=120&section=footer&text=Thanks%20for%20visiting!%20%E2%9C%A8&fontSize=22&fontColor=ffffff&fontAlignY=70" width="100%" alt="Animated Footer Banner" />
+<!-- External Image: Capsule Render Footer Banner (Do not edit as raw text/code) -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0D1117,50:3B82F6,100:10B981&height=120&section=footer&text=Thanks%20for%20visiting!%20%E2%9C%A8&fontSize=22&fontColor=ffffff&fontAlignY=70" width="100%" alt="Animated Footer Banner" />
 
 </div>
