@@ -1,7 +1,7 @@
 <div align="center">
-  <h1>Hi, I’m Chowreddygari Gnanendra Reddy</h1>
-  <p>
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=30&pause=1000&color=8B5CF6&center=true&vCenter=true&width=680&lines=Full-Stack%20Developer;Problem%20Solver;Backend%20Enthusiast;Open%20to%20Work" alt="Typing SVG" />
+  <img src="assets/hero-banner.svg" alt="Hero banner - Chowreddygari Gnanendra Reddy" width="100%" />
+  <p style="margin-top:12px;">
+    <strong>Chowreddygari Gnanendra Reddy</strong> — Professional Software Developer • Scalable backends · API design · Distributed systems · Performance · Observability
   </p>
 
   <!-- Live profile & contact badges -->
