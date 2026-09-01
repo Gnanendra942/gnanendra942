@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="80" alt="Waving hand" />
   <h1>Hi, I’m Chowreddygari Gnanendra Reddy</h1>
   <p>
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=30&pause=1000&color=8B5CF6&center=true&vCenter=true&width=680&lines=Full-Stack%20Developer;Problem%20Solver;Backend%20Enthusiast;Open%20to%20Work" alt="Typing SVG" />
@@ -26,10 +25,10 @@
 </p>
 
 ## About
-I build reliable, scalable, user-centric digital products. Work across the stack — frontend interfaces, server logic, database design, and deployment. Primary focus: backend engineering, full‑stack development, and system design. Confident, pragmatic, product-minded.
+Professional, highly-skilled software developer focused on delivering reliable, scalable, and user-centric products. Expert across backend engineering, full‑stack development, system design, and deployment — product-minded and execution-focused.
 
 - Location: Chennai, India
-- Education: B.Tech in Computer Science Engineering — Vel Tech, Chennai (2024 – Present, 3rd Year)
+- Education: B.Tech in Computer Science Engineering — Vel Tech, Chennai (3rd Year)
 - Contact: gnanendrareddy19@gmail.com
 
 ## Tech Stack
