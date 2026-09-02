@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <img alt="wave" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'><defs><linearGradient id='g' x1='0' x2='1'><stop offset='0' stop-color='%238B5CF6'/><stop offset='1' stop-color='%23036' /></linearGradient></defs><path d='M0 39.6C150 20 350 73 600 51.6c250-21.4 450-73 600-51.6v80H0z' fill='url(%23g)' /></svg>" width="100%"/>
+  <img src="assets/profile-overview.svg" alt="Animated developer profile overview" width="100%" />
 </p>
 
 ## About
@@ -56,7 +56,7 @@ Professional software developer focused on building reliable, scalable, and user
 </p>
 
 <p align="center">
-  <img alt="wave" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 80' preserveAspectRatio='none'><defs><linearGradient id='g2' x1='0' x2='1'><stop offset='0' stop-color='%23006AB3'/><stop offset='1' stop-color='%2300C6A7'/></linearGradient></defs><path d='M0 20C120 70 360 0 600 20s480 50 600 0v60H0z' fill='url(%23g2)' /></svg>" width="100%"/>
+  <img src="assets/wave-divider.svg" alt="Wave divider" width="100%" />
 </p>
 
 ## Featured Projects
@@ -70,13 +70,13 @@ Professional software developer focused on building reliable, scalable, and user
   Repository: https://github.com/Gnanendra942/portfolio-dashboard
 
 <p align="center">
-  <img alt="wave" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'><defs><linearGradient id='g3' x1='0' x2='1'><stop offset='0' stop-color='%230D1117'/><stop offset='1' stop-color='%238B5CF6'/></linearGradient></defs><path d='M0 50C200 10 400 90 600 50s400-40 600 0v70H0z' fill='url(%23g3)' /></svg>" width="100%"/>
+  <img src="assets/wave-divider.svg" alt="Wave divider" width="100%" />
 </p>
 
 ## GitHub & Activity
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Gnanendra942&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
-  <img src="https://streak-stats.demolab.com/?user=Gnanendra942&theme=tokyonight&hide_border=true" alt="Streak stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Gnanendra942&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=8B5CF6&icon_color=8B5CF6&text_color=F8FAFC&bg_color=0B1120" alt="GitHub stats" />
+  <img src="https://streak-stats.demolab.com/?user=Gnanendra942&theme=tokyonight&hide_border=true&background=0B1120&border=0D1117&ring=8B5CF6&fire=F59E0B&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=F8FAFC&sideLabels=CBD5E1" alt="Streak stats" />
 </p>
 
 ## Contact
