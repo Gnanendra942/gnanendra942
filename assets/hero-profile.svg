@@ -1,0 +1,135 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Chowreddygari Gnanendra Reddy developer profile banner</title>
+  <desc id="heroDesc">High-tech dark hero banner with animated code particles, subtle gradients, and a developer terminal motif.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B12"/>
+      <stop offset="0.4" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#0A0F17"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0E1B2A"/>
+      <stop offset="1" stop-color="#101B2B"/>
+    </linearGradient>
+    <linearGradient id="cyanGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7AF2FF"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="amberGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FBBF24"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .soft { animation: pulse 4s ease-in-out infinite; }
+      .drift { animation: drift 8s ease-in-out infinite alternate; }
+      .blink { animation: blink 1s steps(2) infinite; }
+      .scan { animation: scan 4s linear infinite; }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.7; }
+        50% { opacity: 1; }
+      }
+      @keyframes drift {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-10px); }
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes scan {
+        0% { transform: translateY(-8px); opacity: 0; }
+        15% { opacity: 0.9; }
+        100% { transform: translateY(170px); opacity: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .soft, .drift, .blink, .scan { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1600" height="520" rx="24" fill="url(#bg)"/>
+  <g opacity="0.7">
+    <circle cx="120" cy="96" r="28" fill="#7AF2FF" fill-opacity="0.12" class="soft"/>
+    <circle cx="1490" cy="110" r="36" fill="#F59E0B" fill-opacity="0.12" class="soft"/>
+    <circle cx="1360" cy="420" r="44" fill="#34D399" fill-opacity="0.10" class="soft"/>
+  </g>
+
+  <g opacity="0.65" stroke="#7AF2FF" stroke-width="1.2">
+    <path d="M0 260H1600" stroke-opacity="0.08"/>
+    <path d="M140 70L230 160" stroke-opacity="0.15"/>
+    <path d="M1330 90L1430 190" stroke-opacity="0.15"/>
+    <path d="M220 420L340 310" stroke-opacity="0.12"/>
+    <path d="M1120 400L1240 290" stroke-opacity="0.12"/>
+  </g>
+
+  <g opacity="0.45" stroke="#7AF2FF">
+    <path d="M150 120H340" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1200 150H1435" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1180 410H1405" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#glow)" opacity="0.8">
+    <rect x="126" y="86" width="520" height="330" rx="26" fill="url(#panel)" stroke="#7AF2FF" stroke-opacity="0.50"/>
+    <rect x="152" y="112" width="470" height="278" rx="18" fill="#0B1220" stroke="#7AF2FF" stroke-opacity="0.18"/>
+    <circle cx="188" cy="142" r="6" fill="#F87171"/>
+    <circle cx="214" cy="142" r="6" fill="#FBBF24"/>
+    <circle cx="240" cy="142" r="6" fill="#34D399"/>
+    <path d="M196 205H442" stroke="#7AF2FF" stroke-width="6" stroke-linecap="round"/>
+    <path d="M196 240H510" stroke="#34D399" stroke-width="6" stroke-linecap="round"/>
+    <path d="M196 275H462" stroke="#5EEAD4" stroke-width="6" stroke-linecap="round"/>
+    <path d="M196 330H390" stroke="#FBBF24" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="515" cy="280" r="44" fill="url(#cyanGlow)" fill-opacity="0.95"/>
+    <path d="M493 280L510 297L540 262" stroke="#07101A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g class="drift" opacity="0.9">
+    <rect x="820" y="104" width="580" height="220" rx="28" fill="rgba(14,20,28,0.82)" stroke="rgba(122,242,255,0.38)"/>
+    <path d="M860 206H1170" stroke="#7AF2FF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M860 246H1290" stroke="#34D399" stroke-width="4" stroke-linecap="round"/>
+    <path d="M860 286H1230" stroke="#FBBF24" stroke-width="4" stroke-linecap="round"/>
+    <path d="M860 326H1110" stroke="#8B5CF6" stroke-width="4" stroke-linecap="round"/>
+    <rect x="1080" y="144" width="250" height="132" rx="18" fill="#09131D" stroke="#7AF2FF" stroke-opacity="0.32"/>
+    <circle cx="1120" cy="182" r="8" fill="#7AF2FF"/>
+    <circle cx="1164" cy="182" r="8" fill="#FBBF24"/>
+    <circle cx="1208" cy="182" r="8" fill="#34D399"/>
+    <path d="M1120 220H1270" stroke="#7AF2FF" stroke-width="6" stroke-linecap="round"/>
+    <path d="M1120 240H1210" stroke="#34D399" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.8">
+    <circle cx="1180" cy="110" r="6" fill="#7AF2FF"/>
+    <circle cx="1226" cy="90" r="5" fill="#FBBF24"/>
+    <circle cx="1268" cy="122" r="5" fill="#34D399"/>
+    <circle cx="993" cy="382" r="6" fill="#7AF2FF"/>
+    <circle cx="1048" cy="410" r="5" fill="#FBBF24"/>
+    <circle cx="1090" cy="370" r="5" fill="#34D399"/>
+  </g>
+
+  <g class="scan">
+    <rect x="805" y="95" width="610" height="4" rx="2" fill="url(#cyanGlow)" opacity="0.9"/>
+  </g>
+
+  <g>
+    <text x="820" y="118" fill="#7AF2FF" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="1.5">PROFILE // 2024</text>
+    <text x="820" y="190" fill="#E5F7FF" font-family="Arial, sans-serif" font-size="38" font-weight="700">Chowreddygari Gnanendra</text>
+    <text x="820" y="238" fill="#E5F7FF" font-family="Arial, sans-serif" font-size="38" font-weight="700">Reddy</text>
+    <text x="820" y="294" fill="#8DE4D2" font-family="Arial, sans-serif" font-size="28" font-weight="600">Computer Science Engineer • Software Developer</text>
+    <text x="820" y="332" fill="#C6D5E1" font-family="Arial, sans-serif" font-size="20">Java • React • AI • Product-driven Problem Solving</text>
+    <rect x="820" y="360" width="258" height="38" rx="19" fill="url(#cyanGlow)" opacity="0.20" stroke="#7AF2FF"/>
+    <text x="847" y="385" fill="#BDF8FF" font-family="Arial, sans-serif" font-size="18" font-weight="700">Open to collaboration</text>
+    <rect x="1280" y="360" width="110" height="38" rx="19" fill="url(#amberGlow)" opacity="0.16" stroke="#FBBF24"/>
+    <text x="1306" y="385" fill="#FDE68A" font-family="Arial, sans-serif" font-size="18" font-weight="700">Available</text>
+    <rect x="820" y="420" width="40" height="28" rx="8" fill="#7AF2FF" fill-opacity="0.2"/>
+    <rect x="866" y="420" width="40" height="28" rx="8" fill="#34D399" fill-opacity="0.2"/>
+    <rect x="912" y="420" width="40" height="28" rx="8" fill="#FBBF24" fill-opacity="0.2"/>
+    <rect x="958" y="420" width="40" height="28" rx="8" fill="#8B5CF6" fill-opacity="0.2"/>
+    <text x="1030" y="440" fill="#7AF2FF" font-family="Arial, sans-serif" font-size="18" class="blink">_</text>
+  </g>
+</svg>
