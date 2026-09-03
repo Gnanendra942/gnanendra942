@@ -112,7 +112,8 @@
   </g>
 
   <!-- ================= RIGHT: 3D Dev Station Visual Isometric Terminal ================= -->
-  <g transform="translate(850, 42)" class="anim-float">
+  <g transform="translate(850, 42)">
+    <g class="anim-float">
     <!-- Outer Terminal Window -->
     <rect width="290" height="236" rx="14" fill="#0F172A" stroke="#1E293B" stroke-width="1.5" filter="url(#soft-glow)"/>
     
@@ -144,5 +145,6 @@
       <text x="28" y="152" class="font-mono" font-size="10" font-weight="600" fill="#F8FAFC">SYSTEM READY</text>
       <text x="246" y="152" text-anchor="end" class="font-mono" font-size="9.5" font-weight="700" fill="#38BDF8">100% HEALTH</text>
     </g>
+  </g>
   </g>
 </svg>
