@@ -46,8 +46,8 @@
 
     <g transform="translate(24, 145)">
       <circle cx="6" cy="-4" r="4" fill="#FBBF24"/>
-      <text x="20" y="0" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">Academic Standing:</text>
-      <text x="200" y="0" fill="#FBBF24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">8.6 / 10 CGPA</text>
+      <text x="20" y="0" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">Academic Year:</text>
+      <text x="200" y="0" fill="#FBBF24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">3rd Year (2024–2028)</text>
     </g>
 
     <g transform="translate(24, 180)">

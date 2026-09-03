@@ -52,7 +52,7 @@
 
 Hi! I'm **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduate at **Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Chennai** (`VTU29661`, Reg No: `24UECS0503`), focused on engineering scalable full-stack web applications, reliable Java backends, and smart IoT embedded hardware.
 
-- 🎓 **Undergraduate:** 3rd-Year B.Tech CSE at **Vel Tech University** (2024–2028) with an academic **CGPA of 8.6 / 10.0**.
+- 🎓 **Undergraduate:** 3rd-Year B.Tech CSE at **Vel Tech University** (2024–2028).
 - 🚀 **Full-Stack Web:** Architecting responsive and robust digital products with **React**, **JavaScript (ES6+)**, **TypeScript**, **Node.js**, **Express.js**, and **Tailwind CSS**.
 - ☕ **Java & Algorithmic Core:** Strong foundation in **Core Java 21**, Object-Oriented Design (OOP), Data Structures & Algorithms, and applied coding test suites.
 - ⚡ **Smart Embedded IoT:** Hands-on developer of real-time telemetry systems, biomedical sensors, and road hazard collision avoidance platforms using **Arduino C++**.

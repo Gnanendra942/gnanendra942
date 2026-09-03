@@ -92,10 +92,10 @@
       <rect width="130" height="28" rx="6" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
       <text x="12" y="18" class="font-mono" font-size="10.5" fill="#94A3B8">ID: <tspan fill="#38BDF8" font-weight="700">VTU29661</tspan></text>
 
-      <!-- CGPA Chip -->
+      <!-- Batch Chip -->
       <g transform="translate(142, 0)">
         <rect width="130" height="28" rx="6" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-        <text x="12" y="18" class="font-mono" font-size="10.5" fill="#94A3B8">CGPA: <tspan fill="#F59E0B" font-weight="700">8.6 / 10</tspan></text>
+        <text x="12" y="18" class="font-mono" font-size="10.5" fill="#94A3B8">Batch: <tspan fill="#F59E0B" font-weight="700">2024–2028</tspan></text>
       </g>
 
       <!-- Location Chip -->

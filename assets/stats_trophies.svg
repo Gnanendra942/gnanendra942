@@ -22,7 +22,7 @@
     <circle cx="32" cy="40" r="18" fill="#78350F" stroke="#F59E0B" stroke-width="1"/>
     <text x="32" y="46" text-anchor="middle" font-size="16">🎓</text>
     <text x="60" y="34" class="font-display t-title">Academic Distinction</text>
-    <text x="60" y="50" class="font-mono t-sub">Vel Tech CGPA: 8.6 / 10</text>
+    <text x="60" y="50" class="font-mono t-sub">Vel Tech CSE (2024–2028)</text>
     <text x="60" y="66" class="font-mono t-sub">VTU29661 · Top Percentile</text>
     <rect x="60" y="74" width="95" height="16" rx="3" fill="#451A03"/>
     <text x="107" y="86" text-anchor="middle" class="font-mono t-badge" fill="#F59E0B">ACADEMIC STAR</text>
