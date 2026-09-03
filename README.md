@@ -12,7 +12,7 @@
 
 <!-- Dynamic Typing Animation -->
 <a href="https://github.com/Gnanendra942">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&color=38BDF8&background=0B0F1900&center=true&vCenter=true&width=650&lines=Building+modern+full-stack+web+apps+with+React+%26+Node.js;Developing+smart+embedded+IoT+hardware+%26+telemetry;Solving+DSA+in+Java+with+clean+object-oriented+design;B.Tech+CSE+%40+Vel+Tech+University+(CGPA+8.6);NPTEL+Elite+Certified+in+Industry+4.0+%26+IIoT" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&color=38BDF8&background=0B0F1900&center=true&vCenter=true&width=650&lines=Building+modern+full-stack+web+apps+with+React+%26+Node.js;Developing+smart+embedded+IoT+hardware+%26+telemetry;Solving+DSA+in+Java+with+clean+object-oriented+design;NPTEL+Elite+Certified+in+Industry+4.0+%26+IIoT" alt="Typing SVG" />
 </a>
 
 <br/><br/>
