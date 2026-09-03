@@ -12,7 +12,7 @@
 
 <!-- Dynamic Typing Animation -->
 <a href="https://github.com/Gnanendra942">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&color=38BDF8&background=0B0F1900&center=true&vCenter=true&width=650&lines=Building+modern+full-stack+web+apps+with+React+%26+Node.js;Developing+smart+embedded+IoT+hardware+%26+telemetry;Solving+DSA+in+Java+with+clean+object-oriented+design;NPTEL+Elite+Certified+in+Industry+4.0+%26+IIoT" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&color=38BDF8&background=0B0F1900&center=true&vCenter=true&width=650&lines=Building+modern+full-stack+web+apps+with+React+%26+Node.js;Developing+smart+embedded+IoT+hardware+%26+telemetry;Solving+DSA+in+Java+with+clean+object-oriented+design" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -56,7 +56,6 @@ Hi! I'm **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergrad
 - 🚀 **Full-Stack Web:** Architecting responsive and robust digital products with **React**, **JavaScript (ES6+)**, **TypeScript**, **Node.js**, **Express.js**, and **Tailwind CSS**.
 - ☕ **Java & Algorithmic Core:** Strong foundation in **Core Java 21**, Object-Oriented Design (OOP), Data Structures & Algorithms, and applied coding test suites.
 - ⚡ **Smart Embedded IoT:** Hands-on developer of real-time telemetry systems, biomedical sensors, and road hazard collision avoidance platforms using **Arduino C++**.
-- 📜 **Elite Certification:** **NPTEL Certified (Elite Grade, 64/100)** in *Introduction to Industry 4.0 and Industrial Internet of Things* by IIT / NPTEL.
 
 <br/>
 
