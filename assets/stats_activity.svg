@@ -61,10 +61,10 @@
     <rect x="72" y="58" width="16" height="38" rx="3" fill="url(#barGrad)"/>
     <text x="80.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#94A3B8">Wed</text>
     <rect x="101" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
-    <rect x="101" y="66" width="16" height="30" rx="3" fill="url(#barGrad)"/>
+    <rect x="101" y="72" width="16" height="24" rx="3" fill="url(#barGrad)"/>
     <text x="109.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#94A3B8">Thu</text>
     <rect x="130" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
-    <rect x="130" y="52" width="16" height="44" rx="3" fill="url(#barGrad)"/>
+    <rect x="130" y="66" width="16" height="30" rx="3" fill="url(#barGrad)"/>
     <text x="138.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#94A3B8">Fri</text>
     <rect x="159" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
     <rect x="159" y="64" width="16" height="32" rx="3" fill="url(#barGrad)"/>
@@ -75,5 +75,5 @@
   </g>
 
   <!-- Footer -->
-  <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#64748B">Synced: Sep 03, 2026 · 15:57 UTC · Followers: 4</text>
+  <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#64748B">Synced: Sep 04, 2026 · 03:59 UTC · Followers: 4</text>
 </svg>
