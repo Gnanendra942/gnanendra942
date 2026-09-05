@@ -205,34 +205,46 @@ flowchart LR
 
 <br/>
 
-<!-- Special Feature: Tamil Nadu Tourism Platform -->
-<table width="100%">
-  <tr>
-    <td width="100%" valign="top">
-      <div align="left" style="padding: 16px; background: #0F172A; border: 1px solid #1E293B; border-radius: 12px;">
-        <h3>🏛️ Tamil Nadu Tourism — Interactive Discovery Platform</h3>
-        <p>
-          A high-performance editorial web portal engineered with <b>60 FPS fluid micro-interactions</b>, <b>zero external runtime dependencies</b>, an <b>algorithmic dynamic tour planner</b>, and an interactive geographic vector directory covering 12 living heritage, coastal, hill station, and temple circuits.
-        </p>
-        <p>
-          <a href="https://gnanendra942.github.io/TAMILNADU-TOURISM-/" target="_blank">
-            <img src="https://img.shields.io/badge/🚀_Live_Website-Visit_Now-8a1538?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo"/>
-          </a>
-          &nbsp;
-          <a href="https://github.com/Gnanendra942/TAMILNADU-TOURISM-" target="_blank">
-            <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository"/>
-          </a>
-          &nbsp;
-          <img src="https://img.shields.io/badge/Dependencies-Zero-10B981?style=for-the-badge&logo=dependabot&logoColor=white" alt="Zero Dependencies"/>
-          &nbsp;
-          <img src="https://img.shields.io/badge/FPS-60_Fluid-D4AF37?style=for-the-badge&logo=speedtest&logoColor=white" alt="60 FPS"/>
-        </p>
-      </div>
-    </td>
-  </tr>
-</table>
+<!-- Featured Showcase Project: Tamil Nadu Tourism -->
+<a href="https://gnanendra942.github.io/TAMILNADU-TOURISM-/" target="_blank">
+  <img src="./assets/card_tamilnadu_tourism.svg" width="100%" alt="Tamil Nadu Tourism — Interactive Discovery Platform"/>
+</a>
+
+<br/><br/>
+
+<p align="center">
+  <a href="https://gnanendra942.github.io/TAMILNADU-TOURISM-/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_Live_Website-Visit_Now-8A1538?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/Gnanendra942/TAMILNADU-TOURISM-" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository"/>
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Dependencies-Zero_Runtime-10B981?style=for-the-badge&logo=dependabot&logoColor=white" alt="Zero Dependencies"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Performance-60_FPS_Fluid-D4AF37?style=for-the-badge&logo=speedtest&logoColor=white" alt="60 FPS"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Circuits-12_Destinations-38BDF8?style=for-the-badge&logo=compass&logoColor=white" alt="12 Circuits"/>
+</p>
 
 </div>
+
+<br/>
+
+<details>
+<summary><b>🔍 Architectural Deep Dive — Tamil Nadu Tourism Platform</b></summary>
+
+<br/>
+
+> **Engineering Highlights:**
+> - **Architecture:** High-performance single-page application built with pure HTML5 semantic structure, CSS3 custom properties, and vanilla ES6+ JavaScript.
+> - **Zero Dependencies:** No React, Vue, jQuery, Tailwind, or external runtime libraries. Instant load times and optimal Lighthouse performance.
+> - **Smart Algorithmic Trip Planner:** Dynamic client-side scoring calculating optimal travel duration (3, 5, 7, 10 days), pace calibration, and interest vector clustering.
+> - **Interactive Vector Mapping:** Geographic breakdown across 5 distinct zones (North, South, Central, West, Delta) covering 12 living heritage, coastal, and hill station circuits.
+> - **Continuous Delivery:** Automated GitHub Actions workflow targeting **GitHub Pages** deployment at [gnanendra942.github.io/TAMILNADU-TOURISM-](https://gnanendra942.github.io/TAMILNADU-TOURISM-/).
+
+</details>
 
 <br/>
 
