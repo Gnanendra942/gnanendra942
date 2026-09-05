@@ -1,51 +1,96 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 220" width="100%" height="100%">
   <defs>
     <linearGradient id="bg-ja" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B0F19"/>
-      <stop offset="100%" stop-color="#111827"/>
+      <stop offset="0%" stop-color="#140C04"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#080C14"/>
     </linearGradient>
+
+    <linearGradient id="beam-ja" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ED8B00">
+        <animate attributeName="stop-color" values="#ED8B00;#F59E0B;#ED8B00" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
     <style>
       .font-display { font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
       .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace; }
-      .card-title { font-weight: 700; font-size: 18px; fill: #F8FAFC; }
+      .card-title { font-weight: 700; font-size: 17px; fill: #F8FAFC; }
       .card-desc { font-size: 11px; fill: #94A3B8; }
-      .card-chip { font-size: 10px; font-weight: 600; }
+      .card-chip { font-size: 10px; font-weight: 700; }
+
+      @keyframes sortBar1 { 0%, 100% { height: 6px; y: 144px; } 50% { height: 16px; y: 134px; } }
+      @keyframes sortBar2 { 0%, 100% { height: 16px; y: 134px; } 50% { height: 8px; y: 142px; } }
+      @keyframes sortBar3 { 0%, 100% { height: 12px; y: 138px; } 50% { height: 18px; y: 132px; } }
+      @keyframes sortBar4 { 0%, 100% { height: 18px; y: 132px; } 50% { height: 10px; y: 140px; } }
+      @keyframes sortBar5 { 0%, 100% { height: 10px; y: 140px; } 50% { height: 14px; y: 136px; } }
+
+      .sb-1 { animation: sortBar1 1s infinite ease-in-out; }
+      .sb-2 { animation: sortBar2 1.3s infinite ease-in-out 0.1s; }
+      .sb-3 { animation: sortBar3 1.1s infinite ease-in-out 0.2s; }
+      .sb-4 { animation: sortBar4 1.4s infinite ease-in-out 0.3s; }
+      .sb-5 { animation: sortBar5 1.2s infinite ease-in-out 0.15s; }
+
+      @keyframes pulseNode {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.3); }
+      }
+      .anim-pulse-node { animation: pulseNode 2s infinite ease-in-out; transform-box: fill-box; transform-origin: center; }
     </style>
   </defs>
 
   <rect width="580" height="220" rx="12" fill="url(#bg-ja)" stroke="#1E293B" stroke-width="1.2"/>
-  <rect x="0" y="0" width="580" height="2" rx="1" fill="#ED8B00"/>
+  <rect x="0" y="0" width="580" height="3" rx="1.5" fill="url(#beam-ja)"/>
   
   <!-- Status Badge -->
-  <g transform="translate(415, 20)">
-    <rect x="0" y="0" width="140" height="22" rx="4" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <circle cx="10" cy="11" r="3" fill="#ED8B00"/>
-    <text x="20" y="15" class="font-mono card-chip" fill="#ED8B00">CORE JAVA &amp; DSA</text>
+  <g transform="translate(370, 18)">
+    <rect width="185" height="24" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="12" cy="12" r="3.5" fill="#ED8B00" class="anim-pulse-node"/>
+    <text x="22" y="16" class="font-mono card-chip" fill="#ED8B00">CORE JAVA 21 &amp; DSA</text>
   </g>
 
   <!-- Title & Description -->
-  <text x="24" y="42" class="font-display card-title">Problem Solving &amp; Testing Suite</text>
-  <text x="24" y="78" class="font-mono card-desc">
-    <tspan x="24" dy="0">• Applied coding algorithms, data structures &amp; test case verifications.</tspan>
-    <tspan x="24" dy="18">• Optimized asymptotic complexity across arrays, trees, graphs &amp; dynamic sets.</tspan>
-    <tspan x="24" dy="18">• Java 21 · Unit Testing · Object-Oriented Design · ACS Lab Suite</tspan>
+  <text x="24" y="38" class="font-display card-title">Problem Solving &amp; Testing Suite</text>
+  <text x="24" y="72" class="font-mono card-desc">
+    <tspan x="24" dy="0">• Rigorous Java OOP testbench and automated algorithmic testing suite.</tspan>
+    <tspan x="24" dy="18">• Data structures, dynamic programming, sorting trees &amp; recursion.</tspan>
+    <tspan x="24" dy="18">• Java 21 · JUnit Testing · OOP Design Patterns · ACS Verification</tspan>
   </text>
 
+  <!-- Animated Sorting Visualizer & Binary Tree Nodes -->
+  <g transform="translate(24, 126)">
+    <rect width="320" height="30" rx="4" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    
+    <!-- Sorting Bars -->
+    <g transform="translate(14, 0)">
+      <rect x="0" width="4" rx="1.5" fill="#ED8B00" class="sb-1"/>
+      <rect x="8" width="4" rx="1.5" fill="#F59E0B" class="sb-2"/>
+      <rect x="16" width="4" rx="1.5" fill="#38BDF8" class="sb-3"/>
+      <rect x="24" width="4" rx="1.5" fill="#10B981" class="sb-4"/>
+      <rect x="32" width="4" rx="1.5" fill="#818CF8" class="sb-5"/>
+    </g>
+
+    <text x="60" y="19" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#10B981">
+      TEST RUNNER: <tspan fill="#F8FAFC">ALL ACS ASSERTIONS PASSED (100%)</tspan>
+    </text>
+  </g>
+
   <!-- Tech Tags -->
-  <g transform="translate(24, 156)">
-    <rect x="0" y="0" width="65" height="24" rx="4" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="32" y="16" text-anchor="middle" class="font-mono card-chip" fill="#ED8B00">JAVA</text>
+  <g transform="translate(24, 172)">
+    <rect width="70" height="26" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="35" y="17" text-anchor="middle" class="font-mono card-chip" fill="#ED8B00">JAVA 21</text>
 
-    <rect x="73" y="0" width="105" height="24" rx="4" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="125" y="16" text-anchor="middle" class="font-mono card-chip" fill="#38BDF8">ALGORITHMS</text>
+    <rect x="78" width="95" height="26" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="125" y="17" text-anchor="middle" class="font-mono card-chip" fill="#38BDF8">ALGORITHMS</text>
 
-    <rect x="186" y="0" width="95" height="24" rx="4" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="233" y="16" text-anchor="middle" class="font-mono card-chip" fill="#10B981">UNIT TESTS</text>
+    <rect x="181" width="85" height="26" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="223" y="17" text-anchor="middle" class="font-mono card-chip" fill="#10B981">UNIT TESTS</text>
   </g>
 
   <!-- View Repo Link -->
-  <g transform="translate(425, 156)">
-    <rect x="0" y="0" width="130" height="24" rx="4" fill="#ED8B00"/>
-    <text x="65" y="16" text-anchor="middle" class="font-display" font-size="10.5" font-weight="700" fill="#0B0F19">VIEW REPO ➔</text>
+  <g transform="translate(425, 172)">
+    <rect width="130" height="26" rx="5" fill="#D97706"/>
+    <text x="65" y="17" text-anchor="middle" class="font-display" font-size="11" font-weight="700" fill="#FFFFFF">VIEW PROJECT ➔</text>
   </g>
 </svg>

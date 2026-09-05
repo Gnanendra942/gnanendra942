@@ -8,19 +8,33 @@
       <stop offset="0%" stop-color="#38BDF8"/>
       <stop offset="100%" stop-color="#818CF8"/>
     </linearGradient>
+    <linearGradient id="actBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#38BDF8" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+    <style>
+      @keyframes pulseSync {
+        0% { r: 3px; opacity: 1; }
+        100% { r: 8px; opacity: 0; }
+      }
+      .anim-sync { animation: pulseSync 2s infinite ease-out; }
+    </style>
   </defs>
 
   <!-- Container Box -->
   <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGrad1)" stroke="#1E293B" stroke-width="1.2"/>
   
-  <!-- Subtle Top Accent -->
-  <rect x="24" y="1" width="80" height="2" rx="1" fill="#38BDF8"/>
+  <!-- Animated Top Accent -->
+  <rect x="24" y="1" width="100" height="2.5" rx="1" fill="url(#actBeam)"/>
 
-  <!-- Header -->
+  <!-- Header with Pulsing Beacon -->
   <g transform="translate(24, 24)">
     <circle cx="5" cy="5" r="4" fill="#10B981"/>
-    <text x="16" y="9" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC" letter-spacing="0.5">GITHUB METRICS &amp; ACTIVITY</text>
-    <text x="447" y="9" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="10" font-weight="600" fill="#10B981">LIVE SYNC</text>
+    <circle cx="5" cy="5" r="4" fill="none" stroke="#10B981" stroke-width="1.2" class="anim-sync"/>
+    <text x="18" y="9" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC" letter-spacing="0.5">GITHUB METRICS &amp; ACTIVITY</text>
+    <text x="447" y="9" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="10" font-weight="600" fill="#10B981">● LIVE SYNC</text>
   </g>
 
   <!-- 2x2 Metric Grid (Left) -->
@@ -43,7 +57,7 @@
     <!-- Commits -->
     <rect x="112" y="64" width="102" height="56" rx="8" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
     <text x="124" y="84" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#94A3B8">TOTAL COMMITS</text>
-    <text x="124" y="108" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#10B981">535+</text>
+    <text x="124" y="108" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#10B981">575+</text>
   </g>
 
   <!-- Velocity Chart (Right) -->
@@ -53,27 +67,34 @@
     
     <rect x="14" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
     <rect x="14" y="81" width="16" height="15" rx="3" fill="url(#barGrad)"/>
+    <rect x="14" y="81" width="16" height="2" rx="1" fill="#7AF2FF" opacity="0.8"/>
     <text x="22.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#94A3B8">Mon</text>
     <rect x="43" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
     <rect x="43" y="69" width="16" height="27" rx="3" fill="url(#barGrad)"/>
+    <rect x="43" y="69" width="16" height="2" rx="1" fill="#7AF2FF" opacity="0.8"/>
     <text x="51.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#94A3B8">Tue</text>
     <rect x="72" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
     <rect x="72" y="58" width="16" height="38" rx="3" fill="url(#barGrad)"/>
+    <rect x="72" y="58" width="16" height="2" rx="1" fill="#7AF2FF" opacity="0.8"/>
     <text x="80.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#94A3B8">Wed</text>
     <rect x="101" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
     <rect x="101" y="72" width="16" height="24" rx="3" fill="url(#barGrad)"/>
+    <rect x="101" y="72" width="16" height="2" rx="1" fill="#7AF2FF" opacity="0.8"/>
     <text x="109.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#94A3B8">Thu</text>
     <rect x="130" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
     <rect x="130" y="52" width="16" height="44" rx="3" fill="url(#barGrad)"/>
+    <rect x="130" y="52" width="16" height="2" rx="1" fill="#7AF2FF" opacity="0.8"/>
     <text x="138.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#94A3B8">Fri</text>
     <rect x="159" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
     <rect x="159" y="66" width="16" height="30" rx="3" fill="url(#barGrad)"/>
+    <rect x="159" y="66" width="16" height="2" rx="1" fill="#7AF2FF" opacity="0.8"/>
     <text x="167.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#94A3B8">Sat</text>
     <rect x="188" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
     <rect x="188" y="76" width="16" height="20" rx="3" fill="url(#barGrad)"/>
+    <rect x="188" y="76" width="16" height="2" rx="1" fill="#7AF2FF" opacity="0.8"/>
     <text x="196.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#94A3B8">Sun</text>
   </g>
 
   <!-- Footer -->
-  <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#64748B">Synced: Sep 05, 2026 · 14:45 UTC · Followers: 4</text>
+  <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#64748B">Synced: Sep 05, 2026 · 15:41 UTC · Followers: 4 · 60 FPS Engine</text>
 </svg>

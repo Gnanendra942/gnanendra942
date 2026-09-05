@@ -4,10 +4,17 @@
       <stop offset="0%" stop-color="#0B0F19"/>
       <stop offset="100%" stop-color="#111827"/>
     </linearGradient>
+    <filter id="glowArch" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGradArch)" stroke="#1E293B" stroke-width="1.2"/>
-  <rect x="24" y="1" width="80" height="2" rx="1" fill="#10B981"/>
+  <rect x="24" y="1" width="100" height="2.5" rx="1" fill="#10B981"/>
 
   <g transform="translate(24, 24)">
     <circle cx="5" cy="5" r="4" fill="#10B981"/>
@@ -21,35 +28,41 @@
     <!-- Node 1: Sensor / Embedded -->
     <g transform="translate(18, 16)">
       <rect width="115" height="88" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
-      <rect width="115" height="2" fill="#38BDF8" rx="1"/>
+      <rect width="115" height="2.5" fill="#38BDF8" rx="1"/>
       <text x="12" y="24" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#38BDF8">01. SENSORS &amp; IOT</text>
       <text x="12" y="44" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#94A3B8">• Pulse Sensor</text>
       <text x="12" y="60" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#94A3B8">• Arduino C++</text>
       <text x="12" y="76" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#10B981">• Telemetry In</text>
     </g>
 
-    <!-- Connector 1 -->
+    <!-- Connector 1 with Animated Traveling Packet -->
     <path d="M140 60 L158 60" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="3 3"/>
     <polygon points="160,60 154,57 154,63" fill="#38BDF8"/>
+    <circle r="3" fill="#7AF2FF" filter="url(#glowArch)">
+      <animateMotion path="M140 60 L158 60" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
 
     <!-- Node 2: Core Processing & Backend -->
     <g transform="translate(166, 16)">
       <rect width="115" height="88" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
-      <rect width="115" height="2" fill="#818CF8" rx="1"/>
+      <rect width="115" height="2.5" fill="#818CF8" rx="1"/>
       <text x="12" y="24" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#818CF8">02. JAVA &amp; APIS</text>
       <text x="12" y="44" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#94A3B8">• Java OOP Core</text>
       <text x="12" y="60" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#94A3B8">• Signal Filter</text>
       <text x="12" y="76" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#10B981">• MySQL Data</text>
     </g>
 
-    <!-- Connector 2 -->
+    <!-- Connector 2 with Animated Traveling Packet -->
     <path d="M288 60 L306 60" stroke="#818CF8" stroke-width="1.5" stroke-dasharray="3 3"/>
     <polygon points="308,60 302,57 302,63" fill="#818CF8"/>
+    <circle r="3" fill="#A78BFA" filter="url(#glowArch)">
+      <animateMotion path="M288 60 L306 60" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
 
     <!-- Node 3: React Frontend -->
     <g transform="translate(314, 16)">
       <rect width="115" height="88" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
-      <rect width="115" height="2" fill="#10B981" rx="1"/>
+      <rect width="115" height="2.5" fill="#10B981" rx="1"/>
       <text x="12" y="24" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#10B981">03. REACT CLIENT</text>
       <text x="12" y="44" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#94A3B8">• Live Dashboards</text>
       <text x="12" y="60" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#94A3B8">• Tailwind UI</text>
@@ -57,5 +70,5 @@
     </g>
   </g>
 
-  <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#64748B">End-to-End hardware telemetry to modern web dashboard architecture</text>
+  <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#64748B">Live Telemetry Pipeline · Sensors ➜ Microcontroller ➜ Backend ➜ Reactive UI</text>
 </svg>

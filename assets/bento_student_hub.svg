@@ -1,90 +1,175 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="100%" height="100%">
   <defs>
+    <!-- Background Gradient -->
     <linearGradient id="hub-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B0F19"/>
-      <stop offset="100%" stop-color="#111827"/>
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="50%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#0F172A"/>
     </linearGradient>
+
+    <!-- Animated Card Top Beams -->
+    <linearGradient id="beam-azure" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#38BDF8" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+
+    <linearGradient id="beam-amber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B">
+        <animate attributeName="stop-color" values="#F59E0B;#ED8B00;#F59E0B" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+
+    <linearGradient id="beam-indigo" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818CF8">
+        <animate attributeName="stop-color" values="#818CF8;#A78BFA;#818CF8" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <linearGradient id="beam-emerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981">
+        <animate attributeName="stop-color" values="#10B981;#38BDF8;#10B981" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <filter id="hub-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
     <style>
       .font-display { font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
       .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace; }
       .hub-title { font-weight: 700; font-size: 15px; fill: #F8FAFC; }
       .hub-sub { font-size: 11px; fill: #94A3B8; }
-      .hub-tag { font-size: 10px; font-weight: 600; }
+      .hub-tag { font-size: 10px; font-weight: 700; }
+      
+      @keyframes radarPulse {
+        0% { r: 3px; opacity: 0.8; }
+        100% { r: 10px; opacity: 0; }
+      }
+      @keyframes floatCard {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-3px); }
+      }
+      .anim-radar { animation: radarPulse 2s infinite cubic-bezier(0, 0.2, 0.8, 1); }
+      .card-float-1 { animation: floatCard 4s infinite ease-in-out; }
+      .card-float-2 { animation: floatCard 4.5s infinite ease-in-out 0.5s; }
+      .card-float-3 { animation: floatCard 4.2s infinite ease-in-out 1s; }
+      .card-float-4 { animation: floatCard 4.7s infinite ease-in-out 1.5s; }
     </style>
   </defs>
 
-  <rect width="1200" height="220" rx="14" fill="url(#hub-bg)" stroke="#1E293B" stroke-width="1.2"/>
+  <rect width="1200" height="230" rx="14" fill="url(#hub-bg)" stroke="#1E293B" stroke-width="1.2"/>
 
-  <!-- Quadrant 1: Vel Tech University Academic Orbit -->
-  <g transform="translate(24, 20)">
-    <rect width="270" height="180" rx="10" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <rect x="0" y="0" width="270" height="2" rx="1" fill="#38BDF8"/>
+  <!-- ================= Quadrant 1: Vel Tech University Academic Orbit ================= -->
+  <g transform="translate(24, 20)" class="card-float-1">
+    <rect width="270" height="190" rx="10" fill="#141C2E" stroke="#1E293B" stroke-width="1.1"/>
+    <rect x="0" y="0" width="270" height="3" rx="1.5" fill="url(#beam-azure)"/>
     
-    <text x="18" y="32" class="font-display hub-title">Vel Tech University</text>
-    <text x="18" y="50" class="font-mono hub-sub">B.Tech in CSE · Chennai, TN</text>
+    <!-- Header with Pulsing Beacon -->
+    <g transform="translate(18, 22)">
+      <circle cx="5" cy="5" r="4" fill="#38BDF8"/>
+      <circle cx="5" cy="5" r="4" fill="none" stroke="#38BDF8" stroke-width="1" class="anim-radar"/>
+      <text x="18" y="9" class="font-display hub-title">Vel Tech University</text>
+    </g>
+    <text x="18" y="52" class="font-mono hub-sub">B.Tech in CSE · Chennai, TN</text>
     
-    <line x1="18" y1="65" x2="252" y2="65" stroke="#1E293B" stroke-width="1"/>
+    <line x1="18" y1="68" x2="252" y2="68" stroke="#1E293B" stroke-width="1"/>
     
-    <text x="18" y="88" class="font-mono hub-sub">Student ID: <tspan fill="#38BDF8" font-weight="600">VTU29661</tspan></text>
-    <text x="18" y="108" class="font-mono hub-sub">Register No: <tspan fill="#F8FAFC">24UECS0503</tspan></text>
-    <text x="18" y="128" class="font-mono hub-sub">Academic Status: <tspan fill="#F59E0B" font-weight="700">3rd Year CSE</tspan></text>
+    <text x="18" y="92" class="font-mono hub-sub">Student ID: <tspan fill="#38BDF8" font-weight="700">VTU29661</tspan></text>
+    <text x="18" y="112" class="font-mono hub-sub">Register No: <tspan fill="#F8FAFC" font-weight="600">24UECS0503</tspan></text>
+    <text x="18" y="132" class="font-mono hub-sub">Academic Level: <tspan fill="#10B981" font-weight="700">3rd Year CSE</tspan></text>
     
-    <rect x="18" y="142" width="125" height="22" rx="4" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
-    <text x="80" y="157" text-anchor="middle" class="font-mono hub-tag" fill="#38BDF8">CSE 2024–2028</text>
+    <!-- Tag Pill -->
+    <g transform="translate(18, 148)">
+      <rect width="135" height="24" rx="5" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
+      <text x="67" y="16" text-anchor="middle" class="font-mono hub-tag" fill="#38BDF8">CSE 2024–2028</text>
+    </g>
   </g>
 
-  <!-- Quadrant 2: Java & OOP Architecture Core -->
-  <g transform="translate(314, 20)">
-    <rect width="270" height="180" rx="10" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <rect x="0" y="0" width="270" height="2" rx="1" fill="#ED8B00"/>
+  <!-- ================= Quadrant 2: Java & OOP Architecture Core ================= -->
+  <g transform="translate(314, 20)" class="card-float-2">
+    <rect width="270" height="190" rx="10" fill="#141C2E" stroke="#1E293B" stroke-width="1.1"/>
+    <rect x="0" y="0" width="270" height="3" rx="1.5" fill="url(#beam-amber)"/>
     
-    <text x="18" y="32" class="font-display hub-title">Java &amp; OOP Core</text>
-    <text x="18" y="50" class="font-mono hub-sub">Applied Coding &amp; Testing</text>
+    <!-- Header with Pulsing Beacon -->
+    <g transform="translate(18, 22)">
+      <circle cx="5" cy="5" r="4" fill="#F59E0B"/>
+      <circle cx="5" cy="5" r="4" fill="none" stroke="#F59E0B" stroke-width="1" class="anim-radar"/>
+      <text x="18" y="9" class="font-display hub-title">Java &amp; OOP Core</text>
+    </g>
+    <text x="18" y="52" class="font-mono hub-sub">Applied Algorithms &amp; Testing</text>
     
-    <line x1="18" y1="65" x2="252" y2="65" stroke="#1E293B" stroke-width="1"/>
+    <line x1="18" y1="68" x2="252" y2="68" stroke="#1E293B" stroke-width="1"/>
     
-    <text x="18" y="88" class="font-mono hub-sub">Paradigm: <tspan fill="#ED8B00" font-weight="600">OOP &amp; Modularity</tspan></text>
-    <text x="18" y="108" class="font-mono hub-sub">Mastery: <tspan fill="#F8FAFC">Data Structures &amp; ACS</tspan></text>
-    <text x="18" y="128" class="font-mono hub-sub">Focus: <tspan fill="#10B981">● Clean Algorithmic Logic</tspan></text>
+    <text x="18" y="92" class="font-mono hub-sub">Paradigm: <tspan fill="#F59E0B" font-weight="700">OOP &amp; Modularity</tspan></text>
+    <text x="18" y="112" class="font-mono hub-sub">Mastery: <tspan fill="#F8FAFC" font-weight="600">Data Structures &amp; ACS</tspan></text>
+    <text x="18" y="132" class="font-mono hub-sub">Precision: <tspan fill="#10B981" font-weight="600">● Algorithmic Logic</tspan></text>
     
-    <rect x="18" y="142" width="135" height="22" rx="4" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
-    <text x="85" y="157" text-anchor="middle" class="font-mono hub-tag" fill="#ED8B00">JAVA DEVELOPER</text>
+    <!-- Tag Pill -->
+    <g transform="translate(18, 148)">
+      <rect width="145" height="24" rx="5" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
+      <text x="72" y="16" text-anchor="middle" class="font-mono hub-tag" fill="#F59E0B">JAVA 21 SPECIALIST</text>
+    </g>
   </g>
 
-  <!-- Quadrant 3: Web & Full-Stack Development -->
-  <g transform="translate(604, 20)">
-    <rect width="270" height="180" rx="10" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <rect x="0" y="0" width="270" height="2" rx="1" fill="#818CF8"/>
+  <!-- ================= Quadrant 3: Web & Full-Stack Development ================= -->
+  <g transform="translate(604, 20)" class="card-float-3">
+    <rect width="270" height="190" rx="10" fill="#141C2E" stroke="#1E293B" stroke-width="1.1"/>
+    <rect x="0" y="0" width="270" height="3" rx="1.5" fill="url(#beam-indigo)"/>
     
-    <text x="18" y="32" class="font-display hub-title">Full-Stack Web</text>
-    <text x="18" y="50" class="font-mono hub-sub">Modern React &amp; Tailwind</text>
+    <!-- Header with Pulsing Beacon -->
+    <g transform="translate(18, 22)">
+      <circle cx="5" cy="5" r="4" fill="#818CF8"/>
+      <circle cx="5" cy="5" r="4" fill="none" stroke="#818CF8" stroke-width="1" class="anim-radar"/>
+      <text x="18" y="9" class="font-display hub-title">Full-Stack Web</text>
+    </g>
+    <text x="18" y="52" class="font-mono hub-sub">Modern Reactive Architecture</text>
     
-    <line x1="18" y1="65" x2="252" y2="65" stroke="#1E293B" stroke-width="1"/>
+    <line x1="18" y1="68" x2="252" y2="68" stroke="#1E293B" stroke-width="1"/>
     
-    <text x="18" y="88" class="font-mono hub-sub">Frontend: <tspan fill="#818CF8" font-weight="600">React · JavaScript ES6+</tspan></text>
-    <text x="18" y="108" class="font-mono hub-sub">Styling: <tspan fill="#F8FAFC">Tailwind · Glassmorphism</tspan></text>
-    <text x="18" y="128" class="font-mono hub-sub">Storage: <tspan fill="#38BDF8">MySQL · Relational DBMS</tspan></text>
+    <text x="18" y="92" class="font-mono hub-sub">Frontend: <tspan fill="#818CF8" font-weight="700">React 19 &amp; Next.js</tspan></text>
+    <text x="18" y="112" class="font-mono hub-sub">Backend: <tspan fill="#38BDF8" font-weight="600">Node.js, Express, JWT</tspan></text>
+    <text x="18" y="132" class="font-mono hub-sub">Styling: <tspan fill="#10B981" font-weight="600">● Tailwind &amp; Glassmorphic</tspan></text>
     
-    <rect x="18" y="142" width="125" height="22" rx="4" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
-    <text x="80" y="157" text-anchor="middle" class="font-mono hub-tag" fill="#818CF8">REACT &amp; WEB DEV</text>
+    <!-- Tag Pill -->
+    <g transform="translate(18, 148)">
+      <rect width="145" height="24" rx="5" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
+      <text x="72" y="16" text-anchor="middle" class="font-mono hub-tag" fill="#818CF8">WEB ARCHITECT</text>
+    </g>
   </g>
 
-  <!-- Quadrant 4: Smart IoT & Embedded Systems -->
-  <g transform="translate(894, 20)">
-    <rect width="282" height="180" rx="10" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <rect x="0" y="0" width="282" height="2" rx="1" fill="#10B981"/>
+  <!-- ================= Quadrant 4: Smart IoT & Embedded Systems ================= -->
+  <g transform="translate(894, 20)" class="card-float-4">
+    <rect width="282" height="190" rx="10" fill="#141C2E" stroke="#1E293B" stroke-width="1.1"/>
+    <rect x="0" y="0" width="282" height="3" rx="1.5" fill="url(#beam-emerald)"/>
     
-    <text x="18" y="32" class="font-display hub-title">Smart IoT Hardware</text>
-    <text x="18" y="50" class="font-mono hub-sub">Sensors &amp; Telemetry Systems</text>
+    <!-- Header with Pulsing Beacon -->
+    <g transform="translate(18, 22)">
+      <circle cx="5" cy="5" r="4" fill="#10B981"/>
+      <circle cx="5" cy="5" r="4" fill="none" stroke="#10B981" stroke-width="1" class="anim-radar"/>
+      <text x="18" y="9" class="font-display hub-title">Smart Embedded IoT</text>
+    </g>
+    <text x="18" y="52" class="font-mono hub-sub">Telemetry &amp; Sensor Pipelines</text>
     
-    <line x1="18" y1="65" x2="264" y2="65" stroke="#1E293B" stroke-width="1"/>
+    <line x1="18" y1="68" x2="264" y2="68" stroke="#1E293B" stroke-width="1"/>
     
-    <text x="18" y="88" class="font-mono hub-sub">Hardware: <tspan fill="#10B981" font-weight="600">Arduino · Sensors</tspan></text>
-    <text x="18" y="108" class="font-mono hub-sub">Projects: <tspan fill="#F8FAFC">Curve Road Safety · BPM</tspan></text>
-    <text x="18" y="128" class="font-mono hub-sub">Pipeline: <tspan fill="#38BDF8">● Real-time Telemetry</tspan></text>
+    <text x="18" y="92" class="font-mono hub-sub">Hardware: <tspan fill="#10B981" font-weight="700">Arduino Uno / C++</tspan></text>
+    <text x="18" y="112" class="font-mono hub-sub">Telemetry: <tspan fill="#38BDF8" font-weight="600">Pulse Sensors &amp; Sonar</tspan></text>
+    <text x="18" y="132" class="font-mono hub-sub">Systems: <tspan fill="#F59E0B" font-weight="600">● Hazard Avoidance &amp; ECG</tspan></text>
     
-    <rect x="18" y="142" width="135" height="22" rx="4" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
-    <text x="85" y="157" text-anchor="middle" class="font-mono hub-tag" fill="#10B981">EMBEDDED IOT LEAD</text>
+    <!-- Tag Pill -->
+    <g transform="translate(18, 148)">
+      <rect width="145" height="24" rx="5" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
+      <text x="72" y="16" text-anchor="middle" class="font-mono hub-tag" fill="#10B981">HARDWARE ENGINEER</text>
+    </g>
   </g>
 </svg>

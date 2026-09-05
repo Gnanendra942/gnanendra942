@@ -177,6 +177,7 @@ class SVGRenderer:
             chart_bars_svg += f"""
     <rect x="{x}" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
     <rect x="{x}" y="{bar_y}" width="16" height="{bar_height}" rx="3" fill="url(#barGrad)"/>
+    <rect x="{x}" y="{bar_y}" width="16" height="2" rx="1" fill="#7AF2FF" opacity="0.8"/>
     <text x="{x + 8.0}" y="110" text-anchor="middle" font-family="{FONT_MONO}" font-size="8" font-weight="600" fill="{COLOR_TEXT_MUTED}">{day}</text>"""
 
         return f"""<svg width="495" height="220" viewBox="0 0 495 220" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -189,19 +190,33 @@ class SVGRenderer:
       <stop offset="0%" stop-color="{COLOR_AZURE}"/>
       <stop offset="100%" stop-color="{COLOR_INDIGO}"/>
     </linearGradient>
+    <linearGradient id="actBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="{COLOR_AZURE}">
+        <animate attributeName="stop-color" values="{COLOR_AZURE};{COLOR_INDIGO};{COLOR_AZURE}" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="{COLOR_INDIGO}"/>
+    </linearGradient>
+    <style>
+      @keyframes pulseSync {{
+        0% {{ r: 3px; opacity: 1; }}
+        100% {{ r: 8px; opacity: 0; }}
+      }}
+      .anim-sync {{ animation: pulseSync 2s infinite ease-out; }}
+    </style>
   </defs>
 
   <!-- Container Box -->
   <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGrad1)" stroke="{COLOR_CARD_BORDER}" stroke-width="1.2"/>
   
-  <!-- Subtle Top Accent -->
-  <rect x="24" y="1" width="80" height="2" rx="1" fill="{COLOR_AZURE}"/>
+  <!-- Animated Top Accent -->
+  <rect x="24" y="1" width="100" height="2.5" rx="1" fill="url(#actBeam)"/>
 
-  <!-- Header -->
+  <!-- Header with Pulsing Beacon -->
   <g transform="translate(24, 24)">
     <circle cx="5" cy="5" r="4" fill="{COLOR_EMERALD}"/>
-    <text x="16" y="9" font-family="{FONT_DISPLAY}" font-size="12" font-weight="700" fill="{COLOR_TEXT_PRIMARY}" letter-spacing="0.5">GITHUB METRICS &amp; ACTIVITY</text>
-    <text x="447" y="9" text-anchor="end" font-family="{FONT_MONO}" font-size="10" font-weight="600" fill="{COLOR_EMERALD}">LIVE SYNC</text>
+    <circle cx="5" cy="5" r="4" fill="none" stroke="{COLOR_EMERALD}" stroke-width="1.2" class="anim-sync"/>
+    <text x="18" y="9" font-family="{FONT_DISPLAY}" font-size="12" font-weight="700" fill="{COLOR_TEXT_PRIMARY}" letter-spacing="0.5">GITHUB METRICS &amp; ACTIVITY</text>
+    <text x="447" y="9" text-anchor="end" font-family="{FONT_MONO}" font-size="10" font-weight="600" fill="{COLOR_EMERALD}">● LIVE SYNC</text>
   </g>
 
   <!-- 2x2 Metric Grid (Left) -->
@@ -235,7 +250,7 @@ class SVGRenderer:
   </g>
 
   <!-- Footer -->
-  <text x="24" y="198" font-family="{FONT_DISPLAY}" font-size="9" font-weight="500" fill="{COLOR_TEXT_DIM}">Synced: {synced} · Followers: {followers}</text>
+  <text x="24" y="198" font-family="{FONT_DISPLAY}" font-size="9" font-weight="500" fill="{COLOR_TEXT_DIM}">Synced: {synced} · Followers: {followers} · 60 FPS Engine</text>
 </svg>"""
 
     @staticmethod
@@ -276,7 +291,7 @@ class SVGRenderer:
             grid_items += f"""
     <g transform="translate({gx}, {gy})">
       <rect width="216" height="34" rx="6" fill="{COLOR_CARD_SURFACE}" stroke="{COLOR_CARD_BORDER}" stroke-width="1"/>
-      <circle cx="16" cy="17" r="5" fill="{color}"/>
+      <circle cx="16" cy="17" r="5" fill="{color}" class="lang-dot"/>
       <text x="30" y="21" font-family="{FONT_DISPLAY}" font-size="11" font-weight="600" fill="{COLOR_TEXT_PRIMARY}">{name}</text>
       <text x="202" y="21" text-anchor="end" font-family="{FONT_MONO}" font-size="11" font-weight="700" fill="{color}">{pct}%</text>
     </g>"""
@@ -287,10 +302,30 @@ class SVGRenderer:
       <stop offset="0%" stop-color="{COLOR_BG_START}"/>
       <stop offset="100%" stop-color="{COLOR_BG_END}"/>
     </linearGradient>
+    <linearGradient id="langBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="{COLOR_INDIGO}">
+        <animate attributeName="stop-color" values="{COLOR_INDIGO};{COLOR_AZURE};{COLOR_INDIGO}" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="{COLOR_AZURE}"/>
+    </linearGradient>
+    <linearGradient id="langShine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.35">
+        <animate attributeName="offset" values="0;1;0" dur="3.5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      @keyframes pulseDot {{
+        0%, 100% {{ transform: scale(1); opacity: 0.9; }}
+        50% {{ transform: scale(1.2); opacity: 1; }}
+      }}
+      .lang-dot {{ animation: pulseDot 2s infinite ease-in-out; transform-box: fill-box; transform-origin: center; }}
+    </style>
   </defs>
 
   <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGrad2)" stroke="{COLOR_CARD_BORDER}" stroke-width="1.2"/>
-  <rect x="24" y="1" width="80" height="2" rx="1" fill="{COLOR_INDIGO}"/>
+  <rect x="24" y="1" width="100" height="2.5" rx="1" fill="url(#langBeam)"/>
 
   <g transform="translate(24, 24)">
     <circle cx="5" cy="5" r="4" fill="{COLOR_INDIGO}"/>
@@ -298,10 +333,11 @@ class SVGRenderer:
     <text x="447" y="9" text-anchor="end" font-family="{FONT_MONO}" font-size="10" font-weight="600" fill="{COLOR_TEXT_MUTED}">BY CODE VOLUME</text>
   </g>
 
-  <!-- Progress Bar Container -->
+  <!-- Progress Bar Container with Sweep Shine -->
   <g transform="translate(24, 48)">
     <rect width="447" height="10" rx="5" fill="{COLOR_CARD_SURFACE}"/>
     {progress_segments}
+    <rect width="447" height="10" rx="5" fill="url(#langShine)"/>
   </g>
 
   <!-- Language List Grid -->
@@ -321,13 +357,22 @@ class SVGRenderer:
       <stop offset="100%" stop-color="{COLOR_BG_END}"/>
     </linearGradient>
     <linearGradient id="fireGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="0%" stop-color="#F59E0B">
+        <animate attributeName="stop-color" values="#F59E0B;#EF4444;#F59E0B" dur="2.5s" repeatCount="indefinite"/>
+      </stop>
       <stop offset="100%" stop-color="#EF4444"/>
     </linearGradient>
+    <style>
+      @keyframes floatFlame {{
+        0%, 100% {{ transform: translateY(0px) scale(1); }}
+        50% {{ transform: translateY(-3px) scale(1.1); }}
+      }}
+      .anim-flame {{ animation: floatFlame 2s infinite ease-in-out; display: inline-block; transform-origin: center; }}
+    </style>
   </defs>
 
   <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGradStreak)" stroke="{COLOR_CARD_BORDER}" stroke-width="1.2"/>
-  <rect x="24" y="1" width="80" height="2" rx="1" fill="{COLOR_AMBER}"/>
+  <rect x="24" y="1" width="100" height="2.5" rx="1" fill="url(#fireGrad)"/>
 
   <g transform="translate(24, 24)">
     <circle cx="5" cy="5" r="4" fill="{COLOR_AMBER}"/>
@@ -344,16 +389,16 @@ class SVGRenderer:
 
     <!-- Current Streak -->
     <rect x="153" y="0" width="141" height="110" rx="8" fill="{COLOR_CARD_SURFACE}" stroke="{COLOR_CARD_BORDER}" stroke-width="1"/>
-    <rect x="153" y="0" width="141" height="2" rx="1" fill="url(#fireGrad)"/>
+    <rect x="153" y="0" width="141" height="2.5" rx="1" fill="url(#fireGrad)"/>
     <text x="169" y="24" font-family="{FONT_DISPLAY}" font-size="9" font-weight="600" fill="{COLOR_TEXT_MUTED}">CURRENT STREAK</text>
-    <text x="169" y="58" font-family="{FONT_DISPLAY}" font-size="24" font-weight="800" fill="#F59E0B">18 Days 🔥</text>
+    <text x="169" y="58" font-family="{FONT_DISPLAY}" font-size="23" font-weight="800" fill="#F59E0B">18 Days <tspan class="anim-flame">🔥</tspan></text>
     <text x="169" y="88" font-family="{FONT_MONO}" font-size="9.5" font-weight="500" fill="{COLOR_TEXT_MUTED}">Consistent Commits</text>
 
     <!-- Longest Streak -->
     <rect x="306" y="0" width="141" height="110" rx="8" fill="{COLOR_CARD_SURFACE}" stroke="{COLOR_CARD_BORDER}" stroke-width="1"/>
     <text x="322" y="24" font-family="{FONT_DISPLAY}" font-size="9" font-weight="600" fill="{COLOR_TEXT_MUTED}">LONGEST STREAK</text>
-    <text x="322" y="58" font-family="{FONT_DISPLAY}" font-size="24" font-weight="800" fill="{COLOR_AZURE}">45 Days ⚡</text>
-    <text x="322" y="88" font-family="{FONT_MONO}" font-size="9.5" font-weight="500" fill="{COLOR_INDIGO}">Vel Tech Semester Peak</text>
+    <text x="322" y="58" font-family="{FONT_DISPLAY}" font-size="23" font-weight="800" fill="{COLOR_AZURE}">45 Days ⚡</text>
+    <text x="322" y="88" font-family="{FONT_MONO}" font-size="9.5" font-weight="500" fill="{COLOR_INDIGO}">Vel Tech Peak Term</text>
   </g>
 
   <text x="24" y="198" font-family="{FONT_DISPLAY}" font-size="9" font-weight="500" fill="{COLOR_TEXT_DIM}">Calculated across public repositories &amp; verified commits</text>
@@ -367,10 +412,17 @@ class SVGRenderer:
       <stop offset="0%" stop-color="{COLOR_BG_START}"/>
       <stop offset="100%" stop-color="{COLOR_BG_END}"/>
     </linearGradient>
+    <filter id="glowArch" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGradArch)" stroke="{COLOR_CARD_BORDER}" stroke-width="1.2"/>
-  <rect x="24" y="1" width="80" height="2" rx="1" fill="{COLOR_EMERALD}"/>
+  <rect x="24" y="1" width="100" height="2.5" rx="1" fill="{COLOR_EMERALD}"/>
 
   <g transform="translate(24, 24)">
     <circle cx="5" cy="5" r="4" fill="{COLOR_EMERALD}"/>
@@ -384,35 +436,41 @@ class SVGRenderer:
     <!-- Node 1: Sensor / Embedded -->
     <g transform="translate(18, 16)">
       <rect width="115" height="88" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
-      <rect width="115" height="2" fill="{COLOR_AZURE}" rx="1"/>
+      <rect width="115" height="2.5" fill="{COLOR_AZURE}" rx="1"/>
       <text x="12" y="24" font-family="{FONT_DISPLAY}" font-size="10" font-weight="700" fill="{COLOR_AZURE}">01. SENSORS &amp; IOT</text>
       <text x="12" y="44" font-family="{FONT_MONO}" font-size="9" fill="{COLOR_TEXT_MUTED}">• Pulse Sensor</text>
       <text x="12" y="60" font-family="{FONT_MONO}" font-size="9" fill="{COLOR_TEXT_MUTED}">• Arduino C++</text>
       <text x="12" y="76" font-family="{FONT_MONO}" font-size="9" fill="{COLOR_EMERALD}">• Telemetry In</text>
     </g>
 
-    <!-- Connector 1 -->
+    <!-- Connector 1 with Animated Traveling Packet -->
     <path d="M140 60 L158 60" stroke="{COLOR_AZURE}" stroke-width="1.5" stroke-dasharray="3 3"/>
     <polygon points="160,60 154,57 154,63" fill="{COLOR_AZURE}"/>
+    <circle r="3" fill="#7AF2FF" filter="url(#glowArch)">
+      <animateMotion path="M140 60 L158 60" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
 
     <!-- Node 2: Core Processing & Backend -->
     <g transform="translate(166, 16)">
       <rect width="115" height="88" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
-      <rect width="115" height="2" fill="{COLOR_INDIGO}" rx="1"/>
+      <rect width="115" height="2.5" fill="{COLOR_INDIGO}" rx="1"/>
       <text x="12" y="24" font-family="{FONT_DISPLAY}" font-size="10" font-weight="700" fill="{COLOR_INDIGO}">02. JAVA &amp; APIS</text>
       <text x="12" y="44" font-family="{FONT_MONO}" font-size="9" fill="{COLOR_TEXT_MUTED}">• Java OOP Core</text>
       <text x="12" y="60" font-family="{FONT_MONO}" font-size="9" fill="{COLOR_TEXT_MUTED}">• Signal Filter</text>
       <text x="12" y="76" font-family="{FONT_MONO}" font-size="9" fill="{COLOR_EMERALD}">• MySQL Data</text>
     </g>
 
-    <!-- Connector 2 -->
+    <!-- Connector 2 with Animated Traveling Packet -->
     <path d="M288 60 L306 60" stroke="{COLOR_INDIGO}" stroke-width="1.5" stroke-dasharray="3 3"/>
     <polygon points="308,60 302,57 302,63" fill="{COLOR_INDIGO}"/>
+    <circle r="3" fill="#A78BFA" filter="url(#glowArch)">
+      <animateMotion path="M288 60 L306 60" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
 
     <!-- Node 3: React Frontend -->
     <g transform="translate(314, 16)">
       <rect width="115" height="88" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
-      <rect width="115" height="2" fill="{COLOR_EMERALD}" rx="1"/>
+      <rect width="115" height="2.5" fill="{COLOR_EMERALD}" rx="1"/>
       <text x="12" y="24" font-family="{FONT_DISPLAY}" font-size="10" font-weight="700" fill="{COLOR_EMERALD}">03. REACT CLIENT</text>
       <text x="12" y="44" font-family="{FONT_MONO}" font-size="9" fill="{COLOR_TEXT_MUTED}">• Live Dashboards</text>
       <text x="12" y="60" font-family="{FONT_MONO}" font-size="9" fill="{COLOR_TEXT_MUTED}">• Tailwind UI</text>
@@ -420,7 +478,7 @@ class SVGRenderer:
     </g>
   </g>
 
-  <text x="24" y="198" font-family="{FONT_DISPLAY}" font-size="9" font-weight="500" fill="{COLOR_TEXT_DIM}">End-to-End hardware telemetry to modern web dashboard architecture</text>
+  <text x="24" y="198" font-family="{FONT_DISPLAY}" font-size="9" font-weight="500" fill="{COLOR_TEXT_DIM}">Live Telemetry Pipeline · Sensors ➜ Microcontroller ➜ Backend ➜ Reactive UI</text>
 </svg>"""
 
     @staticmethod
@@ -430,6 +488,13 @@ class SVGRenderer:
     <linearGradient id="sb-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="{COLOR_BG_START}"/>
       <stop offset="100%" stop-color="{COLOR_BG_END}"/>
+    </linearGradient>
+    <linearGradient id="sb-shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.35">
+        <animate attributeName="offset" values="0;1;0" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
     </linearGradient>
     <style>
       .font-display {{ font-family: {FONT_DISPLAY}; }}
@@ -443,18 +508,17 @@ class SVGRenderer:
   </defs>
 
   <rect width="1200" height="48" rx="8" fill="url(#sb-bg)" stroke="{COLOR_CARD_BORDER}" stroke-width="1.2"/>
+  <rect width="1200" height="48" rx="8" fill="url(#sb-shine)"/>
 
   <!-- Left: Live Status -->
   <g transform="translate(20, 14)">
     <rect width="12" height="12" rx="6" fill="#065F46"/>
     <circle cx="6" cy="6" r="3.5" fill="{COLOR_EMERALD}" class="pulse-circle"/>
-    <text x="20" y="15" class="font-mono" font-size="10" font-weight="700" fill="{COLOR_EMERALD}" letter-spacing="0.5">{status_text}</text>
+    <text x="20" y="10" class="font-mono" font-size="10.5" font-weight="700" fill="{COLOR_EMERALD}" letter-spacing="0.5">{status_text}</text>
   </g>
 
-  <!-- Center/Right: Engineering Focus -->
-  <text x="1176" y="29" text-anchor="end" class="font-mono" font-size="11" fill="{COLOR_TEXT_MUTED}">
-    CURRENT FOCUS: <tspan fill="{COLOR_AZURE}" font-weight="600">{focus_text}</tspan>
-  </text>
+  <!-- Right: Sub Focus -->
+  <text x="1180" y="29" text-anchor="end" class="font-mono" font-size="10.5" font-weight="500" fill="{COLOR_TEXT_MUTED}">{focus_text}</text>
 </svg>"""
 
     @staticmethod
@@ -465,12 +529,24 @@ class SVGRenderer:
       <stop offset="0%" stop-color="{COLOR_BG_START}"/>
       <stop offset="100%" stop-color="{COLOR_BG_END}"/>
     </linearGradient>
+    <linearGradient id="trophy-gleam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.25">
+        <animate attributeName="offset" values="0;1;0" dur="3.5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
     <style>
       .font-display {{ font-family: {FONT_DISPLAY}; }}
       .font-mono {{ font-family: {FONT_MONO}; }}
       .t-title {{ font-weight: 700; font-size: 13px; fill: {COLOR_TEXT_PRIMARY}; }}
       .t-sub {{ font-size: 10px; fill: {COLOR_TEXT_MUTED}; }}
       .t-badge {{ font-size: 9px; font-weight: 700; }}
+      @keyframes badgePulse {{
+        0%, 100% {{ opacity: 0.9; }}
+        50% {{ opacity: 1; }}
+      }}
+      .badge-glow {{ animation: badgePulse 2.5s infinite ease-in-out; }}
     </style>
   </defs>
 
@@ -479,52 +555,52 @@ class SVGRenderer:
   <!-- Achievement 1: Academic Excellence -->
   <g transform="translate(20, 16)">
     <rect width="275" height="98" rx="8" fill="{COLOR_CARD_SURFACE}" stroke="{COLOR_CARD_BORDER}" stroke-width="1"/>
-    <rect width="275" height="2" fill="{COLOR_AMBER}" rx="1"/>
+    <rect width="275" height="2.5" fill="{COLOR_AMBER}" rx="1"/>
     <circle cx="32" cy="40" r="18" fill="#78350F" stroke="{COLOR_AMBER}" stroke-width="1"/>
     <text x="32" y="46" text-anchor="middle" font-size="16">🎓</text>
     <text x="60" y="34" class="font-display t-title">Academic Distinction</text>
     <text x="60" y="50" class="font-mono t-sub">Vel Tech CSE (2024–2028)</text>
     <text x="60" y="66" class="font-mono t-sub">VTU29661 · Top Percentile</text>
-    <rect x="60" y="74" width="95" height="16" rx="3" fill="#451A03"/>
+    <rect x="60" y="74" width="95" height="16" rx="3" fill="#451A03" class="badge-glow"/>
     <text x="107" y="86" text-anchor="middle" class="font-mono t-badge" fill="{COLOR_AMBER}">ACADEMIC STAR</text>
   </g>
 
   <!-- Achievement 2: Java Specialist -->
   <g transform="translate(315, 16)">
     <rect width="275" height="98" rx="8" fill="{COLOR_CARD_SURFACE}" stroke="{COLOR_CARD_BORDER}" stroke-width="1"/>
-    <rect width="275" height="2" fill="{COLOR_AZURE}" rx="1"/>
+    <rect width="275" height="2.5" fill="{COLOR_AZURE}" rx="1"/>
     <circle cx="32" cy="40" r="18" fill="#0C4A6E" stroke="{COLOR_AZURE}" stroke-width="1"/>
     <text x="32" y="46" text-anchor="middle" font-size="16">☕</text>
     <text x="60" y="34" class="font-display t-title">Java &amp; OOP Specialist</text>
     <text x="60" y="50" class="font-mono t-sub">Object-Oriented Architecture</text>
     <text x="60" y="66" class="font-mono t-sub">DSA Problem Solving &amp; ACS</text>
-    <rect x="60" y="74" width="105" height="16" rx="3" fill="#082F49"/>
+    <rect x="60" y="74" width="105" height="16" rx="3" fill="#082F49" class="badge-glow"/>
     <text x="112" y="86" text-anchor="middle" class="font-mono t-badge" fill="{COLOR_AZURE}">CORE ENGINEER</text>
   </g>
 
   <!-- Achievement 3: IoT Innovator -->
   <g transform="translate(610, 16)">
     <rect width="275" height="98" rx="8" fill="{COLOR_CARD_SURFACE}" stroke="{COLOR_CARD_BORDER}" stroke-width="1"/>
-    <rect width="275" height="2" fill="{COLOR_EMERALD}" rx="1"/>
+    <rect width="275" height="2.5" fill="{COLOR_EMERALD}" rx="1"/>
     <circle cx="32" cy="40" r="18" fill="#064E3B" stroke="{COLOR_EMERALD}" stroke-width="1"/>
     <text x="32" y="46" text-anchor="middle" font-size="16">⚡</text>
     <text x="60" y="34" class="font-display t-title">Smart IoT Hardware</text>
     <text x="60" y="50" class="font-mono t-sub">Mountain Road Hazard Alert</text>
     <text x="60" y="66" class="font-mono t-sub">Pulse Rate Telemetry Device</text>
-    <rect x="60" y="74" width="95" height="16" rx="3" fill="#022C22"/>
+    <rect x="60" y="74" width="95" height="16" rx="3" fill="#022C22" class="badge-glow"/>
     <text x="107" y="86" text-anchor="middle" class="font-mono t-badge" fill="{COLOR_EMERALD}">HARDWARE LEAD</text>
   </g>
 
   <!-- Achievement 4: Full-Stack Builder -->
   <g transform="translate(905, 16)">
     <rect width="275" height="98" rx="8" fill="{COLOR_CARD_SURFACE}" stroke="{COLOR_CARD_BORDER}" stroke-width="1"/>
-    <rect width="275" height="2" fill="{COLOR_INDIGO}" rx="1"/>
+    <rect width="275" height="2.5" fill="{COLOR_INDIGO}" rx="1"/>
     <circle cx="32" cy="40" r="18" fill="#312E81" stroke="{COLOR_INDIGO}" stroke-width="1"/>
     <text x="32" y="46" text-anchor="middle" font-size="16">🚀</text>
     <text x="60" y="34" class="font-display t-title">Full-Stack Web Craftsman</text>
     <text x="60" y="50" class="font-mono t-sub">Modern React &amp; Tailwind</text>
     <text x="60" y="66" class="font-mono t-sub">Women's E-Commerce Web</text>
-    <rect x="60" y="74" width="105" height="16" rx="3" fill="#1E1B4B"/>
+    <rect x="60" y="74" width="105" height="16" rx="3" fill="#1E1B4B" class="badge-glow"/>
     <text x="112" y="86" text-anchor="middle" class="font-mono t-badge" fill="{COLOR_INDIGO}">WEB ARCHITECT</text>
   </g>
 </svg>"""
@@ -547,6 +623,11 @@ class SVGRenderer:
       <stop offset="50%" stop-color="{COLOR_INDIGO}"/>
       <stop offset="100%" stop-color="{COLOR_EMERALD}"/>
     </linearGradient>
+    <linearGradient id="ag-scan-beam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+    </linearGradient>
     <filter id="ag-glow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
@@ -554,6 +635,13 @@ class SVGRenderer:
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <style>
+      @keyframes pulseDotPeak {{
+        0%, 100% {{ r: 4px; opacity: 0.8; }}
+        50% {{ r: 6.5px; opacity: 1; }}
+      }}
+      .peak-dot {{ animation: pulseDotPeak 2s infinite ease-in-out; }}
+    </style>
   </defs>
 
   <rect width="1200" height="240" rx="12" fill="url(#ag-bg)" stroke="{COLOR_CARD_BORDER}" stroke-width="1.2"/>
@@ -562,7 +650,7 @@ class SVGRenderer:
   <g transform="translate(24, 24)">
     <circle cx="5" cy="5" r="4" fill="{COLOR_AZURE}"/>
     <text x="16" y="9" font-family="{FONT_DISPLAY}" font-size="12" font-weight="700" fill="{COLOR_TEXT_PRIMARY}" letter-spacing="0.5">CONTRIBUTION VELOCITY &amp; ACTIVITY GRAPH</text>
-    <text x="1152" y="9" text-anchor="end" font-family="{FONT_MONO}" font-size="10" font-weight="600" fill="{COLOR_AZURE}">ANNUAL OUTPUT TRAJECTORY</text>
+    <text x="1152" y="9" text-anchor="end" font-family="{FONT_MONO}" font-size="10" font-weight="600" fill="{COLOR_AZURE}">ANNUAL OUTPUT TRAJECTORY · 60 FPS</text>
   </g>
 
   <!-- Grid Horizontal Lines -->
@@ -595,11 +683,17 @@ class SVGRenderer:
              C 800 30, 860 15, 920 25 
              C 980 35, 1040 10, 1080 15" fill="none" stroke="url(#ag-stroke-grad)" stroke-width="3" stroke-linecap="round" filter="url(#ag-glow)"/>
 
-    <!-- High Points Marker Dots -->
-    <circle cx="200" cy="85" r="4" fill="{COLOR_AZURE}" stroke="#0B0F19" stroke-width="2"/>
-    <circle cx="560" cy="30" r="5" fill="{COLOR_INDIGO}" stroke="#0B0F19" stroke-width="2"/>
-    <circle cx="920" cy="25" r="4" fill="{COLOR_EMERALD}" stroke="#0B0F19" stroke-width="2"/>
-    <circle cx="1080" cy="15" r="5" fill="{COLOR_EMERALD}" stroke="#0B0F19" stroke-width="2"/>
+    <!-- Scanning Radar Laser Sweep Line -->
+    <line x1="0" y1="0" x2="0" y2="140" stroke="url(#ag-scan-beam)" stroke-width="2" opacity="0.75">
+      <animate attributeName="x1" values="0;1080;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1080;0" dur="8s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- High Points Marker Dots with Pulse -->
+    <circle cx="200" cy="85" r="4" fill="{COLOR_AZURE}" stroke="#0B0F19" stroke-width="2" class="peak-dot"/>
+    <circle cx="560" cy="30" r="5" fill="{COLOR_INDIGO}" stroke="#0B0F19" stroke-width="2" class="peak-dot"/>
+    <circle cx="920" cy="25" r="4" fill="{COLOR_EMERALD}" stroke="#0B0F19" stroke-width="2" class="peak-dot"/>
+    <circle cx="1080" cy="15" r="5" fill="{COLOR_EMERALD}" stroke="#0B0F19" stroke-width="2" class="peak-dot"/>
   </g>
 
   <!-- Month Markers -->

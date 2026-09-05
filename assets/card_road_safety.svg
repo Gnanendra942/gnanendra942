@@ -1,51 +1,86 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 220" width="100%" height="100%">
   <defs>
     <linearGradient id="bg-rs" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B0F19"/>
-      <stop offset="100%" stop-color="#111827"/>
+      <stop offset="0%" stop-color="#120D04"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#080C14"/>
     </linearGradient>
+
+    <linearGradient id="beam-rs" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B">
+        <animate attributeName="stop-color" values="#F59E0B;#EF4444;#F59E0B" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
     <style>
       .font-display { font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
       .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace; }
-      .card-title { font-weight: 700; font-size: 18px; fill: #F8FAFC; }
+      .card-title { font-weight: 700; font-size: 17px; fill: #F8FAFC; }
       .card-desc { font-size: 11px; fill: #94A3B8; }
-      .card-chip { font-size: 10px; font-weight: 600; }
+      .card-chip { font-size: 10px; font-weight: 700; }
+      
+      @keyframes sonarRing {
+        0% { r: 6px; opacity: 0.9; }
+        100% { r: 40px; opacity: 0; }
+      }
+      @keyframes hazardFlash {
+        0%, 100% { fill: #F59E0B; opacity: 1; }
+        50% { fill: #EF4444; opacity: 0.4; }
+      }
+      .sonar-1 { animation: sonarRing 2s infinite cubic-bezier(0, 0.2, 0.8, 1); }
+      .sonar-2 { animation: sonarRing 2s infinite cubic-bezier(0, 0.2, 0.8, 1) 0.7s; }
+      .anim-hazard { animation: hazardFlash 1.2s infinite ease-in-out; }
     </style>
   </defs>
 
   <rect width="580" height="220" rx="12" fill="url(#bg-rs)" stroke="#1E293B" stroke-width="1.2"/>
-  <rect x="0" y="0" width="580" height="2" rx="1" fill="#38BDF8"/>
+  <rect x="0" y="0" width="580" height="3" rx="1.5" fill="url(#beam-rs)"/>
   
-  <!-- Status Badge -->
-  <g transform="translate(415, 20)">
-    <rect x="0" y="0" width="140" height="22" rx="4" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <circle cx="10" cy="11" r="3" fill="#10B981"/>
-    <text x="20" y="15" class="font-mono card-chip" fill="#10B981">SMART IOT SYSTEM</text>
+  <!-- Status Badge with Hazard Flash -->
+  <g transform="translate(370, 18)">
+    <rect width="185" height="24" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="12" cy="12" r="4" class="anim-hazard"/>
+    <text x="22" y="16" class="font-mono card-chip" fill="#F59E0B">CURVED ROAD RADAR</text>
+  </g>
+
+  <!-- Ultrasonic Radar Sonar Animation (Right side ambient) -->
+  <g transform="translate(480, 105)" opacity="0.45">
+    <circle cx="0" cy="0" r="4" fill="#F59E0B"/>
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#F59E0B" stroke-width="1.5" class="sonar-1"/>
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#EF4444" stroke-width="1.5" class="sonar-2"/>
   </g>
 
   <!-- Title & Description -->
-  <text x="24" y="42" class="font-display card-title">Intelligent Curved Road Safety</text>
-  <text x="24" y="78" class="font-mono card-desc">
-    <tspan x="24" dy="0">• Smart infrastructure hardware for blind mountain curves &amp; sharp bends.</tspan>
-    <tspan x="24" dy="18">• Automatic hazard warning signals, speed telemetry &amp; collision prevention.</tspan>
-    <tspan x="24" dy="18">• Arduino C++ · Distance &amp; Motion Sensors · Real-Time LED Warning Hub</tspan>
+  <text x="24" y="38" class="font-display card-title">Curved Road Safety System</text>
+  <text x="24" y="72" class="font-mono card-desc">
+    <tspan x="24" dy="0">• IoT collision avoidance for mountain hairpins &amp; blind curves.</tspan>
+    <tspan x="24" dy="18">• Ultrasonic radar sensing detects oncoming vehicular motion &amp; speed.</tspan>
+    <tspan x="24" dy="18">• Arduino Uno · HC-SR04 Sonar · LED Array · Real-time Hazard Alert</tspan>
   </text>
 
+  <!-- Telemetry Sensor Status Line -->
+  <g transform="translate(24, 134)">
+    <rect width="320" height="22" rx="4" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="12" cy="11" r="3" fill="#10B981"/>
+    <text x="22" y="15" class="font-mono" font-size="9.5" fill="#10B981">RADAR TELEMETRY: <tspan fill="#F8FAFC">0.05s LATENCY DETECTION</tspan></text>
+  </g>
+
   <!-- Tech Tags -->
-  <g transform="translate(24, 156)">
-    <rect x="0" y="0" width="80" height="24" rx="4" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="40" y="16" text-anchor="middle" class="font-mono card-chip" fill="#38BDF8">ARDUINO</text>
+  <g transform="translate(24, 172)">
+    <rect width="80" height="26" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="40" y="17" text-anchor="middle" class="font-mono card-chip" fill="#F59E0B">ARDUINO</text>
 
-    <rect x="88" y="0" width="90" height="24" rx="4" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="133" y="16" text-anchor="middle" class="font-mono card-chip" fill="#60A5FA">IOT SENSORS</text>
+    <rect x="88" width="75" height="26" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="125" y="17" text-anchor="middle" class="font-mono card-chip" fill="#EF4444">C++ / UNO</text>
 
-    <rect x="186" y="0" width="95" height="24" rx="4" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="233" y="16" text-anchor="middle" class="font-mono card-chip" fill="#10B981">SAFETY TECH</text>
+    <rect x="171" width="95" height="26" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="218" y="17" text-anchor="middle" class="font-mono card-chip" fill="#10B981">ULTRASONIC</text>
   </g>
 
   <!-- View Repo Link -->
-  <g transform="translate(425, 156)">
-    <rect x="0" y="0" width="130" height="24" rx="4" fill="#38BDF8"/>
-    <text x="65" y="16" text-anchor="middle" class="font-display" font-size="10.5" font-weight="700" fill="#0B0F19">VIEW PROJECT ➔</text>
+  <g transform="translate(425, 172)">
+    <rect width="130" height="26" rx="5" fill="#D97706"/>
+    <text x="65" y="17" text-anchor="middle" class="font-display" font-size="11" font-weight="700" fill="#FFFFFF">VIEW PROJECT ➔</text>
   </g>
 </svg>

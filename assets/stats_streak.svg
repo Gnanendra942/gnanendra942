@@ -5,13 +5,22 @@
       <stop offset="100%" stop-color="#111827"/>
     </linearGradient>
     <linearGradient id="fireGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="0%" stop-color="#F59E0B">
+        <animate attributeName="stop-color" values="#F59E0B;#EF4444;#F59E0B" dur="2.5s" repeatCount="indefinite"/>
+      </stop>
       <stop offset="100%" stop-color="#EF4444"/>
     </linearGradient>
+    <style>
+      @keyframes floatFlame {
+        0%, 100% { transform: translateY(0px) scale(1); }
+        50% { transform: translateY(-3px) scale(1.1); }
+      }
+      .anim-flame { animation: floatFlame 2s infinite ease-in-out; display: inline-block; transform-origin: center; }
+    </style>
   </defs>
 
   <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGradStreak)" stroke="#1E293B" stroke-width="1.2"/>
-  <rect x="24" y="1" width="80" height="2" rx="1" fill="#F59E0B"/>
+  <rect x="24" y="1" width="100" height="2.5" rx="1" fill="url(#fireGrad)"/>
 
   <g transform="translate(24, 24)">
     <circle cx="5" cy="5" r="4" fill="#F59E0B"/>
@@ -28,16 +37,16 @@
 
     <!-- Current Streak -->
     <rect x="153" y="0" width="141" height="110" rx="8" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <rect x="153" y="0" width="141" height="2" rx="1" fill="url(#fireGrad)"/>
+    <rect x="153" y="0" width="141" height="2.5" rx="1" fill="url(#fireGrad)"/>
     <text x="169" y="24" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#94A3B8">CURRENT STREAK</text>
-    <text x="169" y="58" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="800" fill="#F59E0B">18 Days 🔥</text>
+    <text x="169" y="58" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="23" font-weight="800" fill="#F59E0B">18 Days <tspan class="anim-flame">🔥</tspan></text>
     <text x="169" y="88" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9.5" font-weight="500" fill="#94A3B8">Consistent Commits</text>
 
     <!-- Longest Streak -->
     <rect x="306" y="0" width="141" height="110" rx="8" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
     <text x="322" y="24" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#94A3B8">LONGEST STREAK</text>
-    <text x="322" y="58" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="800" fill="#38BDF8">45 Days ⚡</text>
-    <text x="322" y="88" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9.5" font-weight="500" fill="#818CF8">Vel Tech Semester Peak</text>
+    <text x="322" y="58" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="23" font-weight="800" fill="#38BDF8">45 Days ⚡</text>
+    <text x="322" y="88" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9.5" font-weight="500" fill="#818CF8">Vel Tech Peak Term</text>
   </g>
 
   <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#64748B">Calculated across public repositories &amp; verified commits</text>

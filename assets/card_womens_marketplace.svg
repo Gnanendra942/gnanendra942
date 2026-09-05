@@ -1,51 +1,80 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 220" width="100%" height="100%">
   <defs>
     <linearGradient id="bg-wm" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B0F19"/>
-      <stop offset="100%" stop-color="#111827"/>
+      <stop offset="0%" stop-color="#080D1A"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#070A12"/>
     </linearGradient>
+
+    <linearGradient id="beam-wm" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#38BDF8" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
     <style>
       .font-display { font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
       .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace; }
-      .card-title { font-weight: 700; font-size: 18px; fill: #F8FAFC; }
+      .card-title { font-weight: 700; font-size: 17px; fill: #F8FAFC; }
       .card-desc { font-size: 11px; fill: #94A3B8; }
-      .card-chip { font-size: 10px; font-weight: 600; }
+      .card-chip { font-size: 10px; font-weight: 700; }
+      
+      @keyframes pulseDot {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(1.4); }
+      }
+      .anim-dot { animation: pulseDot 2s infinite ease-in-out; transform-box: fill-box; transform-origin: center; }
     </style>
   </defs>
 
   <rect width="580" height="220" rx="12" fill="url(#bg-wm)" stroke="#1E293B" stroke-width="1.2"/>
-  <rect x="0" y="0" width="580" height="2" rx="1" fill="#A78BFA"/>
+  <rect x="0" y="0" width="580" height="3" rx="1.5" fill="url(#beam-wm)"/>
   
   <!-- Status Badge -->
-  <g transform="translate(415, 20)">
-    <rect x="0" y="0" width="140" height="22" rx="4" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <circle cx="10" cy="11" r="3" fill="#A78BFA"/>
-    <text x="20" y="15" class="font-mono card-chip" fill="#A78BFA">FULL-STACK WEB</text>
+  <g transform="translate(370, 18)">
+    <rect width="185" height="24" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="12" cy="12" r="3.5" fill="#10B981" class="anim-dot"/>
+    <text x="22" y="16" class="font-mono card-chip" fill="#10B981">FLAGSHIP PLATFORM</text>
   </g>
 
   <!-- Title & Description -->
-  <text x="24" y="42" class="font-display card-title">Women’s Empowerment Market</text>
-  <text x="24" y="78" class="font-mono card-desc">
-    <tspan x="24" dy="0">• Digital marketplace platform empowering local women artisans &amp; sellers.</tspan>
-    <tspan x="24" dy="18">• Dynamic storefronts, product catalog, cart flows &amp; community support.</tspan>
-    <tspan x="24" dy="18">• React · JavaScript ES6+ · Responsive UI · Modular Architecture</tspan>
+  <text x="24" y="38" class="font-display card-title">Women's Marketplace</text>
+  <text x="24" y="72" class="font-mono card-desc">
+    <tspan x="24" dy="0">• Empowering local women artisans through digital storefronts.</tspan>
+    <tspan x="24" dy="18">• Real-time seller dashboard, stock tracking &amp; checkout workflows.</tspan>
+    <tspan x="24" dy="18">• React · Node.js · Express · MongoDB · JWT Auth · Tailwind CSS</tspan>
   </text>
 
+  <!-- Micro Architecture Diagram inside card -->
+  <g transform="translate(24, 134)" opacity="0.8">
+    <rect width="70" height="18" rx="3" fill="#141C2E" stroke="#38BDF8" stroke-width="0.8"/>
+    <text x="35" y="13" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#38BDF8">React UI</text>
+    <line x1="72" y1="9" x2="88" y2="9" stroke="#38BDF8" stroke-width="1" stroke-dasharray="2 2"/>
+    
+    <rect x="90" width="80" height="18" rx="3" fill="#141C2E" stroke="#818CF8" stroke-width="0.8"/>
+    <text x="130" y="13" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#818CF8">Express API</text>
+    <line x1="172" y1="9" x2="188" y2="9" stroke="#818CF8" stroke-width="1" stroke-dasharray="2 2"/>
+    
+    <rect x="190" width="70" height="18" rx="3" fill="#141C2E" stroke="#10B981" stroke-width="0.8"/>
+    <text x="225" y="13" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#10B981">MongoDB</text>
+  </g>
+
   <!-- Tech Tags -->
-  <g transform="translate(24, 156)">
-    <rect x="0" y="0" width="75" height="24" rx="4" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="37" y="16" text-anchor="middle" class="font-mono card-chip" fill="#61DAFB">REACT</text>
+  <g transform="translate(24, 172)">
+    <rect width="65" height="26" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="32" y="17" text-anchor="middle" class="font-mono card-chip" fill="#38BDF8">REACT</text>
 
-    <rect x="83" y="0" width="95" height="24" rx="4" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="130" y="16" text-anchor="middle" class="font-mono card-chip" fill="#F7DF1E">JAVASCRIPT</text>
+    <rect x="73" width="75" height="26" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="110" y="17" text-anchor="middle" class="font-mono card-chip" fill="#10B981">NODE.JS</text>
 
-    <rect x="186" y="0" width="90" height="24" rx="4" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="231" y="16" text-anchor="middle" class="font-mono card-chip" fill="#A78BFA">E-COMMERCE</text>
+    <rect x="156" width="75" height="26" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="193" y="17" text-anchor="middle" class="font-mono card-chip" fill="#818CF8">MONGODB</text>
   </g>
 
   <!-- View Repo Link -->
-  <g transform="translate(425, 156)">
-    <rect x="0" y="0" width="130" height="24" rx="4" fill="#A78BFA"/>
-    <text x="65" y="16" text-anchor="middle" class="font-display" font-size="10.5" font-weight="700" fill="#0B0F19">VIEW PROJECT ➔</text>
+  <g transform="translate(425, 172)">
+    <rect width="130" height="26" rx="5" fill="#2563EB"/>
+    <text x="65" y="17" text-anchor="middle" class="font-display" font-size="11" font-weight="700" fill="#FFFFFF">VIEW PROJECT ➔</text>
   </g>
 </svg>
