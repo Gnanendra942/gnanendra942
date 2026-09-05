@@ -50,8 +50,10 @@
   <!-- Status Badge with Pulsing Heart -->
   <g transform="translate(375, 18)">
     <rect width="180" height="24" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <g class="anim-heart" transform="translate(12, 12)">
-      <circle cx="0" cy="0" r="4.5" fill="#EF4444"/>
+    <g transform="translate(12, 12)">
+      <g class="anim-heart">
+        <circle cx="0" cy="0" r="4.5" fill="#EF4444"/>
+      </g>
     </g>
     <text x="24" y="16" class="font-mono card-chip" fill="#EF4444">BIOMEDICAL IOT</text>
     <text x="140" y="16" class="font-mono card-chip" fill="#38BDF8">72 BPM</text>

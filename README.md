@@ -364,7 +364,7 @@ I am actively seeking software engineering internships, open-source collaboratio
   <a href="mailto:gnanendrareddy19@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B0F19" alt="Email"/>
   </a>
-<br/>
+</p>
 
 <!-- Direct Featured Live Project Launch Banner -->
 <p align="center">

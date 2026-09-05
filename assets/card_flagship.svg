@@ -63,8 +63,10 @@
   <!-- Left Icon Frame with Glowing Ambient -->
   <g transform="translate(36, 42)">
     <rect width="70" height="70" rx="14" fill="#141C2E" stroke="#1E293B" stroke-width="1.2" filter="url(#f-glow)"/>
-    <g class="anim-icon" transform="translate(35, 45)">
-      <text text-anchor="middle" font-size="32">🛍️</text>
+    <g transform="translate(35, 45)">
+      <g class="anim-icon">
+        <text text-anchor="middle" font-size="32">🛍️</text>
+      </g>
     </g>
   </g>
 

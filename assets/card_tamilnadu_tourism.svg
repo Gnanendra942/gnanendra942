@@ -63,8 +63,10 @@
   <!-- Left Icon Frame with Glowing Temple Motifs -->
   <g transform="translate(36, 42)">
     <rect width="80" height="80" rx="16" fill="#141C2E" stroke="#8A1538" stroke-width="1.4" filter="url(#tn-glow)"/>
-    <g class="anim-float" transform="translate(40, 52)">
-      <text text-anchor="middle" font-size="38">🏛️</text>
+    <g transform="translate(40, 52)">
+      <g class="anim-float">
+        <text text-anchor="middle" font-size="38">🏛️</text>
+      </g>
     </g>
   </g>
 
