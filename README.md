@@ -12,7 +12,7 @@
 
 <!-- Dynamic Typing SVG Banner -->
 <a href="https://github.com/Gnanendra942">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2800&pause=1200&color=38BDF8&background=0B0F1900&center=true&vCenter=true&multiline=true&width=750&height=50&lines=🚀+Full-Stack+Web+Craftsman+•+React+19%2C+TypeScript%2C+Next.js+%26+Node.js;☕+Core+Java+21+Specialist+•+OOP+Architecture+%26+Applied+DSA;⚡+Smart+Embedded+IoT+Engineer+•+Real-Time+Telemetry+%26+Hardware;🎓+3rd-Year+B.Tech+CSE+at+Vel+Tech+University%2C+Chennai+(VTU29661);🌐+Building+High-Performance+Web+Apps+with+60+FPS+Fluid+Interactivity" alt="Dynamic Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2800&pause=1200&color=38BDF8&background=0B0F1900&center=true&vCenter=true&width=700&lines=Building+modern+full-stack+web+apps+with+React+%26+Node.js;Core+Java+21+%26+Applied+OOP+Algorithmic+Problem+Solving;Smart+embedded+IoT+hardware+telemetry+%26+sensor+networks;3rd-Year+B.Tech+CSE+at+Vel+Tech+University%2C+Chennai;Crafting+responsive+digital+products+with+60+FPS+fluid+motion" alt="Dynamic Typing SVG" />
 </a>
 
 <br/>
@@ -114,7 +114,7 @@ flowchart LR
     subgraph Backend["☕ Java & Node Backend"]
         C1 --> D1["Signal Acquisition / Parser"]
         D1 --> E1["Java 21 Core OOP Logic"]
-        E1 --> F1[("MySQL / MongoDB Datastore")]
+        E1 --> F1["MySQL & MongoDB Datastore"]
         F1 --> G1["Express REST API & JWT"]
     end
 
