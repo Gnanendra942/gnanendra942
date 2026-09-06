@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%" height="100%">
+  <defs>
+    <!-- Deep Navy to Electric Purple & Indigo Gradient -->
+    <linearGradient id="wave-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="35%" stop-color="#0B0F24"/>
+      <stop offset="70%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+
+    <!-- Glowing Cyber Perimeter Beam -->
+    <linearGradient id="wave-border-beam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#C084FC;#38BDF8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#1E293B" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#818CF8">
+        <animate attributeName="stop-color" values="#818CF8;#C084FC;#38BDF8;#818CF8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Shimmering Name Gradient -->
+    <linearGradient id="wave-name-shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF">
+        <animate attributeName="stop-color" values="#FFFFFF;#7AF2FF;#C084FC;#FFFFFF" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#7AF2FF">
+        <animate attributeName="stop-color" values="#7AF2FF;#C084FC;#FFFFFF;#7AF2FF" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#C084FC">
+        <animate attributeName="stop-color" values="#C084FC;#FFFFFF;#7AF2FF;#C084FC" dur="5s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Wave Layer Gradients -->
+    <linearGradient id="wave-grad-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <linearGradient id="wave-grad-2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#C084FC" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <linearGradient id="wave-grad-3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#4F46E5" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <filter id="wave-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .font-display { font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace; }
+
+      @keyframes waveSlide1 {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(-60px); }
+        100% { transform: translateX(0); }
+      }
+      @keyframes waveSlide2 {
+        0% { transform: translateX(-40px); }
+        50% { transform: translateX(20px); }
+        100% { transform: translateX(-40px); }
+      }
+      @keyframes fadeInName {
+        0% { opacity: 0; transform: translateY(6px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes blinkCursor {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes cycleRole1 {
+        0%, 20% { opacity: 1; transform: translateY(0); }
+        25%, 100% { opacity: 0; transform: translateY(-8px); }
+      }
+      @keyframes cycleRole2 {
+        0%, 24% { opacity: 0; transform: translateY(8px); }
+        26%, 46% { opacity: 1; transform: translateY(0); }
+        51%, 100% { opacity: 0; transform: translateY(-8px); }
+      }
+      @keyframes cycleRole3 {
+        0%, 49% { opacity: 0; transform: translateY(8px); }
+        51%, 71% { opacity: 1; transform: translateY(0); }
+        76%, 100% { opacity: 0; transform: translateY(-8px); }
+      }
+      @keyframes cycleRole4 {
+        0%, 74% { opacity: 0; transform: translateY(8px); }
+        76%, 96% { opacity: 1; transform: translateY(0); }
+        100% { opacity: 0; transform: translateY(-8px); }
+      }
+
+      .anim-wave-1 { animation: waveSlide1 7s ease-in-out infinite; }
+      .anim-wave-2 { animation: waveSlide2 9s ease-in-out infinite; }
+      .anim-fade-name { animation: fadeInName 1.2s ease-out forwards; }
+      .anim-cursor { animation: blinkCursor 0.8s infinite; }
+      .role-1 { animation: cycleRole1 12s infinite; }
+      .role-2 { animation: cycleRole2 12s infinite; }
+      .role-3 { animation: cycleRole3 12s infinite; }
+      .role-4 { animation: cycleRole4 12s infinite; }
+    </style>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="1200" height="260" rx="16" fill="url(#wave-bg)" stroke="url(#wave-border-beam)" stroke-width="1.8"/>
+
+  <!-- Fluid Wave 3 (Deepest) -->
+  <g class="anim-wave-2">
+    <path d="M-100,190 C150,160 350,220 600,180 C850,140 1050,210 1300,180 L1300,260 L-100,260 Z" fill="url(#wave-grad-3)"/>
+  </g>
+
+  <!-- Fluid Wave 2 (Mid layer) -->
+  <g class="anim-wave-1">
+    <path d="M-80,205 C180,180 400,230 650,195 C900,160 1100,225 1350,200 L1350,260 L-80,260 Z" fill="url(#wave-grad-2)"/>
+  </g>
+
+  <!-- Fluid Wave 1 (Front crest) -->
+  <g class="anim-wave-2">
+    <path d="M-60,220 C220,195 440,240 700,210 C940,180 1150,235 1400,215 L1400,260 L-60,260 Z" fill="url(#wave-grad-1)"/>
+  </g>
+
+  <!-- Center Content -->
+  <g transform="translate(600, 38)" text-anchor="middle">
+    <!-- Top Eyebrow -->
+    <g transform="translate(0, 0)">
+      <rect x="-180" y="0" width="360" height="22" rx="11" fill="#141C2E" stroke="#818CF8" stroke-width="0.9" opacity="0.9"/>
+      <circle cx="-160" cy="11" r="3.5" fill="#38BDF8"/>
+      <text x="0" y="15" class="font-mono" font-size="10" font-weight="700" fill="#38BDF8" letter-spacing="1">
+        ✦ FULL-STACK ARCHITECT &amp; HARDWARE TELEMETRY ✦
+      </text>
+    </g>
+
+    <!-- Bold Animated Shimmering Name -->
+    <text x="0" y="58" class="font-display anim-fade-name" font-size="34" font-weight="900" fill="url(#wave-name-shimmer)" letter-spacing="0.5" filter="url(#wave-glow)">
+      Chowreddygari Gnanendra Reddy
+    </text>
+
+    <!-- Cycling Typing Role Text Container with Blinking Cursor -->
+    <g transform="translate(0, 88)">
+      <rect x="-240" y="-4" width="480" height="28" rx="6" fill="#070B14" stroke="#1E293B" stroke-width="1" opacity="0.85"/>
+      <text x="-215" y="15" text-anchor="start" class="font-mono" font-size="12" font-weight="700" fill="#94A3B8">λ</text>
+      
+      <!-- Role 1 -->
+      <g class="role-1">
+        <text x="-195" y="15" text-anchor="start" class="font-mono" font-size="12.5" font-weight="700" fill="#38BDF8">
+          Full-Stack Developer · React 19 &amp; Node.js
+        </text>
+      </g>
+      
+      <!-- Role 2 -->
+      <g class="role-2">
+        <text x="-195" y="15" text-anchor="start" class="font-mono" font-size="12.5" font-weight="700" fill="#C084FC">
+          Open Source Contributor &amp; System Architect
+        </text>
+      </g>
+      
+      <!-- Role 3 -->
+      <g class="role-3">
+        <text x="-195" y="15" text-anchor="start" class="font-mono" font-size="12.5" font-weight="700" fill="#F59E0B">
+          Coffee ➔ Code Converter · Algorithmic Thinker
+        </text>
+      </g>
+
+      <!-- Role 4 -->
+      <g class="role-4">
+        <text x="-195" y="15" text-anchor="start" class="font-mono" font-size="12.5" font-weight="700" fill="#10B981">
+          Smart IoT Hardware Telemetry &amp; Java 21 Specialist
+        </text>
+      </g>
+
+      <!-- Blinking Neon Cursor -->
+      <rect x="215" y="4" width="7" height="15" rx="1.5" fill="#38BDF8" class="anim-cursor"/>
+    </g>
+
+    <!-- 4 Quick Verified Badges (Pills) -->
+    <g transform="translate(0, 138)">
+      <!-- Pill 1: University -->
+      <g transform="translate(-360, 0)">
+        <rect width="170" height="26" rx="6" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+        <text x="85" y="17" class="font-mono" font-size="10" font-weight="600" fill="#38BDF8">🎓 VEL TECH CSE '28</text>
+      </g>
+
+      <!-- Pill 2: Java Core -->
+      <g transform="translate(-175, 0)">
+        <rect width="165" height="26" rx="6" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+        <text x="82" y="17" class="font-mono" font-size="10" font-weight="600" fill="#ED8B00">☕ JAVA 21 &amp; OOP</text>
+      </g>
+
+      <!-- Pill 3: React 19 -->
+      <g transform="translate(5, 0)">
+        <rect width="170" height="26" rx="6" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+        <text x="85" y="17" class="font-mono" font-size="10" font-weight="600" fill="#818CF8">⚛️ REACT 19 &amp; NEXT</text>
+      </g>
+
+      <!-- Pill 4: Embedded IoT -->
+      <g transform="translate(190, 0)">
+        <rect width="170" height="26" rx="6" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+        <text x="85" y="17" class="font-mono" font-size="10" font-weight="600" fill="#10B981">⚡ IOT TELEMETRY</text>
+      </g>
+    </g>
+  </g>
+</svg>

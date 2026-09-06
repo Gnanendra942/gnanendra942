@@ -5,6 +5,12 @@
 <!-- ============================================================================== -->
 
 <a href="https://github.com/Gnanendra942">
+  <img src="./assets/wave_header.svg" width="100%" alt="Chowreddygari Gnanendra Reddy — Fluid Wave Header Banner"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/Gnanendra942">
   <img src="./assets/hero_3d_station.svg" width="100%" alt="Chowreddygari Gnanendra Reddy — Full-Stack &amp; IoT Engineer"/>
 </a>
 
@@ -70,6 +76,20 @@
 <div align="center">
   <img src="./assets/bento_student_hub.svg" width="100%" alt="Student &amp; Engineering Hub"/>
 </div>
+
+<br/>
+
+<!-- Two-Column Interactive Layout: Hacker Terminal Bio & Animated Skill Bars -->
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <img src="./assets/terminal_bio.svg" width="100%" alt="Interactive Terminal Bio" />
+    </td>
+    <td width="50%" valign="top">
+      <img src="./assets/skill_bars.svg" width="100%" alt="Engineering Proficiency &amp; Skill Bars" />
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -324,6 +344,11 @@ I am **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduat
 <img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
 
 <div align="center">
+
+<!-- Live Spotify Audio Equalizer Session -->
+<img src="./assets/spotify_player.svg" width="100%" alt="Live Spotify Coding Session — Dancing Equalizer" />
+
+<br/><br/>
 
 ## 📬 Let's Connect
 

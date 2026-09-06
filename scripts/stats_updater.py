@@ -196,6 +196,17 @@ class SVGRenderer:
       </stop>
       <stop offset="100%" stop-color="{COLOR_INDIGO}"/>
     </linearGradient>
+    <linearGradient id="rainbowBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#EC4899;#F59E0B;#10B981;#38BDF8" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#818CF8">
+        <animate attributeName="stop-color" values="#818CF8;#EC4899;#F59E0B;#10B981;#38BDF8;#818CF8" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#10B981">
+        <animate attributeName="stop-color" values="#10B981;#38BDF8;#818CF8;#EC4899;#F59E0B;#10B981" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
     <style>
       @keyframes pulseSync {{
         0% {{ r: 3px; opacity: 1; }}
@@ -205,8 +216,8 @@ class SVGRenderer:
     </style>
   </defs>
 
-  <!-- Container Box -->
-  <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGrad1)" stroke="{COLOR_CARD_BORDER}" stroke-width="1.2"/>
+  <!-- Container Box with Continuous Rainbow Hue-Shifting Loop -->
+  <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGrad1)" stroke="url(#rainbowBorder)" stroke-width="1.6"/>
   
   <!-- Animated Top Accent -->
   <rect x="24" y="1" width="100" height="2.5" rx="1" fill="url(#actBeam)"/>
@@ -362,6 +373,17 @@ class SVGRenderer:
       </stop>
       <stop offset="100%" stop-color="#EF4444"/>
     </linearGradient>
+    <linearGradient id="rainbowBorderStreak" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B">
+        <animate attributeName="stop-color" values="#F59E0B;#EF4444;#818CF8;#38BDF8;#10B981;#F59E0B" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#818CF8">
+        <animate attributeName="stop-color" values="#818CF8;#38BDF8;#10B981;#F59E0B;#EF4444;#818CF8" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#10B981">
+        <animate attributeName="stop-color" values="#10B981;#F59E0B;#EF4444;#818CF8;#38BDF8;#10B981" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
     <style>
       @keyframes floatFlame {{
         0%, 100% {{ transform: translateY(0px) scale(1); }}
@@ -371,7 +393,8 @@ class SVGRenderer:
     </style>
   </defs>
 
-  <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGradStreak)" stroke="{COLOR_CARD_BORDER}" stroke-width="1.2"/>
+  <!-- Container Box with Continuous Rainbow Hue-Shifting Loop -->
+  <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGradStreak)" stroke="url(#rainbowBorderStreak)" stroke-width="1.6"/>
   <rect x="24" y="1" width="100" height="2.5" rx="1" fill="url(#fireGrad)"/>
 
   <g transform="translate(24, 24)">

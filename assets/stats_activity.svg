@@ -14,6 +14,17 @@
       </stop>
       <stop offset="100%" stop-color="#818CF8"/>
     </linearGradient>
+    <linearGradient id="rainbowBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#EC4899;#F59E0B;#10B981;#38BDF8" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#818CF8">
+        <animate attributeName="stop-color" values="#818CF8;#EC4899;#F59E0B;#10B981;#38BDF8;#818CF8" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#10B981">
+        <animate attributeName="stop-color" values="#10B981;#38BDF8;#818CF8;#EC4899;#F59E0B;#10B981" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
     <style>
       @keyframes pulseSync {
         0% { r: 3px; opacity: 1; }
@@ -23,8 +34,8 @@
     </style>
   </defs>
 
-  <!-- Container Box -->
-  <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGrad1)" stroke="#1E293B" stroke-width="1.2"/>
+  <!-- Container Box with Continuous Rainbow Hue-Shifting Loop -->
+  <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGrad1)" stroke="url(#rainbowBorder)" stroke-width="1.6"/>
   
   <!-- Animated Top Accent -->
   <rect x="24" y="1" width="100" height="2.5" rx="1" fill="url(#actBeam)"/>
@@ -96,5 +107,5 @@
   </g>
 
   <!-- Footer -->
-  <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#64748B">Synced: Sep 06, 2026 · 09:22 UTC · Followers: 4 · 60 FPS Engine</text>
+  <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#64748B">Synced: Sep 06, 2026 · 09:32 UTC · Followers: 4 · 60 FPS Engine</text>
 </svg>
