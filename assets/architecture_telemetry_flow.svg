@@ -1,0 +1,319 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="100%" height="100%">
+  <defs>
+    <!-- Deep Space Obsidian Gradient -->
+    <linearGradient id="arch-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="35%" stop-color="#0B0F19"/>
+      <stop offset="70%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#070B14"/>
+    </linearGradient>
+
+    <!-- Animated Perimeter Border Beam -->
+    <linearGradient id="arch-border-beam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#10B981;#38BDF8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#1E293B" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#818CF8">
+        <animate attributeName="stop-color" values="#818CF8;#10B981;#38BDF8;#818CF8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Station Top Glowing Beams -->
+    <linearGradient id="beam-iot" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+
+    <linearGradient id="beam-backend" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+
+    <linearGradient id="beam-frontend" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <!-- High-Impact Neon Glow Filter -->
+    <filter id="arch-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="packet-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .font-display { font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace; }
+
+      @keyframes radarWave {
+        0% { r: 3px; opacity: 0.9; }
+        100% { r: 11px; opacity: 0; }
+      }
+      @keyframes softFloat {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-3px); }
+      }
+      @keyframes pulseText {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.75; }
+      }
+
+      .anim-radar { animation: radarWave 2s infinite cubic-bezier(0, 0.2, 0.8, 1); }
+      .card-float-1 { animation: softFloat 4.2s infinite ease-in-out; }
+      .card-float-2 { animation: softFloat 4.8s infinite ease-in-out 0.4s; }
+      .card-float-3 { animation: softFloat 4.5s infinite ease-in-out 0.8s; }
+      .anim-pulse-text { animation: pulseText 2.5s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <!-- Background Surface -->
+  <rect width="1200" height="330" rx="14" fill="url(#arch-bg)" stroke="url(#arch-border-beam)" stroke-width="1.5"/>
+  <rect x="0" y="0" width="1200" height="3" rx="1.5" fill="#38BDF8"/>
+
+  <!-- Top Header Bar -->
+  <g transform="translate(28, 24)">
+    <circle cx="5" cy="5" r="4" fill="#10B981"/>
+    <circle cx="5" cy="5" r="4" fill="none" stroke="#10B981" stroke-width="1.2" class="anim-radar"/>
+    <text x="18" y="9" class="font-display" font-size="12.5" font-weight="800" fill="#F8FAFC" letter-spacing="0.8">
+      END-TO-END TELEMETRY &amp; HARDWARE-TO-CLOUD ARCHITECTURE
+    </text>
+    <text x="1144" y="9" text-anchor="end" class="font-mono" font-size="10" font-weight="600" fill="#38BDF8">
+      60 FPS TELEMETRY FLOW · REAL-TIME FULL-STACK PIPELINE
+    </text>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- STATION 1: EMBEDDED IOT HARDWARE LAYER                                    -->
+  <!-- ========================================================================= -->
+  <g transform="translate(28, 50)" class="card-float-1">
+    <rect width="348" height="246" rx="10" fill="#141C2E" stroke="#1E293B" stroke-width="1.1"/>
+    <rect x="0" y="0" width="348" height="3" rx="1.5" fill="url(#beam-iot)"/>
+
+    <!-- Station Header -->
+    <g transform="translate(18, 20)">
+      <circle cx="5" cy="5" r="3.5" fill="#38BDF8"/>
+      <text x="16" y="9" class="font-display" font-size="13" font-weight="800" fill="#38BDF8" letter-spacing="0.5">
+        ⚡ 01. EMBEDDED IOT LAYER
+      </text>
+      <g transform="translate(205, -3)">
+        <rect width="105" height="18" rx="4" fill="#0B132B" stroke="#1E293B" stroke-width="0.8"/>
+        <text x="52" y="12" text-anchor="middle" class="font-mono" font-size="8.5" font-weight="700" fill="#38BDF8">
+          HARDWARE C++
+        </text>
+      </g>
+    </g>
+
+    <!-- Sub-node 1A: Pulse Sensor -->
+    <g transform="translate(18, 48)">
+      <rect width="312" height="40" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="0.9"/>
+      <circle cx="16" cy="20" r="3" fill="#FB7185"/>
+      <text x="28" y="17" class="font-display" font-size="11" font-weight="700" fill="#F8FAFC">Biomedical Pulse Sensor</text>
+      <text x="28" y="31" class="font-mono" font-size="9" fill="#94A3B8">Analog photoplethysmography · Continuous BPM wave</text>
+      <text x="296" y="24" text-anchor="end" class="font-mono" font-size="9" font-weight="600" fill="#FB7185">ADC 5V</text>
+    </g>
+
+    <!-- Sub-node 1B: Sonar Radar -->
+    <g transform="translate(18, 96)">
+      <rect width="312" height="40" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="0.9"/>
+      <circle cx="16" cy="20" r="3" fill="#F59E0B"/>
+      <text x="28" y="17" class="font-display" font-size="11" font-weight="700" fill="#F8FAFC">Ultrasonic Sonar Radar</text>
+      <text x="28" y="31" class="font-mono" font-size="9" fill="#94A3B8">HC-SR04 microsecond echo · Curved obstacle detection</text>
+      <text x="296" y="24" text-anchor="end" class="font-mono" font-size="9" font-weight="600" fill="#F59E0B">40 kHz</text>
+    </g>
+
+    <!-- Sub-node 1C: Arduino Microcontroller Core -->
+    <g transform="translate(18, 144)">
+      <rect width="312" height="40" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="0.9"/>
+      <circle cx="16" cy="20" r="3" fill="#38BDF8"/>
+      <text x="28" y="17" class="font-display" font-size="11" font-weight="700" fill="#38BDF8">Arduino Uno C++ Core</text>
+      <text x="28" y="31" class="font-mono" font-size="9" fill="#94A3B8">Hardware interrupt timer · Real-time analog filtering</text>
+      <text x="296" y="24" text-anchor="end" class="font-mono" font-size="9" font-weight="600" fill="#38BDF8">16 MHz</text>
+    </g>
+
+    <!-- Sub-node 1D: Serial Telemetry Stream Out -->
+    <g transform="translate(18, 192)">
+      <rect width="312" height="38" rx="6" fill="#070B14" stroke="#0284C7" stroke-width="1" stroke-dasharray="4 2"/>
+      <circle cx="16" cy="19" r="3.5" fill="#10B981" class="anim-radar"/>
+      <text x="28" y="17" class="font-mono" font-size="10.5" font-weight="700" fill="#10B981">Serial Telemetry Stream</text>
+      <text x="28" y="30" class="font-mono" font-size="8.5" fill="#94A3B8">Packetized frames · 115200 Baud · CRC validated</text>
+      <text x="296" y="23" text-anchor="end" class="font-mono" font-size="9" font-weight="700" fill="#10B981">TX ➔</text>
+    </g>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- CONNECTOR BUS 1: IOT TO BACKEND WITH MOVING PULSES                       -->
+  <!-- ========================================================================= -->
+  <g>
+    <!-- Background Bus Line -->
+    <line x1="376" y1="173" x2="426" y2="173" stroke="#1E293B" stroke-width="3"/>
+    <!-- Animated Flow Line -->
+    <line x1="376" y1="173" x2="426" y2="173" stroke="#38BDF8" stroke-width="1.8" stroke-dasharray="4 3"/>
+    <!-- Arrowhead -->
+    <polygon points="426,173 418,168 418,178" fill="#38BDF8"/>
+    <!-- Traveling Data Packet 1 -->
+    <circle r="4" fill="#7AF2FF" filter="url(#packet-glow)">
+      <animateMotion path="M376 173 L426 173" dur="1.1s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Traveling Data Packet 2 (Phased) -->
+    <circle r="2.5" fill="#FFFFFF" filter="url(#arch-glow)">
+      <animateMotion path="M376 173 L426 173" dur="1.1s" begin="0.55s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- STATION 2: JAVA & NODE BACKEND PROCESSING                                -->
+  <!-- ========================================================================= -->
+  <g transform="translate(426, 50)" class="card-float-2">
+    <rect width="348" height="246" rx="10" fill="#141C2E" stroke="#1E293B" stroke-width="1.1"/>
+    <rect x="0" y="0" width="348" height="3" rx="1.5" fill="url(#beam-backend)"/>
+
+    <!-- Station Header -->
+    <g transform="translate(18, 20)">
+      <circle cx="5" cy="5" r="3.5" fill="#818CF8"/>
+      <text x="16" y="9" class="font-display" font-size="13" font-weight="800" fill="#818CF8" letter-spacing="0.5">
+        ☕ 02. JAVA &amp; NODE BACKEND
+      </text>
+      <g transform="translate(205, -3)">
+        <rect width="105" height="18" rx="4" fill="#0B132B" stroke="#1E293B" stroke-width="0.8"/>
+        <text x="52" y="12" text-anchor="middle" class="font-mono" font-size="8.5" font-weight="700" fill="#818CF8">
+          JAVA 21 &amp; REST
+        </text>
+      </g>
+    </g>
+
+    <!-- Sub-node 2A: Signal Acquisition -->
+    <g transform="translate(18, 48)">
+      <rect width="312" height="40" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="0.9"/>
+      <circle cx="16" cy="20" r="3" fill="#38BDF8"/>
+      <text x="28" y="17" class="font-display" font-size="11" font-weight="700" fill="#F8FAFC">Signal Ingestion &amp; Parser</text>
+      <text x="28" y="31" class="font-mono" font-size="9" fill="#94A3B8">Serial stream parser · Frame decoding &amp; normalization</text>
+      <text x="296" y="24" text-anchor="end" class="font-mono" font-size="9" font-weight="600" fill="#38BDF8">RX In</text>
+    </g>
+
+    <!-- Sub-node 2B: Java 21 Core Logic -->
+    <g transform="translate(18, 96)">
+      <rect width="312" height="40" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="0.9"/>
+      <circle cx="16" cy="20" r="3" fill="#ED8B00"/>
+      <text x="28" y="17" class="font-display" font-size="11" font-weight="700" fill="#ED8B00">Java 21 Core OOP Logic</text>
+      <text x="28" y="31" class="font-mono" font-size="9" fill="#94A3B8">Algorithmic metrics · Domain models · Unit test suites</text>
+      <text x="296" y="24" text-anchor="end" class="font-mono" font-size="9" font-weight="600" fill="#ED8B00">JDK 21</text>
+    </g>
+
+    <!-- Sub-node 2C: Datastores -->
+    <g transform="translate(18, 144)">
+      <rect width="312" height="40" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="0.9"/>
+      <circle cx="16" cy="20" r="3" fill="#10B981"/>
+      <text x="28" y="17" class="font-display" font-size="11" font-weight="700" fill="#F8FAFC">MySQL &amp; MongoDB Storage</text>
+      <text x="28" y="31" class="font-mono" font-size="9" fill="#94A3B8">ACID transaction tables &amp; telemetry time-series logs</text>
+      <text x="296" y="24" text-anchor="end" class="font-mono" font-size="9" font-weight="600" fill="#10B981">Relational</text>
+    </g>
+
+    <!-- Sub-node 2D: REST API & JWT -->
+    <g transform="translate(18, 192)">
+      <rect width="312" height="38" rx="6" fill="#070B14" stroke="#6366F1" stroke-width="1" stroke-dasharray="4 2"/>
+      <circle cx="16" cy="19" r="3.5" fill="#818CF8" class="anim-radar"/>
+      <text x="28" y="17" class="font-mono" font-size="10.5" font-weight="700" fill="#818CF8">Express REST API &amp; JWT</text>
+      <text x="28" y="30" class="font-mono" font-size="8.5" fill="#94A3B8">Authenticated endpoints · Role access · JSON dispatch</text>
+      <text x="296" y="23" text-anchor="end" class="font-mono" font-size="9" font-weight="700" fill="#818CF8">API ➔</text>
+    </g>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- CONNECTOR BUS 2: BACKEND TO REACT WEB WITH MOVING PULSES                 -->
+  <!-- ========================================================================= -->
+  <g>
+    <!-- Background Bus Line -->
+    <line x1="774" y1="173" x2="824" y2="173" stroke="#1E293B" stroke-width="3"/>
+    <!-- Animated Flow Line -->
+    <line x1="774" y1="173" x2="824" y2="173" stroke="#818CF8" stroke-width="1.8" stroke-dasharray="4 3"/>
+    <!-- Arrowhead -->
+    <polygon points="824,173 816,168 816,178" fill="#10B981"/>
+    <!-- Traveling Data Packet 1 -->
+    <circle r="4" fill="#A78BFA" filter="url(#packet-glow)">
+      <animateMotion path="M774 173 L824 173" dur="1.1s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Traveling Data Packet 2 (Phased) -->
+    <circle r="2.5" fill="#34D399" filter="url(#arch-glow)">
+      <animateMotion path="M774 173 L824 173" dur="1.1s" begin="0.55s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- STATION 3: REACTIVE WEB FRONTEND LAYER                                    -->
+  <!-- ========================================================================= -->
+  <g transform="translate(824, 50)" class="card-float-3">
+    <rect width="348" height="246" rx="10" fill="#141C2E" stroke="#1E293B" stroke-width="1.1"/>
+    <rect x="0" y="0" width="348" height="3" rx="1.5" fill="url(#beam-frontend)"/>
+
+    <!-- Station Header -->
+    <g transform="translate(18, 20)">
+      <circle cx="5" cy="5" r="3.5" fill="#10B981"/>
+      <text x="16" y="9" class="font-display" font-size="13" font-weight="800" fill="#10B981" letter-spacing="0.5">
+        🚀 03. REACTIVE WEB LAYER
+      </text>
+      <g transform="translate(205, -3)">
+        <rect width="105" height="18" rx="4" fill="#0B132B" stroke="#1E293B" stroke-width="0.8"/>
+        <text x="52" y="12" text-anchor="middle" class="font-mono" font-size="8.5" font-weight="700" fill="#10B981">
+          REACT 19 &amp; UI
+        </text>
+      </g>
+    </g>
+
+    <!-- Sub-node 3A: React 19 Engine -->
+    <g transform="translate(18, 48)">
+      <rect width="312" height="40" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="0.9"/>
+      <circle cx="16" cy="20" r="3" fill="#38BDF8"/>
+      <text x="28" y="17" class="font-display" font-size="11" font-weight="700" fill="#38BDF8">React 19 + Next.js Framework</text>
+      <text x="28" y="31" class="font-mono" font-size="9" fill="#94A3B8">Component-driven architecture · Fast client routing</text>
+      <text x="296" y="24" text-anchor="end" class="font-mono" font-size="9" font-weight="600" fill="#38BDF8">Vite/Next</text>
+    </g>
+
+    <!-- Sub-node 3B: Tailwind UI & Styling -->
+    <g transform="translate(18, 96)">
+      <rect width="312" height="40" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="0.9"/>
+      <circle cx="16" cy="20" r="3" fill="#10B981"/>
+      <text x="28" y="17" class="font-display" font-size="11" font-weight="700" fill="#F8FAFC">Tailwind UI &amp; Glassmorphic UX</text>
+      <text x="28" y="31" class="font-mono" font-size="9" fill="#94A3B8">Dark mode palette · Fluid responsive layouts</text>
+      <text x="296" y="24" text-anchor="end" class="font-mono" font-size="9" font-weight="600" fill="#10B981">CSS3</text>
+    </g>
+
+    <!-- Sub-node 3C: Live Visualizers -->
+    <g transform="translate(18, 144)">
+      <rect width="312" height="40" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="0.9"/>
+      <circle cx="16" cy="20" r="3" fill="#D4AF37"/>
+      <text x="28" y="17" class="font-display" font-size="11" font-weight="700" fill="#FFE699">Live Metric Visualizers</text>
+      <text x="28" y="31" class="font-mono" font-size="9" fill="#94A3B8">Interactive SVG gauges &amp; real-time sensor charts</text>
+      <text x="296" y="24" text-anchor="end" class="font-mono" font-size="9" font-weight="600" fill="#D4AF37">60 FPS</text>
+    </g>
+
+    <!-- Sub-node 3D: Live Production State -->
+    <g transform="translate(18, 192)">
+      <rect width="312" height="38" rx="6" fill="#070B14" stroke="#059669" stroke-width="1" stroke-dasharray="4 2"/>
+      <circle cx="16" cy="19" r="3.5" fill="#10B981" class="anim-radar"/>
+      <text x="28" y="17" class="font-mono" font-size="10.5" font-weight="700" fill="#10B981">Live Operational State</text>
+      <text x="28" y="30" class="font-mono" font-size="8.5" fill="#94A3B8">Deployed on GitHub Pages · Zero latency rendering</text>
+      <text x="296" y="23" text-anchor="end" class="font-mono" font-size="9" font-weight="700" fill="#10B981">ACTIVE ●</text>
+    </g>
+  </g>
+
+  <!-- Bottom Global Status Bar -->
+  <g transform="translate(28, 308)">
+    <text x="0" y="9" class="font-mono anim-pulse-text" font-size="9.5" font-weight="500" fill="#64748B">
+      FLOW: Analog Sensors ➔ Microcontroller Sampling ➔ 115200 Baud Serial ➔ Java OOP Parser ➔ Cloud API ➔ Reactive Client Visualizer
+    </text>
+    <text x="1144" y="9" text-anchor="end" class="font-mono" font-size="9.5" font-weight="600" fill="#10B981">
+      ● INTEGRATED HARDWARE-SOFTWARE STACK
+    </text>
+  </g>
+</svg>

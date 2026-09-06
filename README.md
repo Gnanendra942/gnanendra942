@@ -21,9 +21,9 @@
 <p align="center">
   <a href="#-about-me"><img src="https://img.shields.io/badge/🚀_About_Me-141C2E?style=for-the-badge&logo=codestream&logoColor=38BDF8" alt="About Me"/></a>
   <a href="#-tech-stack--arsenal"><img src="https://img.shields.io/badge/🛠️_Tech_Arsenal-141C2E?style=for-the-badge&logo=visualstudiocode&logoColor=38BDF8" alt="Arsenal"/></a>
-  <a href="#-featured-live-project-tamil-nadu-tourism"><img src="https://img.shields.io/badge/🏛️_Live_Project-141C2E?style=for-the-badge&logo=googlechrome&logoColor=D4AF37" alt="Live Project"/></a>
+  <a href="#-featured-live-project-tamil-nadu-tourism"><img src="https://img.shields.io/badge/🏛️_Live_Project-141C2E?style=for-the-badge&logo=compass&logoColor=D4AF37" alt="Live Project"/></a>
   <a href="#-flagship-commerce-platform"><img src="https://img.shields.io/badge/⭐_Flagship-141C2E?style=for-the-badge&logo=sparkles&logoColor=F59E0B" alt="Flagship"/></a>
-  <a href="#-featured-projects-portfolio"><img src="https://img.shields.io/badge/💡_Projects-141C2E?style=for-the-badge&logo=git&logoColor=10B981" alt="Projects"/></a>
+  <a href="#-embedded-iot--algorithmic-research"><img src="https://img.shields.io/badge/💡_IoT_&_Research-141C2E?style=for-the-badge&logo=git&logoColor=10B981" alt="IoT & Research"/></a>
   <a href="#-github-analytics--system-state"><img src="https://img.shields.io/badge/📊_Live_Analytics-141C2E?style=for-the-badge&logo=speedtest&logoColor=818CF8" alt="Analytics"/></a>
   <a href="#-trophies--activity-graph"><img src="https://img.shields.io/badge/🏆_Trophies-141C2E?style=for-the-badge&logo=target&logoColor=ED8B00" alt="Trophies"/></a>
   <a href="#-lets-connect"><img src="https://img.shields.io/badge/📬_Contact-141C2E?style=for-the-badge&logo=gmail&logoColor=EF4444" alt="Contact"/></a>
@@ -32,7 +32,7 @@
 <!-- Prominent Featured Project Live Link Banner Badge -->
 <p align="center">
   <a href="https://gnanendra942.github.io/TAMILNADU-TOURISM-/" target="_blank">
-    <img src="https://img.shields.io/badge/🚀_FEATURED_LIVE_PROJECT-TAMIL_NADU_TOURISM_(CLICK_TO_VISIT)-8A1538?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Featured Live Project"/>
+    <img src="https://img.shields.io/badge/🏛️_FEATURED_LIVE_PROJECT-TAMIL_NADU_TOURISM_(CLICK_TO_EXPLORE)-8A1538?style=for-the-badge&logo=compass&logoColor=white" alt="Featured Live Project"/>
   </a>
 </p>
 
@@ -111,30 +111,9 @@ I am **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduat
 
 <br/>
 
-```mermaid
-flowchart LR
-    subgraph Hardware["⚡ Embedded IoT Layer"]
-        A1["Biomedical Pulse Sensor"] --> B1["Arduino Uno C++"]
-        A2["Ultrasonic Sonar Radar"] --> B1
-        B1 --> C1["Serial Telemetry Stream"]
-    end
-
-    subgraph Backend["☕ Java & Node Backend"]
-        C1 --> D1["Signal Acquisition / Parser"]
-        D1 --> E1["Java 21 Core OOP Logic"]
-        E1 --> F1["MySQL & MongoDB Datastore"]
-        F1 --> G1["Express REST API & JWT"]
-    end
-
-    subgraph Frontend["🚀 Reactive Web Layer"]
-        G1 --> H1["React 19 + Tailwind UI"]
-        H1 --> I1["Live Metric Visualizers & Dashboards"]
-    end
-
-    style Hardware fill:#0B132B,stroke:#38BDF8,stroke-width:1.5px,color:#F8FAFC
-    style Backend fill:#141C2E,stroke:#818CF8,stroke-width:1.5px,color:#F8FAFC
-    style Frontend fill:#070B14,stroke:#10B981,stroke-width:1.5px,color:#F8FAFC
-```
+<div align="center">
+  <img src="./assets/architecture_telemetry_flow.svg" width="100%" alt="End-to-End Telemetry &amp; System Architecture — IoT to Reactive Cloud"/>
+</div>
 
 <br/>
 
@@ -156,7 +135,7 @@ flowchart LR
 
 <p align="center">
   <a href="https://gnanendra942.github.io/TAMILNADU-TOURISM-/" target="_blank">
-    <img src="https://img.shields.io/badge/🚀_Live_Interactive_Website-Visit_Now-8A1538?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo"/>
+    <img src="https://img.shields.io/badge/🏛️_Live_Interactive_Website-Visit_Now-8A1538?style=for-the-badge&logo=compass&logoColor=white" alt="Live Demo"/>
   </a>
   &nbsp;
   <a href="https://github.com/Gnanendra942/TAMILNADU-TOURISM-" target="_blank">
@@ -273,7 +252,7 @@ flowchart LR
 <br/>
 
 <!-- ============================================================================== -->
-<!-- 05. GITHUB ANALYTICS & SYSTEM STATE -->
+<!-- 06. GITHUB ANALYTICS & SYSTEM STATE -->
 <!-- ============================================================================== -->
 
 <img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
@@ -317,7 +296,7 @@ flowchart LR
 <br/>
 
 <!-- ============================================================================== -->
-<!-- 06. ACHIEVEMENTS, TROPHIES & GRAPH -->
+<!-- 07. ACHIEVEMENTS, TROPHIES & GRAPH -->
 <!-- ============================================================================== -->
 
 <img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
@@ -339,7 +318,7 @@ flowchart LR
 <br/>
 
 <!-- ============================================================================== -->
-<!-- 07. CONNECT & FOOTER -->
+<!-- 08. CONNECT & FOOTER -->
 <!-- ============================================================================== -->
 
 <img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
@@ -369,7 +348,7 @@ I am actively seeking software engineering internships, open-source collaboratio
 <!-- Direct Featured Live Project Launch Banner -->
 <p align="center">
   <a href="https://gnanendra942.github.io/TAMILNADU-TOURISM-/" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_EXPERIENCE_LIVE_PROJECT-TAMIL_NADU_TOURISM_(60_FPS)-8A1538?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo"/>
+    <img src="https://img.shields.io/badge/🏛️_EXPERIENCE_LIVE_PROJECT-TAMIL_NADU_TOURISM_(60_FPS)-8A1538?style=for-the-badge&logo=compass&logoColor=white" alt="Live Demo"/>
   </a>
 </p>
 
