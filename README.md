@@ -5,13 +5,7 @@
 <!-- ============================================================================== -->
 
 <a href="https://github.com/Gnanendra942">
-  <img src="./assets/wave_header.svg" width="100%" alt="Chowreddygari Gnanendra Reddy — Fluid Wave Header Banner"/>
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/Gnanendra942">
-  <img src="./assets/hero_3d_station.svg" width="100%" alt="Chowreddygari Gnanendra Reddy — Full-Stack &amp; IoT Engineer"/>
+  <img src="./assets/hero_3d_station.svg" width="100%" alt="Chowreddygari Gnanendra Reddy — Full-Stack Architect &amp; IoT Systems Engineer"/>
 </a>
 
 <br/><br/>
