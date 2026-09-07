@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 64" width="100%" height="64">
   <defs>
     <linearGradient id="footer-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070B14"/>
-      <stop offset="50%" stop-color="#0B0F19"/>
-      <stop offset="100%" stop-color="#0F172A"/>
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="50%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
     </linearGradient>
 
     <!-- Animated Signature Gradient -->
     <linearGradient id="sig-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8">
-        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#38BDF8" dur="4s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#58A6FF">
+        <animate attributeName="stop-color" values="#58A6FF;#8957E5;#58A6FF" dur="4s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#818CF8">
-        <animate attributeName="stop-color" values="#818CF8;#10B981;#818CF8" dur="4s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#8957E5">
+        <animate attributeName="stop-color" values="#8957E5;#3FB950;#8957E5" dur="4s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#10B981">
-        <animate attributeName="stop-color" values="#10B981;#38BDF8;#10B981" dur="4s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#3FB950">
+        <animate attributeName="stop-color" values="#3FB950;#58A6FF;#3FB950" dur="4s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
     <style>
-      .font-display { font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace; }
+      .font-display { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
 
       @keyframes pulseHeart {
         0%, 100% { transform: scale(1); }
@@ -36,24 +36,24 @@
     </style>
   </defs>
 
-  <rect width="1200" height="64" rx="10" fill="url(#footer-bg)" stroke="#1E293B" stroke-width="1.2"/>
-  <rect x="0" y="0" width="1200" height="2" rx="1" fill="#38BDF8" opacity="0.6"/>
+  <rect width="1200" height="64" rx="10" fill="url(#footer-bg)" stroke="#30363D" stroke-width="1.2"/>
+  <rect x="0" y="0" width="1200" height="2" rx="1" fill="#58A6FF" opacity="0.6"/>
 
   <!-- Left: Signature with Beating Heart -->
   <g transform="translate(28, 38)">
-    <text class="font-mono" font-size="11.5" fill="#94A3B8">
-      Crafted with <tspan fill="#EF4444" class="heart-beat">♥</tspan> &amp; Precision by 
+    <text class="font-mono" font-size="11.5" fill="#8B949E">
+      Crafted with <tspan fill="#F85149" class="heart-beat">♥</tspan> &amp; Precision by 
       <tspan fill="url(#sig-grad)" font-weight="700">Chowreddygari Gnanendra Reddy</tspan>
-      <tspan fill="#64748B"> · Vel Tech CSE '28</tspan>
+      <tspan fill="#6E7681"> · Vel Tech CSE '28</tspan>
     </text>
   </g>
 
   <!-- Right: Verification Node & 60 FPS Status -->
   <g transform="translate(940, 20)">
-    <rect width="232" height="26" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <circle cx="14" cy="13" r="3.5" fill="#10B981"/>
-    <circle cx="14" cy="13" r="3.5" fill="none" stroke="#10B981" stroke-width="1" class="beacon-ring"/>
-    <text x="26" y="17" class="font-mono" font-size="9.5" font-weight="700" fill="#10B981">ALL SYSTEMS OPERATIONAL</text>
-    <text x="190" y="17" class="font-mono" font-size="9" font-weight="600" fill="#38BDF8">· 60 FPS</text>
+    <rect width="232" height="26" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <circle cx="14" cy="13" r="3.5" fill="#3FB950"/>
+    <circle cx="14" cy="13" r="3.5" fill="none" stroke="#3FB950" stroke-width="1" class="beacon-ring"/>
+    <text x="26" y="17" class="font-mono" font-size="9.5" font-weight="700" fill="#3FB950">ALL SYSTEMS OPERATIONAL</text>
+    <text x="190" y="17" class="font-mono" font-size="9" font-weight="600" fill="#58A6FF">· 60 FPS</text>
   </g>
 </svg>

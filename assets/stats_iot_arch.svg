@@ -1,8 +1,8 @@
 <svg width="495" height="220" viewBox="0 0 495 220" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGradArch" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B0F19"/>
-      <stop offset="100%" stop-color="#111827"/>
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0D1117"/>
     </linearGradient>
     <filter id="glowArch" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="2" result="blur"/>
@@ -13,31 +13,31 @@
     </filter>
   </defs>
 
-  <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGradArch)" stroke="#1E293B" stroke-width="1.2"/>
-  <rect x="24" y="1" width="100" height="2.5" rx="1" fill="#10B981"/>
+  <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGradArch)" stroke="#30363D" stroke-width="1.2"/>
+  <rect x="24" y="1" width="100" height="2.5" rx="1" fill="#3FB950"/>
 
   <g transform="translate(24, 24)">
-    <circle cx="5" cy="5" r="4" fill="#10B981"/>
-    <text x="16" y="9" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC" letter-spacing="0.5">SYSTEM ARCHITECTURE</text>
-    <text x="447" y="9" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="10" font-weight="600" fill="#10B981">IOT &amp; FULL-STACK</text>
+    <circle cx="5" cy="5" r="4" fill="#3FB950"/>
+    <text x="16" y="9" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#F0F6FC" letter-spacing="0.5">SYSTEM ARCHITECTURE</text>
+    <text x="447" y="9" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="10" font-weight="600" fill="#3FB950">IOT &amp; FULL-STACK</text>
   </g>
 
   <g transform="translate(24, 48)">
-    <rect width="447" height="120" rx="8" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <rect width="447" height="120" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
     
     <!-- Node 1: Sensor / Embedded -->
     <g transform="translate(18, 16)">
       <rect width="115" height="88" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
-      <rect width="115" height="2.5" fill="#38BDF8" rx="1"/>
-      <text x="12" y="24" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#38BDF8">01. SENSORS &amp; IOT</text>
-      <text x="12" y="44" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#94A3B8">• Pulse Sensor</text>
-      <text x="12" y="60" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#94A3B8">• Arduino C++</text>
-      <text x="12" y="76" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#10B981">• Telemetry In</text>
+      <rect width="115" height="2.5" fill="#58A6FF" rx="1"/>
+      <text x="12" y="24" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#58A6FF">01. SENSORS &amp; IOT</text>
+      <text x="12" y="44" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#8B949E">• Pulse Sensor</text>
+      <text x="12" y="60" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#8B949E">• Arduino C++</text>
+      <text x="12" y="76" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#3FB950">• Telemetry In</text>
     </g>
 
     <!-- Connector 1 with Animated Traveling Packet -->
-    <path d="M140 60 L158 60" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="3 3"/>
-    <polygon points="160,60 154,57 154,63" fill="#38BDF8"/>
+    <path d="M140 60 L158 60" stroke="#58A6FF" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <polygon points="160,60 154,57 154,63" fill="#58A6FF"/>
     <circle r="3" fill="#7AF2FF" filter="url(#glowArch)">
       <animateMotion path="M140 60 L158 60" dur="1.4s" repeatCount="indefinite"/>
     </circle>
@@ -45,16 +45,16 @@
     <!-- Node 2: Core Processing & Backend -->
     <g transform="translate(166, 16)">
       <rect width="115" height="88" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
-      <rect width="115" height="2.5" fill="#818CF8" rx="1"/>
-      <text x="12" y="24" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#818CF8">02. JAVA &amp; APIS</text>
-      <text x="12" y="44" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#94A3B8">• Java OOP Core</text>
-      <text x="12" y="60" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#94A3B8">• Signal Filter</text>
-      <text x="12" y="76" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#10B981">• MySQL Data</text>
+      <rect width="115" height="2.5" fill="#8957E5" rx="1"/>
+      <text x="12" y="24" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#8957E5">02. JAVA &amp; APIS</text>
+      <text x="12" y="44" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#8B949E">• Java OOP Core</text>
+      <text x="12" y="60" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#8B949E">• Signal Filter</text>
+      <text x="12" y="76" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#3FB950">• MySQL Data</text>
     </g>
 
     <!-- Connector 2 with Animated Traveling Packet -->
-    <path d="M288 60 L306 60" stroke="#818CF8" stroke-width="1.5" stroke-dasharray="3 3"/>
-    <polygon points="308,60 302,57 302,63" fill="#818CF8"/>
+    <path d="M288 60 L306 60" stroke="#8957E5" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <polygon points="308,60 302,57 302,63" fill="#8957E5"/>
     <circle r="3" fill="#A78BFA" filter="url(#glowArch)">
       <animateMotion path="M288 60 L306 60" dur="1.4s" repeatCount="indefinite"/>
     </circle>
@@ -62,13 +62,13 @@
     <!-- Node 3: React Frontend -->
     <g transform="translate(314, 16)">
       <rect width="115" height="88" rx="6" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
-      <rect width="115" height="2.5" fill="#10B981" rx="1"/>
-      <text x="12" y="24" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#10B981">03. REACT CLIENT</text>
-      <text x="12" y="44" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#94A3B8">• Live Dashboards</text>
-      <text x="12" y="60" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#94A3B8">• Tailwind UI</text>
-      <text x="12" y="76" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#38BDF8">• Visual Alerts</text>
+      <rect width="115" height="2.5" fill="#3FB950" rx="1"/>
+      <text x="12" y="24" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#3FB950">03. REACT CLIENT</text>
+      <text x="12" y="44" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#8B949E">• Live Dashboards</text>
+      <text x="12" y="60" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#8B949E">• Tailwind UI</text>
+      <text x="12" y="76" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9" fill="#58A6FF">• Visual Alerts</text>
     </g>
   </g>
 
-  <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#64748B">Live Telemetry Pipeline · Sensors ➜ Microcontroller ➜ Backend ➜ Reactive UI</text>
+  <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#6E7681">Live Telemetry Pipeline · Sensors ➜ Microcontroller ➜ Backend ➜ Reactive UI</text>
 </svg>

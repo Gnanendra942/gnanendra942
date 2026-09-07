@@ -1,8 +1,8 @@
 <svg width="495" height="220" viewBox="0 0 495 220" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGradStreak" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B0F19"/>
-      <stop offset="100%" stop-color="#111827"/>
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0D1117"/>
     </linearGradient>
     <linearGradient id="fireGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#F59E0B">
@@ -35,31 +35,31 @@
   <rect x="24" y="1" width="100" height="2.5" rx="1" fill="url(#fireGrad)"/>
 
   <g transform="translate(24, 24)">
-    <circle cx="5" cy="5" r="4" fill="#F59E0B"/>
-    <text x="16" y="9" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC" letter-spacing="0.5">ENGINEERING OUTPUT &amp; STREAKS</text>
-    <text x="447" y="9" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="10" font-weight="600" fill="#F59E0B">ACTIVE BUILDER</text>
+    <circle cx="5" cy="5" r="4" fill="#D29922"/>
+    <text x="16" y="9" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#F0F6FC" letter-spacing="0.5">ENGINEERING OUTPUT &amp; STREAKS</text>
+    <text x="447" y="9" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="10" font-weight="600" fill="#D29922">ACTIVE BUILDER</text>
   </g>
 
   <g transform="translate(24, 52)">
     <!-- Total Contributions -->
-    <rect x="0" y="0" width="141" height="110" rx="8" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="16" y="24" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#94A3B8">TOTAL SESSIONS</text>
-    <text x="16" y="58" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="800" fill="#F8FAFC">240+</text>
-    <text x="16" y="88" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9.5" font-weight="500" fill="#10B981">▲ 94% Active Rate</text>
+    <rect x="0" y="0" width="141" height="110" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <text x="16" y="24" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#8B949E">TOTAL SESSIONS</text>
+    <text x="16" y="58" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="800" fill="#F0F6FC">240+</text>
+    <text x="16" y="88" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9.5" font-weight="500" fill="#3FB950">▲ 94% Active Rate</text>
 
     <!-- Current Streak -->
-    <rect x="153" y="0" width="141" height="110" rx="8" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <rect x="153" y="0" width="141" height="110" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
     <rect x="153" y="0" width="141" height="2.5" rx="1" fill="url(#fireGrad)"/>
-    <text x="169" y="24" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#94A3B8">CURRENT STREAK</text>
+    <text x="169" y="24" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#8B949E">CURRENT STREAK</text>
     <text x="169" y="58" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="23" font-weight="800" fill="#F59E0B">18 Days <tspan class="anim-flame">🔥</tspan></text>
-    <text x="169" y="88" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9.5" font-weight="500" fill="#94A3B8">Consistent Commits</text>
+    <text x="169" y="88" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9.5" font-weight="500" fill="#8B949E">Consistent Commits</text>
 
     <!-- Longest Streak -->
-    <rect x="306" y="0" width="141" height="110" rx="8" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="322" y="24" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#94A3B8">LONGEST STREAK</text>
-    <text x="322" y="58" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="23" font-weight="800" fill="#38BDF8">45 Days ⚡</text>
-    <text x="322" y="88" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9.5" font-weight="500" fill="#818CF8">Vel Tech Peak Term</text>
+    <rect x="306" y="0" width="141" height="110" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <text x="322" y="24" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#8B949E">LONGEST STREAK</text>
+    <text x="322" y="58" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="23" font-weight="800" fill="#58A6FF">45 Days ⚡</text>
+    <text x="322" y="88" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="9.5" font-weight="500" fill="#8957E5">Vel Tech Peak Term</text>
   </g>
 
-  <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#64748B">Calculated across public repositories &amp; verified commits</text>
+  <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#6E7681">Calculated across public repositories &amp; verified commits</text>
 </svg>

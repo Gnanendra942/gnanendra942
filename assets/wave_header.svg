@@ -1,63 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 310" width="100%" height="100%">
   <defs>
-    <!-- Deep Obsidian Space Gradient -->
+    <!-- Seamless GitHub Dark Canvas Gradient -->
     <linearGradient id="hero-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#040711"/>
-      <stop offset="30%" stop-color="#080E1E"/>
-      <stop offset="65%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#060A14"/>
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="35%" stop-color="#121824"/>
+      <stop offset="65%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
     </linearGradient>
 
-    <!-- Animated Glowing Perimeter Border Beam -->
+    <!-- Animated Glowing Perimeter Border Beam with GitHub Dark Accents -->
     <linearGradient id="hero-border-beam" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38BDF8">
-        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#C084FC;#10B981;#38BDF8" dur="6s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#58A6FF">
+        <animate attributeName="stop-color" values="#58A6FF;#8957E5;#BC8CFF;#3FB950;#58A6FF" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#1E293B" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#818CF8">
-        <animate attributeName="stop-color" values="#818CF8;#C084FC;#10B981;#38BDF8;#818CF8" dur="6s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#30363D" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8957E5">
+        <animate attributeName="stop-color" values="#8957E5;#BC8CFF;#3FB950;#58A6FF;#8957E5" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
     <!-- Shimmering Chromatic Name Gradient -->
     <linearGradient id="shimmer-name" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF">
-        <animate attributeName="stop-color" values="#FFFFFF;#7AF2FF;#C084FC;#FFFFFF" dur="5s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#FFFFFF;#79C0FF;#D2A8FF;#FFFFFF" dur="5s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#7AF2FF">
-        <animate attributeName="stop-color" values="#7AF2FF;#C084FC;#FFFFFF;#7AF2FF" dur="5s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#79C0FF">
+        <animate attributeName="stop-color" values="#79C0FF;#D2A8FF;#FFFFFF;#79C0FF" dur="5s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#C084FC">
-        <animate attributeName="stop-color" values="#C084FC;#FFFFFF;#7AF2FF;#C084FC" dur="5s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#D2A8FF">
+        <animate attributeName="stop-color" values="#D2A8FF;#FFFFFF;#79C0FF;#D2A8FF" dur="5s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
     <!-- Laser Scan Beam Gradient -->
     <linearGradient id="scan-laser" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#38BDF8" stop-opacity="0.25"/>
-      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.8"/>
-      <stop offset="75%" stop-color="#818CF8" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#58A6FF" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#58A6FF" stop-opacity="0.75"/>
+      <stop offset="75%" stop-color="#BC8CFF" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#BC8CFF" stop-opacity="0.0"/>
     </linearGradient>
 
-    <!-- Fluid Wave Gradients -->
+    <!-- Fluid Wave Gradients Blending into GitHub Dark -->
     <linearGradient id="wave-grad-1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.25"/>
-      <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.25"/>
+      <stop offset="0%" stop-color="#1F6FEB" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#8957E5" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#238636" stop-opacity="0.22"/>
     </linearGradient>
 
     <linearGradient id="wave-grad-2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.18"/>
-      <stop offset="50%" stop-color="#C084FC" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.18"/>
+      <stop offset="0%" stop-color="#8957E5" stop-opacity="0.16"/>
+      <stop offset="50%" stop-color="#D29922" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0.16"/>
     </linearGradient>
 
     <linearGradient id="wave-grad-3" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.12"/>
-      <stop offset="50%" stop-color="#4F46E5" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.12"/>
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.10"/>
+      <stop offset="50%" stop-color="#1F6FEB" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0.10"/>
     </linearGradient>
 
     <!-- Glow & Bloom Filters -->
@@ -74,20 +74,20 @@
     </filter>
 
     <style>
-      .font-display { font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace; }
+      .font-display { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
 
       @keyframes pulseOrbs {
-        0%, 100% { opacity: 0.12; transform: scale(1); }
-        50% { opacity: 0.28; transform: scale(1.12); }
+        0%, 100% { opacity: 0.10; transform: scale(1); }
+        50% { opacity: 0.22; transform: scale(1.12); }
       }
       @keyframes blinkCursor {
         0%, 49% { opacity: 1; }
         50%, 100% { opacity: 0; }
       }
       @keyframes starTwinkle {
-        0%, 100% { opacity: 0.18; transform: scale(0.8); }
-        50% { opacity: 0.95; transform: scale(1.35); }
+        0%, 100% { opacity: 0.15; transform: scale(0.8); }
+        50% { opacity: 0.85; transform: scale(1.3); }
       }
       @keyframes waveSlide1 {
         0% { transform: translateX(0); }
@@ -133,11 +133,11 @@
     </style>
   </defs>
 
-  <!-- Container Box with Rounded Chamfered Corners -->
-  <rect width="1200" height="310" rx="16" fill="url(#hero-bg)" stroke="url(#hero-border-beam)" stroke-width="1.8"/>
+  <!-- Container Box Blending into GitHub Dark -->
+  <rect width="1200" height="310" rx="16" fill="url(#hero-bg)" stroke="url(#hero-border-beam)" stroke-width="1.5"/>
 
-  <!-- Perspective Cyber Grid -->
-  <g opacity="0.06" stroke="#38BDF8" stroke-width="0.8">
+  <!-- Subtle Perspective Cyber Grid -->
+  <g opacity="0.05" stroke="#58A6FF" stroke-width="0.8">
     <line x1="0" y1="55" x2="1200" y2="55"/>
     <line x1="0" y1="110" x2="1200" y2="110"/>
     <line x1="0" y1="165" x2="1200" y2="165"/>
@@ -157,26 +157,26 @@
   </g>
 
   <!-- Sweeping Laser Scan Beam -->
-  <line x1="0" y1="0" x2="1200" y2="0" stroke="url(#scan-laser)" stroke-width="2">
+  <line x1="0" y1="0" x2="1200" y2="0" stroke="url(#scan-laser)" stroke-width="1.8">
     <animate attributeName="y1" values="0;310;0" dur="8s" repeatCount="indefinite"/>
     <animate attributeName="y2" values="0;310;0" dur="8s" repeatCount="indefinite"/>
   </line>
 
   <!-- Ambient Glowing Orbs -->
-  <circle cx="180" cy="90" r="140" fill="#38BDF8" class="anim-pulse-orb" filter="url(#soft-blur)"/>
-  <circle cx="1020" cy="110" r="150" fill="#818CF8" class="anim-pulse-orb" filter="url(#soft-blur)"/>
-  <circle cx="600" cy="60" r="100" fill="#10B981" class="anim-pulse-orb" filter="url(#soft-blur)" opacity="0.10"/>
-  <circle cx="600" cy="270" r="130" fill="#C084FC" class="anim-pulse-orb" filter="url(#soft-blur)" opacity="0.12"/>
+  <circle cx="180" cy="90" r="140" fill="#58A6FF" class="anim-pulse-orb" filter="url(#soft-blur)"/>
+  <circle cx="1020" cy="110" r="150" fill="#8957E5" class="anim-pulse-orb" filter="url(#soft-blur)"/>
+  <circle cx="600" cy="60" r="100" fill="#238636" class="anim-pulse-orb" filter="url(#soft-blur)" opacity="0.08"/>
+  <circle cx="600" cy="270" r="130" fill="#BC8CFF" class="anim-pulse-orb" filter="url(#soft-blur)" opacity="0.10"/>
 
   <!-- Twinkling Micro Constellation Stars -->
-  <circle cx="95" cy="60" r="1.5" fill="#38BDF8" class="star-1"/>
-  <circle cx="240" cy="35" r="2" fill="#FFFFFF" class="star-2"/>
-  <circle cx="380" cy="70" r="1.5" fill="#7AF2FF" class="star-3"/>
-  <circle cx="820" cy="40" r="2" fill="#818CF8" class="star-1"/>
-  <circle cx="960" cy="75" r="1.5" fill="#FFFFFF" class="star-2"/>
-  <circle cx="1120" cy="45" r="2" fill="#38BDF8" class="star-3"/>
-  <circle cx="140" cy="260" r="1.5" fill="#818CF8" class="star-2"/>
-  <circle cx="1060" cy="250" r="1.8" fill="#10B981" class="star-1"/>
+  <circle cx="95" cy="60" r="1.5" fill="#58A6FF" class="star-1"/>
+  <circle cx="240" cy="35" r="2" fill="#F0F6FC" class="star-2"/>
+  <circle cx="380" cy="70" r="1.5" fill="#79C0FF" class="star-3"/>
+  <circle cx="820" cy="40" r="2" fill="#BC8CFF" class="star-1"/>
+  <circle cx="960" cy="75" r="1.5" fill="#F0F6FC" class="star-2"/>
+  <circle cx="1120" cy="45" r="2" fill="#58A6FF" class="star-3"/>
+  <circle cx="140" cy="260" r="1.5" fill="#8957E5" class="star-2"/>
+  <circle cx="1060" cy="250" r="1.8" fill="#3FB950" class="star-1"/>
 
   <!-- Base Fluid Animated Waves -->
   <g class="anim-wave-2">
@@ -194,14 +194,14 @@
 
     <!-- 01. Animated Status Pill (Pulsing Radar Beacon) -->
     <g transform="translate(0, 0)">
-      <rect x="-160" y="0" width="320" height="26" rx="13" fill="#141C2E" stroke="#1E293B" stroke-width="1.1"/>
-      <circle cx="-140" cy="13" r="6" fill="#10B981" opacity="0.3">
+      <rect x="-160" y="0" width="320" height="26" rx="13" fill="#161B22" stroke="#30363D" stroke-width="1.1"/>
+      <circle cx="-140" cy="13" r="6" fill="#3FB950" opacity="0.35">
         <animate attributeName="r" values="3;8.5;3" dur="2s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0.7;0;0.7" dur="2s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="-140" cy="13" r="3.5" fill="#10B981"/>
-      <text x="-124" y="17" text-anchor="start" class="font-mono" font-size="10.5" font-weight="700" fill="#10B981" letter-spacing="0.5">ACTIVE CSE UNDERGRADUATE</text>
-      <text x="135" y="17" text-anchor="end" class="font-mono" font-size="10" font-weight="600" fill="#38BDF8">· VEL TECH</text>
+      <circle cx="-140" cy="13" r="3.5" fill="#3FB950"/>
+      <text x="-124" y="17" text-anchor="start" class="font-mono" font-size="10.5" font-weight="700" fill="#3FB950" letter-spacing="0.5">ACTIVE CSE UNDERGRADUATE</text>
+      <text x="135" y="17" text-anchor="end" class="font-mono" font-size="10" font-weight="600" fill="#58A6FF">· VEL TECH</text>
     </g>
 
     <!-- 02. Shimmering Chromatic Hero Name -->
@@ -211,76 +211,76 @@
 
     <!-- 03. Multi-Disciplinary Title Subheading -->
     <g transform="translate(0, 84)">
-      <text x="0" y="0" class="font-display" font-size="15" font-weight="600" fill="#F8FAFC">
+      <text x="0" y="0" class="font-display" font-size="15" font-weight="600" fill="#F0F6FC">
         Java Software Developer 
-        <tspan fill="#38BDF8"> ✦ </tspan> 
-        <tspan fill="#38BDF8">Full-Stack Web Craftsman</tspan>
-        <tspan fill="#818CF8"> ✦ </tspan> 
-        <tspan fill="#10B981">Smart IoT Engineer</tspan>
+        <tspan fill="#58A6FF"> ✦ </tspan> 
+        <tspan fill="#79C0FF">Full-Stack Web Craftsman</tspan>
+        <tspan fill="#BC8CFF"> ✦ </tspan> 
+        <tspan fill="#3FB950">Smart IoT Engineer</tspan>
       </text>
     </g>
 
     <!-- 04. Dynamic Typing Cycling Role Banner (with λ & blinking neon cursor) -->
     <g transform="translate(0, 104)">
-      <rect x="-260" y="0" width="520" height="30" rx="7" fill="#070B14" stroke="#1E293B" stroke-width="1.1" opacity="0.92"/>
-      <text x="-242" y="20" text-anchor="start" class="font-mono" font-size="13" font-weight="800" fill="#94A3B8">λ</text>
+      <rect x="-260" y="0" width="520" height="30" rx="7" fill="#161B22" stroke="#30363D" stroke-width="1.1" opacity="0.95"/>
+      <text x="-242" y="20" text-anchor="start" class="font-mono" font-size="13" font-weight="800" fill="#8B949E">λ</text>
       
       <!-- Role 1: Full-Stack -->
       <g class="role-1">
-        <text x="-222" y="19.5" text-anchor="start" class="font-mono" font-size="12" font-weight="700" fill="#38BDF8">
+        <text x="-222" y="19.5" text-anchor="start" class="font-mono" font-size="12" font-weight="700" fill="#58A6FF">
           Full-Stack Developer · React 19 &amp; Node.js
         </text>
       </g>
       
       <!-- Role 2: Java Core -->
       <g class="role-2">
-        <text x="-222" y="19.5" text-anchor="start" class="font-mono" font-size="12" font-weight="700" fill="#ED8B00">
+        <text x="-222" y="19.5" text-anchor="start" class="font-mono" font-size="12" font-weight="700" fill="#D29922">
           Core Java 21 · Applied OOP &amp; Algorithmic Problem Solving
         </text>
       </g>
       
       <!-- Role 3: IoT Hardware -->
       <g class="role-3">
-        <text x="-222" y="19.5" text-anchor="start" class="font-mono" font-size="12" font-weight="700" fill="#10B981">
+        <text x="-222" y="19.5" text-anchor="start" class="font-mono" font-size="12" font-weight="700" fill="#3FB950">
           Smart IoT Hardware Telemetry &amp; Sensor Networks
         </text>
       </g>
 
       <!-- Role 4: Open Source -->
       <g class="role-4">
-        <text x="-222" y="19.5" text-anchor="start" class="font-mono" font-size="12" font-weight="700" fill="#C084FC">
+        <text x="-222" y="19.5" text-anchor="start" class="font-mono" font-size="12" font-weight="700" fill="#BC8CFF">
           Open Source Contributor &amp; Scalable Systems Architect
         </text>
       </g>
 
       <!-- Blinking Neon Cursor -->
-      <rect x="238" y="6.5" width="7" height="17" rx="1.5" fill="#38BDF8" class="anim-cursor"/>
+      <rect x="238" y="6.5" width="7" height="17" rx="1.5" fill="#58A6FF" class="anim-cursor"/>
     </g>
 
     <!-- 05. 4 Verified Quick Credentials Pills -->
     <g transform="translate(0, 148)">
       <!-- Pill 1: Vel Tech -->
       <g transform="translate(-278, 0)">
-        <rect width="130" height="26" rx="6" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-        <text x="65" y="17" text-anchor="middle" class="font-mono" font-size="10" font-weight="600" fill="#38BDF8">🎓 VEL TECH '28</text>
+        <rect width="130" height="26" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+        <text x="65" y="17" text-anchor="middle" class="font-mono" font-size="10" font-weight="600" fill="#58A6FF">🎓 VEL TECH '28</text>
       </g>
 
       <!-- Pill 2: Java 21 -->
       <g transform="translate(-136, 0)">
-        <rect width="130" height="26" rx="6" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-        <text x="65" y="17" text-anchor="middle" class="font-mono" font-size="10" font-weight="600" fill="#ED8B00">☕ JAVA 21 &amp; OOP</text>
+        <rect width="130" height="26" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+        <text x="65" y="17" text-anchor="middle" class="font-mono" font-size="10" font-weight="600" fill="#D29922">☕ JAVA 21 &amp; OOP</text>
       </g>
 
       <!-- Pill 3: React 19 -->
       <g transform="translate(6, 0)">
-        <rect width="130" height="26" rx="6" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-        <text x="65" y="17" text-anchor="middle" class="font-mono" font-size="10" font-weight="600" fill="#818CF8">⚛️ REACT 19 &amp; NEXT</text>
+        <rect width="130" height="26" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+        <text x="65" y="17" text-anchor="middle" class="font-mono" font-size="10" font-weight="600" fill="#BC8CFF">⚛️ REACT 19 &amp; NEXT</text>
       </g>
 
       <!-- Pill 4: IoT Telemetry -->
       <g transform="translate(148, 0)">
-        <rect width="130" height="26" rx="6" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-        <text x="65" y="17" text-anchor="middle" class="font-mono" font-size="10" font-weight="600" fill="#10B981">⚡ IOT TELEMETRY</text>
+        <rect width="130" height="26" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+        <text x="65" y="17" text-anchor="middle" class="font-mono" font-size="10" font-weight="600" fill="#3FB950">⚡ IOT TELEMETRY</text>
       </g>
     </g>
 
@@ -288,31 +288,31 @@
     <g transform="translate(0, 186)">
       <!-- VTU ID Chip -->
       <g transform="translate(-244, 0)">
-        <rect width="145" height="26" rx="6" fill="#141C2E" stroke="#1E293B" stroke-width="1.1"/>
-        <circle cx="16" cy="13" r="3" fill="#38BDF8"/>
-        <text x="28" y="17" text-anchor="start" class="font-mono" font-size="10.5" fill="#94A3B8">ID: <tspan fill="#38BDF8" font-weight="700">VTU29661</tspan></text>
+        <rect width="145" height="26" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1.1"/>
+        <circle cx="16" cy="13" r="3" fill="#58A6FF"/>
+        <text x="28" y="17" text-anchor="start" class="font-mono" font-size="10.5" fill="#8B949E">ID: <tspan fill="#58A6FF" font-weight="700">VTU29661</tspan></text>
       </g>
 
       <!-- Batch Chip -->
       <g transform="translate(-85, 0)">
-        <rect width="150" height="26" rx="6" fill="#141C2E" stroke="#1E293B" stroke-width="1.1"/>
-        <circle cx="16" cy="13" r="3" fill="#F59E0B"/>
-        <text x="28" y="17" text-anchor="start" class="font-mono" font-size="10.5" fill="#94A3B8">Batch: <tspan fill="#F59E0B" font-weight="700">2024–2028</tspan></text>
+        <rect width="150" height="26" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1.1"/>
+        <circle cx="16" cy="13" r="3" fill="#D29922"/>
+        <text x="28" y="17" text-anchor="start" class="font-mono" font-size="10.5" fill="#8B949E">Batch: <tspan fill="#D29922" font-weight="700">2024–2028</tspan></text>
       </g>
 
       <!-- Location Chip -->
       <g transform="translate(79, 0)">
-        <rect width="165" height="26" rx="6" fill="#141C2E" stroke="#1E293B" stroke-width="1.1"/>
-        <text x="14" y="17" text-anchor="start" class="font-mono" font-size="10.5" fill="#94A3B8">📍 <tspan fill="#F8FAFC" font-weight="600">Chennai, India</tspan></text>
+        <rect width="165" height="26" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1.1"/>
+        <text x="14" y="17" text-anchor="start" class="font-mono" font-size="10.5" fill="#8B949E">📍 <tspan fill="#F0F6FC" font-weight="600">Chennai, India</tspan></text>
       </g>
     </g>
 
     <!-- 07. Core Philosophy Quote -->
     <g transform="translate(0, 230)">
-      <text x="0" y="15" text-anchor="middle" class="font-mono" font-size="11.5" fill="#E2E8F0">
+      <text x="0" y="15" text-anchor="middle" class="font-mono" font-size="11.5" fill="#C9D1D9">
         &gt; "Architecting clean, performant Java backends, reactive web UIs, and smart embedded IoT telemetry."
       </text>
-      <text x="0" y="32" text-anchor="middle" class="font-mono" font-size="10.5" fill="#38BDF8" opacity="0.85">
+      <text x="0" y="32" text-anchor="middle" class="font-mono" font-size="10.5" fill="#58A6FF" opacity="0.9">
         &gt; "Simplicity and precision in code; resilience, speed, and elegance in architecture."
       </text>
     </g>

@@ -2,17 +2,17 @@
   <defs>
     <!-- Oscillating Laser Gradient -->
     <linearGradient id="cyber-line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0B0F19" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#38BDF8" stop-opacity="0.8">
-        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#10B981;#38BDF8" dur="4s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#0D1117" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#58A6FF" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#58A6FF;#8957E5;#3FB950;#58A6FF" dur="4s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#818CF8" stop-opacity="1">
-        <animate attributeName="stop-color" values="#818CF8;#10B981;#38BDF8;#818CF8" dur="4s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#8957E5" stop-opacity="1">
+        <animate attributeName="stop-color" values="#8957E5;#3FB950;#58A6FF;#8957E5" dur="4s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="80%" stop-color="#10B981" stop-opacity="0.8">
-        <animate attributeName="stop-color" values="#10B981;#38BDF8;#818CF8;#10B981" dur="4s" repeatCount="indefinite"/>
+      <stop offset="80%" stop-color="#3FB950" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#3FB950;#58A6FF;#8957E5;#3FB950" dur="4s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#0B0F19" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
     </linearGradient>
 
     <!-- Glowing Filter -->
@@ -39,29 +39,29 @@
   </defs>
 
   <!-- Background Base Track -->
-  <line x1="40" y1="8" x2="1160" y2="8" stroke="#1E293B" stroke-width="1" opacity="0.6"/>
+  <line x1="40" y1="8" x2="1160" y2="8" stroke="#30363D" stroke-width="1" opacity="0.6"/>
 
   <!-- Active Neon Laser Line -->
   <line x1="80" y1="8" x2="1120" y2="8" stroke="url(#cyber-line-grad)" stroke-width="2.2" stroke-linecap="round" filter="url(#div-glow)"/>
 
   <!-- Moving Laser Energy Photons -->
-  <circle cy="8" r="3" fill="#7AF2FF" filter="url(#div-glow)">
+  <circle cy="8" r="3" fill="#79C0FF" filter="url(#div-glow)">
     <animate attributeName="cx" values="100;1100;100" dur="5s" repeatCount="indefinite" ease="ease-in-out"/>
     <animate attributeName="opacity" values="0.2;1;0.2" dur="5s" repeatCount="indefinite"/>
   </circle>
 
-  <circle cy="8" r="2.5" fill="#10B981" filter="url(#div-glow)">
+  <circle cy="8" r="2.5" fill="#3FB950" filter="url(#div-glow)">
     <animate attributeName="cx" values="1100;100;1100" dur="4s" repeatCount="indefinite" ease="ease-in-out"/>
     <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/>
   </circle>
 
   <!-- Left Accent Nodes -->
-  <circle cx="300" cy="8" r="2.5" fill="#38BDF8" class="node-pulse"/>
-  <circle cx="450" cy="8" r="2" fill="#818CF8" class="node-pulse"/>
+  <circle cx="300" cy="8" r="2.5" fill="#58A6FF" class="node-pulse"/>
+  <circle cx="450" cy="8" r="2" fill="#8957E5" class="node-pulse"/>
 
   <!-- Center Diamond Embellishment -->
   <g transform="translate(600, 8)">
-    <rect x="-6" y="-6" width="12" height="12" rx="2" fill="#0B132B" stroke="#38BDF8" stroke-width="1.2" class="diamond-spin"/>
+    <rect x="-6" y="-6" width="12" height="12" rx="2" fill="#161B22" stroke="#58A6FF" stroke-width="1.2" class="diamond-spin"/>
     <circle cx="0" cy="0" r="3" fill="#38BDF8" filter="url(#div-glow)"/>
     <circle cx="0" cy="0" r="6" fill="none" stroke="#818CF8" stroke-width="0.8" opacity="0.6">
       <animate attributeName="r" values="4;9;4" dur="2s" repeatCount="indefinite"/>

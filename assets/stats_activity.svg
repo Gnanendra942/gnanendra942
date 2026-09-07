@@ -1,18 +1,18 @@
 <svg width="495" height="220" viewBox="0 0 495 220" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B0F19"/>
-      <stop offset="100%" stop-color="#111827"/>
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0D1117"/>
     </linearGradient>
     <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="100%" stop-color="#818CF8"/>
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="100%" stop-color="#8957E5"/>
     </linearGradient>
     <linearGradient id="actBeam" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8">
-        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#38BDF8" dur="4s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#58A6FF">
+        <animate attributeName="stop-color" values="#58A6FF;#8957E5;#58A6FF" dur="4s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#8957E5"/>
     </linearGradient>
     <linearGradient id="rainbowBorder" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#38BDF8">
@@ -42,70 +42,70 @@
 
   <!-- Header with Pulsing Beacon -->
   <g transform="translate(24, 24)">
-    <circle cx="5" cy="5" r="4" fill="#10B981"/>
-    <circle cx="5" cy="5" r="4" fill="none" stroke="#10B981" stroke-width="1.2" class="anim-sync"/>
-    <text x="18" y="9" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC" letter-spacing="0.5">GITHUB METRICS &amp; ACTIVITY</text>
-    <text x="447" y="9" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="10" font-weight="600" fill="#10B981">● LIVE SYNC</text>
+    <circle cx="5" cy="5" r="4" fill="#3FB950"/>
+    <circle cx="5" cy="5" r="4" fill="none" stroke="#3FB950" stroke-width="1.2" class="anim-sync"/>
+    <text x="18" y="9" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#F0F6FC" letter-spacing="0.5">GITHUB METRICS &amp; ACTIVITY</text>
+    <text x="447" y="9" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="10" font-weight="600" fill="#3FB950">● LIVE SYNC</text>
   </g>
 
   <!-- 2x2 Metric Grid (Left) -->
   <g transform="translate(24, 48)">
     <!-- Repos -->
-    <rect x="0" y="0" width="102" height="56" rx="8" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="12" y="20" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#94A3B8">PUBLIC REPOS</text>
-    <text x="12" y="44" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#F8FAFC">7</text>
+    <rect x="0" y="0" width="102" height="56" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <text x="12" y="20" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#8B949E">PUBLIC REPOS</text>
+    <text x="12" y="44" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#F0F6FC">7</text>
 
     <!-- Stars -->
-    <rect x="112" y="0" width="102" height="56" rx="8" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="124" y="20" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#94A3B8">STARS EARNED</text>
-    <text x="124" y="44" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#F59E0B">0</text>
+    <rect x="112" y="0" width="102" height="56" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <text x="124" y="20" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#8B949E">STARS EARNED</text>
+    <text x="124" y="44" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#D29922">0</text>
 
     <!-- Forks -->
-    <rect x="0" y="64" width="102" height="56" rx="8" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="12" y="84" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#94A3B8">FORKS &amp; COLLABS</text>
-    <text x="12" y="108" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#818CF8">0</text>
+    <rect x="0" y="64" width="102" height="56" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <text x="12" y="84" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#8B949E">FORKS &amp; COLLABS</text>
+    <text x="12" y="108" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#8957E5">0</text>
 
     <!-- Commits -->
-    <rect x="112" y="64" width="102" height="56" rx="8" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="124" y="84" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#94A3B8">TOTAL COMMITS</text>
-    <text x="124" y="108" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#10B981">530+</text>
+    <rect x="112" y="64" width="102" height="56" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <text x="124" y="84" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#8B949E">TOTAL COMMITS</text>
+    <text x="124" y="108" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#3FB950">565+</text>
   </g>
 
   <!-- Velocity Chart (Right) -->
   <g transform="translate(250, 48)">
-    <rect x="0" y="0" width="221" height="120" rx="8" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="14" y="20" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#94A3B8" letter-spacing="0.5">WEEKLY VELOCITY</text>
+    <rect x="0" y="0" width="221" height="120" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <text x="14" y="20" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#8B949E" letter-spacing="0.5">WEEKLY VELOCITY</text>
     
     <rect x="14" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
-    <rect x="14" y="47" width="16" height="49" rx="3" fill="url(#barGrad)"/>
-    <rect x="14" y="47" width="16" height="2" rx="1" fill="#7AF2FF" opacity="0.8"/>
-    <text x="22.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#94A3B8">Mon</text>
+    <rect x="14" y="66" width="16" height="30" rx="3" fill="url(#barGrad)"/>
+    <rect x="14" y="66" width="16" height="2" rx="1" fill="#7AF2FF" opacity="0.8"/>
+    <text x="22.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#8B949E">Mon</text>
     <rect x="43" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
     <rect x="43" y="69" width="16" height="27" rx="3" fill="url(#barGrad)"/>
     <rect x="43" y="69" width="16" height="2" rx="1" fill="#7AF2FF" opacity="0.8"/>
-    <text x="51.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#94A3B8">Tue</text>
+    <text x="51.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#8B949E">Tue</text>
     <rect x="72" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
     <rect x="72" y="58" width="16" height="38" rx="3" fill="url(#barGrad)"/>
     <rect x="72" y="58" width="16" height="2" rx="1" fill="#7AF2FF" opacity="0.8"/>
-    <text x="80.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#94A3B8">Wed</text>
+    <text x="80.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#8B949E">Wed</text>
     <rect x="101" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
     <rect x="101" y="72" width="16" height="24" rx="3" fill="url(#barGrad)"/>
     <rect x="101" y="72" width="16" height="2" rx="1" fill="#7AF2FF" opacity="0.8"/>
-    <text x="109.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#94A3B8">Thu</text>
+    <text x="109.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#8B949E">Thu</text>
     <rect x="130" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
     <rect x="130" y="52" width="16" height="44" rx="3" fill="url(#barGrad)"/>
     <rect x="130" y="52" width="16" height="2" rx="1" fill="#7AF2FF" opacity="0.8"/>
-    <text x="138.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#94A3B8">Fri</text>
+    <text x="138.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#8B949E">Fri</text>
     <rect x="159" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
     <rect x="159" y="64" width="16" height="32" rx="3" fill="url(#barGrad)"/>
     <rect x="159" y="64" width="16" height="2" rx="1" fill="#7AF2FF" opacity="0.8"/>
-    <text x="167.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#94A3B8">Sat</text>
+    <text x="167.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#8B949E">Sat</text>
     <rect x="188" y="40" width="16" height="56" rx="3" fill="#1E293B" opacity="0.4"/>
     <rect x="188" y="76" width="16" height="20" rx="3" fill="url(#barGrad)"/>
     <rect x="188" y="76" width="16" height="2" rx="1" fill="#7AF2FF" opacity="0.8"/>
-    <text x="196.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#94A3B8">Sun</text>
+    <text x="196.0" y="110" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="8" font-weight="600" fill="#8B949E">Sun</text>
   </g>
 
   <!-- Footer -->
-  <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#64748B">Synced: Sep 07, 2026 · 04:02 UTC · Followers: 4 · 60 FPS Engine</text>
+  <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#6E7681">Synced: Sep 07, 2026 · 06:33 UTC · Followers: 3 · 60 FPS Engine</text>
 </svg>

@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 220" width="100%" height="100%">
   <defs>
     <linearGradient id="bg-pm" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#14060A"/>
-      <stop offset="50%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#080C14"/>
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="50%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0D1117"/>
     </linearGradient>
 
     <linearGradient id="beam-pm" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#EF4444">
         <animate attributeName="stop-color" values="#EF4444;#FB7185;#EF4444" dur="2.5s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#58A6FF"/>
     </linearGradient>
 
     <!-- ECG Glow Filter -->
@@ -25,8 +25,8 @@
     <style>
       .font-display { font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
       .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace; }
-      .card-title { font-weight: 700; font-size: 17px; fill: #F8FAFC; }
-      .card-desc { font-size: 11px; fill: #94A3B8; }
+      .card-title { font-weight: 700; font-size: 17px; fill: #F0F6FC; }
+      .card-desc { font-size: 11px; fill: #8B949E; }
       .card-chip { font-size: 10px; font-weight: 700; }
 
       @keyframes heartBeat {
@@ -44,19 +44,19 @@
     </style>
   </defs>
 
-  <rect width="580" height="220" rx="12" fill="url(#bg-pm)" stroke="#1E293B" stroke-width="1.2"/>
+  <rect width="580" height="220" rx="12" fill="url(#bg-pm)" stroke="#30363D" stroke-width="1.2"/>
   <rect x="0" y="0" width="580" height="3" rx="1.5" fill="url(#beam-pm)"/>
   
   <!-- Status Badge with Pulsing Heart -->
   <g transform="translate(375, 18)">
-    <rect width="180" height="24" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <rect width="180" height="24" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
     <g transform="translate(12, 12)">
       <g class="anim-heart">
         <circle cx="0" cy="0" r="4.5" fill="#EF4444"/>
       </g>
     </g>
     <text x="24" y="16" class="font-mono card-chip" fill="#EF4444">BIOMEDICAL IOT</text>
-    <text x="140" y="16" class="font-mono card-chip" fill="#38BDF8">72 BPM</text>
+    <text x="140" y="16" class="font-mono card-chip" fill="#58A6FF">72 BPM</text>
   </g>
 
   <!-- Title & Description -->
@@ -69,9 +69,9 @@
 
   <!-- Live Animated ECG Waveform Visualizer -->
   <g transform="translate(24, 130)">
-    <rect width="320" height="26" rx="4" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <rect width="320" height="26" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1"/>
     <!-- ECG Baseline Track -->
-    <line x1="10" y1="13" x2="310" y2="13" stroke="#1E293B" stroke-width="1"/>
+    <line x1="10" y1="13" x2="310" y2="13" stroke="#30363D" stroke-width="1"/>
     <!-- Animated ECG Wave Path -->
     <path d="M 10 13 L 50 13 L 60 9 L 68 18 L 76 3 L 84 22 L 92 13 L 130 13 L 140 9 L 148 18 L 156 3 L 164 22 L 172 13 L 210 13 L 220 9 L 228 18 L 236 3 L 244 22 L 252 13 L 310 13" 
           fill="none" stroke="#EF4444" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" filter="url(#ecg-glow)" class="ecg-line"/>
@@ -79,14 +79,14 @@
 
   <!-- Tech Tags -->
   <g transform="translate(24, 172)">
-    <rect width="80" height="26" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <rect width="80" height="26" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
     <text x="40" y="17" text-anchor="middle" class="font-mono card-chip" fill="#EF4444">BIOMEDICAL</text>
 
-    <rect x="88" width="75" height="26" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="125" y="17" text-anchor="middle" class="font-mono card-chip" fill="#F59E0B">C++ / UNO</text>
+    <rect x="88" width="75" height="26" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <text x="125" y="17" text-anchor="middle" class="font-mono card-chip" fill="#D29922">C++ / UNO</text>
 
-    <rect x="171" width="95" height="26" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="218" y="17" text-anchor="middle" class="font-mono card-chip" fill="#38BDF8">TELEMETRY</text>
+    <rect x="171" width="95" height="26" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <text x="218" y="17" text-anchor="middle" class="font-mono card-chip" fill="#58A6FF">TELEMETRY</text>
   </g>
 
   <!-- View Repo Link -->

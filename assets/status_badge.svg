@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 48" width="100%" height="100%">
   <defs>
     <linearGradient id="sb-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B0F19"/>
-      <stop offset="100%" stop-color="#111827"/>
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0D1117"/>
     </linearGradient>
     <linearGradient id="sb-shine" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
@@ -22,16 +22,16 @@
     </style>
   </defs>
 
-  <rect width="1200" height="48" rx="8" fill="url(#sb-bg)" stroke="#1E293B" stroke-width="1.2"/>
+  <rect width="1200" height="48" rx="8" fill="url(#sb-bg)" stroke="#30363D" stroke-width="1.2"/>
   <rect width="1200" height="48" rx="8" fill="url(#sb-shine)"/>
 
   <!-- Left: Live Status -->
   <g transform="translate(20, 14)">
     <rect width="12" height="12" rx="6" fill="#065F46"/>
-    <circle cx="6" cy="6" r="3.5" fill="#10B981" class="pulse-circle"/>
-    <text x="20" y="10" class="font-mono" font-size="10.5" font-weight="700" fill="#10B981" letter-spacing="0.5">ACTIVE UNDERGRADUATE · VEL TECH CSE</text>
+    <circle cx="6" cy="6" r="3.5" fill="#3FB950" class="pulse-circle"/>
+    <text x="20" y="10" class="font-mono" font-size="10.5" font-weight="700" fill="#3FB950" letter-spacing="0.5">ACTIVE UNDERGRADUATE · VEL TECH CSE</text>
   </g>
 
   <!-- Right: Sub Focus -->
-  <text x="1180" y="29" text-anchor="end" class="font-mono" font-size="10.5" font-weight="500" fill="#94A3B8">B.Tech CSE '28 · Core Java · Modern React · Smart IoT Engineering</text>
+  <text x="1180" y="29" text-anchor="end" class="font-mono" font-size="10.5" font-weight="500" fill="#8B949E">B.Tech CSE '28 · Core Java · Modern React · Smart IoT Engineering</text>
 </svg>

@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 220" width="100%" height="100%">
   <defs>
     <linearGradient id="bg-ja" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#140C04"/>
-      <stop offset="50%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#080C14"/>
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="50%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0D1117"/>
     </linearGradient>
 
     <linearGradient id="beam-ja" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ED8B00">
-        <animate attributeName="stop-color" values="#ED8B00;#F59E0B;#ED8B00" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#ED8B00;#D29922;#ED8B00" dur="3s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#58A6FF"/>
     </linearGradient>
 
     <style>
       .font-display { font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
       .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace; }
-      .card-title { font-weight: 700; font-size: 17px; fill: #F8FAFC; }
-      .card-desc { font-size: 11px; fill: #94A3B8; }
+      .card-title { font-weight: 700; font-size: 17px; fill: #F0F6FC; }
+      .card-desc { font-size: 11px; fill: #8B949E; }
       .card-chip { font-size: 10px; font-weight: 700; }
 
       @keyframes sortBar1 { 0%, 100% { height: 6px; y: 144px; } 50% { height: 16px; y: 134px; } }
@@ -40,12 +40,12 @@
     </style>
   </defs>
 
-  <rect width="580" height="220" rx="12" fill="url(#bg-ja)" stroke="#1E293B" stroke-width="1.2"/>
+  <rect width="580" height="220" rx="12" fill="url(#bg-ja)" stroke="#30363D" stroke-width="1.2"/>
   <rect x="0" y="0" width="580" height="3" rx="1.5" fill="url(#beam-ja)"/>
   
   <!-- Status Badge -->
   <g transform="translate(370, 18)">
-    <rect width="185" height="24" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <rect width="185" height="24" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
     <circle cx="12" cy="12" r="3.5" fill="#ED8B00" class="anim-pulse-node"/>
     <text x="22" y="16" class="font-mono card-chip" fill="#ED8B00">CORE JAVA 21 &amp; DSA</text>
   </g>
@@ -60,32 +60,32 @@
 
   <!-- Animated Sorting Visualizer & Binary Tree Nodes -->
   <g transform="translate(24, 126)">
-    <rect width="320" height="30" rx="4" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <rect width="320" height="30" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1"/>
     
     <!-- Sorting Bars -->
     <g transform="translate(14, 0)">
       <rect x="0" width="4" rx="1.5" fill="#ED8B00" class="sb-1"/>
-      <rect x="8" width="4" rx="1.5" fill="#F59E0B" class="sb-2"/>
-      <rect x="16" width="4" rx="1.5" fill="#38BDF8" class="sb-3"/>
-      <rect x="24" width="4" rx="1.5" fill="#10B981" class="sb-4"/>
-      <rect x="32" width="4" rx="1.5" fill="#818CF8" class="sb-5"/>
+      <rect x="8" width="4" rx="1.5" fill="#D29922" class="sb-2"/>
+      <rect x="16" width="4" rx="1.5" fill="#58A6FF" class="sb-3"/>
+      <rect x="24" width="4" rx="1.5" fill="#3FB950" class="sb-4"/>
+      <rect x="32" width="4" rx="1.5" fill="#8957E5" class="sb-5"/>
     </g>
 
-    <text x="60" y="19" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#10B981">
-      TEST RUNNER: <tspan fill="#F8FAFC">ALL ACS ASSERTIONS PASSED (100%)</tspan>
+    <text x="60" y="19" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#3FB950">
+      TEST RUNNER: <tspan fill="#F0F6FC">ALL ACS ASSERTIONS PASSED (100%)</tspan>
     </text>
   </g>
 
   <!-- Tech Tags -->
   <g transform="translate(24, 172)">
-    <rect width="70" height="26" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+    <rect width="70" height="26" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
     <text x="35" y="17" text-anchor="middle" class="font-mono card-chip" fill="#ED8B00">JAVA 21</text>
 
-    <rect x="78" width="95" height="26" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="125" y="17" text-anchor="middle" class="font-mono card-chip" fill="#38BDF8">ALGORITHMS</text>
+    <rect x="78" width="95" height="26" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <text x="125" y="17" text-anchor="middle" class="font-mono card-chip" fill="#58A6FF">ALGORITHMS</text>
 
-    <rect x="181" width="85" height="26" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
-    <text x="223" y="17" text-anchor="middle" class="font-mono card-chip" fill="#10B981">UNIT TESTS</text>
+    <rect x="181" width="85" height="26" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <text x="223" y="17" text-anchor="middle" class="font-mono card-chip" fill="#3FB950">UNIT TESTS</text>
   </g>
 
   <!-- View Repo Link -->

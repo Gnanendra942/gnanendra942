@@ -2,40 +2,40 @@
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="skills-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050811"/>
-      <stop offset="40%" stop-color="#0B0F19"/>
-      <stop offset="100%" stop-color="#070B14"/>
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="40%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
     </linearGradient>
 
     <!-- Border Beam -->
     <linearGradient id="skills-border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38BDF8">
-        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#10B981;#38BDF8" dur="6s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#58A6FF">
+        <animate attributeName="stop-color" values="#58A6FF;#8957E5;#3FB950;#58A6FF" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#1E293B" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#818CF8">
-        <animate attributeName="stop-color" values="#818CF8;#10B981;#38BDF8;#818CF8" dur="6s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#30363D" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8957E5">
+        <animate attributeName="stop-color" values="#8957E5;#3FB950;#58A6FF;#8957E5" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
     <!-- Bar Gradients -->
     <linearGradient id="bar-java" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="0%" stop-color="#D29922"/>
       <stop offset="100%" stop-color="#ED8B00"/>
     </linearGradient>
 
     <linearGradient id="bar-react" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="0%" stop-color="#58A6FF"/>
       <stop offset="100%" stop-color="#0284C7"/>
     </linearGradient>
 
     <linearGradient id="bar-iot" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="0%" stop-color="#3FB950"/>
       <stop offset="100%" stop-color="#059669"/>
     </linearGradient>
 
     <linearGradient id="bar-node" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="0%" stop-color="#8957E5"/>
       <stop offset="100%" stop-color="#6366F1"/>
     </linearGradient>
 
@@ -90,12 +90,12 @@
 
   <!-- Card Header -->
   <g transform="translate(24, 24)">
-    <circle cx="5" cy="5" r="4" fill="#38BDF8"/>
-    <circle cx="5" cy="5" r="4" fill="none" stroke="#38BDF8" stroke-width="1.2" class="anim-radar"/>
-    <text x="18" y="9" class="font-display" font-size="12" font-weight="800" fill="#F8FAFC" letter-spacing="0.5">
+    <circle cx="5" cy="5" r="4" fill="#58A6FF"/>
+    <circle cx="5" cy="5" r="4" fill="none" stroke="#58A6FF" stroke-width="1.2" class="anim-radar"/>
+    <text x="18" y="9" class="font-display" font-size="12" font-weight="800" fill="#F0F6FC" letter-spacing="0.5">
       ENGINEERING MASTERY &amp; SKILL METRICS
     </text>
-    <text x="532" y="9" text-anchor="end" class="font-mono" font-size="9.5" font-weight="700" fill="#10B981">
+    <text x="532" y="9" text-anchor="end" class="font-mono" font-size="9.5" font-weight="700" fill="#3FB950">
       LIVE 60 FPS
     </text>
   </g>
@@ -104,10 +104,10 @@
   <g transform="translate(24, 50)">
     <!-- Skill 1: Java 21 -->
     <g transform="translate(0, 0)">
-      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F8FAFC">Core Java 21 &amp; Applied OOP</text>
-      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#F59E0B">94%</text>
+      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F0F6FC">Core Java 21 &amp; Applied OOP</text>
+      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#D29922">94%</text>
       <!-- Track -->
-      <rect y="22" width="532" height="10" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+      <rect y="22" width="532" height="10" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
       <!-- Fill -->
       <rect y="22" height="10" rx="5" fill="url(#bar-java)" class="bar-fill-1">
         <animate attributeName="width" from="0" to="500" dur="1.5s" fill="freeze"/>
@@ -116,10 +116,10 @@
 
     <!-- Skill 2: React 19 -->
     <g transform="translate(0, 48)">
-      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F8FAFC">React 19, Next.js &amp; Tailwind</text>
-      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#38BDF8">91%</text>
+      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F0F6FC">React 19, Next.js &amp; Tailwind</text>
+      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#58A6FF">91%</text>
       <!-- Track -->
-      <rect y="22" width="532" height="10" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+      <rect y="22" width="532" height="10" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
       <!-- Fill -->
       <rect y="22" height="10" rx="5" fill="url(#bar-react)" class="bar-fill-2">
         <animate attributeName="width" from="0" to="484" dur="1.5s" begin="0.15s" fill="freeze"/>
@@ -128,10 +128,10 @@
 
     <!-- Skill 3: IoT C++ -->
     <g transform="translate(0, 96)">
-      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F8FAFC">Embedded IoT &amp; Arduino C++</text>
-      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#10B981">88%</text>
+      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F0F6FC">Embedded IoT &amp; Arduino C++</text>
+      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#3FB950">88%</text>
       <!-- Track -->
-      <rect y="22" width="532" height="10" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+      <rect y="22" width="532" height="10" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
       <!-- Fill -->
       <rect y="22" height="10" rx="5" fill="url(#bar-iot)" class="bar-fill-3">
         <animate attributeName="width" from="0" to="468" dur="1.5s" begin="0.3s" fill="freeze"/>
@@ -140,10 +140,10 @@
 
     <!-- Skill 4: Node.js & REST -->
     <g transform="translate(0, 144)">
-      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F8FAFC">Node.js, Express &amp; REST APIs</text>
-      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#818CF8">85%</text>
+      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F0F6FC">Node.js, Express &amp; REST APIs</text>
+      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#8957E5">85%</text>
       <!-- Track -->
-      <rect y="22" width="532" height="10" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+      <rect y="22" width="532" height="10" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
       <!-- Fill -->
       <rect y="22" height="10" rx="5" fill="url(#bar-node)" class="bar-fill-4">
         <animate attributeName="width" from="0" to="452" dur="1.5s" begin="0.45s" fill="freeze"/>
@@ -152,10 +152,10 @@
 
     <!-- Skill 5: Databases -->
     <g transform="translate(0, 192)">
-      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F8FAFC">MySQL &amp; MongoDB Datastores</text>
+      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F0F6FC">MySQL &amp; MongoDB Datastores</text>
       <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#FB7185">82%</text>
       <!-- Track -->
-      <rect y="22" width="532" height="10" rx="5" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+      <rect y="22" width="532" height="10" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
       <!-- Fill -->
       <rect y="22" height="10" rx="5" fill="url(#bar-db)" class="bar-fill-5">
         <animate attributeName="width" from="0" to="436" dur="1.5s" begin="0.6s" fill="freeze"/>
@@ -165,22 +165,22 @@
 
   <!-- Bottom Interactive Tech Stack Quick Pills -->
   <g transform="translate(24, 288)">
-    <rect width="118" height="24" rx="4" fill="#0E1626" stroke="#1E293B" stroke-width="1" class="icon-p1"/>
-    <text x="59" y="16" text-anchor="middle" class="font-mono" font-size="9" font-weight="700" fill="#38BDF8">⚛️ REACT 19</text>
+    <rect width="118" height="24" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" class="icon-p1"/>
+    <text x="59" y="16" text-anchor="middle" class="font-mono" font-size="9" font-weight="700" fill="#58A6FF">⚛️ REACT 19</text>
 
     <g transform="translate(136, 0)">
-      <rect width="118" height="24" rx="4" fill="#0E1626" stroke="#1E293B" stroke-width="1" class="icon-p2"/>
+      <rect width="118" height="24" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" class="icon-p2"/>
       <text x="59" y="16" text-anchor="middle" class="font-mono" font-size="9" font-weight="700" fill="#ED8B00">☕ JAVA 21</text>
     </g>
 
     <g transform="translate(272, 0)">
-      <rect width="118" height="24" rx="4" fill="#0E1626" stroke="#1E293B" stroke-width="1" class="icon-p3"/>
-      <text x="59" y="16" text-anchor="middle" class="font-mono" font-size="9" font-weight="700" fill="#10B981">⚡ ARDUINO C++</text>
+      <rect width="118" height="24" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" class="icon-p3"/>
+      <text x="59" y="16" text-anchor="middle" class="font-mono" font-size="9" font-weight="700" fill="#3FB950">⚡ ARDUINO C++</text>
     </g>
 
     <g transform="translate(408, 0)">
-      <rect width="124" height="24" rx="4" fill="#0E1626" stroke="#1E293B" stroke-width="1" class="icon-p4"/>
-      <text x="62" y="16" text-anchor="middle" class="font-mono" font-size="9" font-weight="700" fill="#818CF8">🚀 NEXT.JS / REST</text>
+      <rect width="124" height="24" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" class="icon-p4"/>
+      <text x="62" y="16" text-anchor="middle" class="font-mono" font-size="9" font-weight="700" fill="#8957E5">🚀 NEXT.JS / REST</text>
     </g>
   </g>
 </svg>

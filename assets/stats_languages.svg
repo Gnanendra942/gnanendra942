@@ -1,14 +1,14 @@
 <svg width="495" height="220" viewBox="0 0 495 220" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B0F19"/>
-      <stop offset="100%" stop-color="#111827"/>
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0D1117"/>
     </linearGradient>
     <linearGradient id="langBeam" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#818CF8">
-        <animate attributeName="stop-color" values="#818CF8;#38BDF8;#818CF8" dur="4s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#8957E5">
+        <animate attributeName="stop-color" values="#8957E5;#58A6FF;#8957E5" dur="4s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#58A6FF"/>
     </linearGradient>
     <linearGradient id="langShine" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
@@ -26,20 +26,20 @@
     </style>
   </defs>
 
-  <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGrad2)" stroke="#1E293B" stroke-width="1.2"/>
+  <rect x="1" y="1" width="493" height="218" rx="12" fill="url(#bgGrad2)" stroke="#30363D" stroke-width="1.2"/>
   <rect x="24" y="1" width="100" height="2.5" rx="1" fill="url(#langBeam)"/>
 
   <g transform="translate(24, 24)">
-    <circle cx="5" cy="5" r="4" fill="#818CF8"/>
-    <text x="16" y="9" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC" letter-spacing="0.5">MOST USED LANGUAGES</text>
-    <text x="447" y="9" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="10" font-weight="600" fill="#94A3B8">BY CODE VOLUME</text>
+    <circle cx="5" cy="5" r="4" fill="#8957E5"/>
+    <text x="16" y="9" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#F0F6FC" letter-spacing="0.5">MOST USED LANGUAGES</text>
+    <text x="447" y="9" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="10" font-weight="600" fill="#8B949E">BY CODE VOLUME</text>
   </g>
 
   <!-- Progress Bar Container with Sweep Shine -->
   <g transform="translate(24, 48)">
-    <rect width="447" height="10" rx="5" fill="#141C2E"/>
-    <rect x="0.0" y="0" width="217.2" height="10" fill="#E34F26" rx="2"/>
-<rect x="217.2" y="0" width="147.5" height="10" fill="#38BDF8" rx="2"/>
+    <rect width="447" height="10" rx="5" fill="#161B22"/>
+    <rect x="0.0" y="0" width="216.8" height="10" fill="#E34F26" rx="2"/>
+<rect x="216.8" y="0" width="148.0" height="10" fill="#38BDF8" rx="2"/>
 <rect x="364.8" y="0" width="82.2" height="10" fill="#ED8B00" rx="2"/>
 
     <rect width="447" height="10" rx="5" fill="url(#langShine)"/>
@@ -49,24 +49,24 @@
   <g transform="translate(24, 76)">
     
     <g transform="translate(0, 0)">
-      <rect width="216" height="34" rx="6" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+      <rect width="216" height="34" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1"/>
       <circle cx="16" cy="17" r="5" fill="#E34F26" class="lang-dot"/>
-      <text x="30" y="21" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">HTML</text>
-      <text x="202" y="21" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="11" font-weight="700" fill="#E34F26">48.6%</text>
+      <text x="30" y="21" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#F0F6FC">HTML</text>
+      <text x="202" y="21" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="11" font-weight="700" fill="#E34F26">48.5%</text>
     </g>
     <g transform="translate(228, 0)">
-      <rect width="216" height="34" rx="6" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+      <rect width="216" height="34" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1"/>
       <circle cx="16" cy="17" r="5" fill="#38BDF8" class="lang-dot"/>
-      <text x="30" y="21" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">Python</text>
-      <text x="202" y="21" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="11" font-weight="700" fill="#38BDF8">33.0%</text>
+      <text x="30" y="21" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#F0F6FC">Python</text>
+      <text x="202" y="21" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="11" font-weight="700" fill="#38BDF8">33.1%</text>
     </g>
     <g transform="translate(0, 42)">
-      <rect width="216" height="34" rx="6" fill="#141C2E" stroke="#1E293B" stroke-width="1"/>
+      <rect width="216" height="34" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1"/>
       <circle cx="16" cy="17" r="5" fill="#ED8B00" class="lang-dot"/>
-      <text x="30" y="21" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">Java</text>
+      <text x="30" y="21" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#F0F6FC">Java</text>
       <text x="202" y="21" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace" font-size="11" font-weight="700" fill="#ED8B00">18.4%</text>
     </g>
   </g>
 
-  <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#64748B">Automated repository language analytics · Updated Daily</text>
+  <text x="24" y="198" font-family="'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#6E7681">Automated repository language analytics · Updated Daily</text>
 </svg>

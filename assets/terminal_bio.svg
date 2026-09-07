@@ -2,18 +2,18 @@
   <defs>
     <!-- Terminal Dark Surface Gradient -->
     <linearGradient id="term-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050811"/>
-      <stop offset="40%" stop-color="#0B0F19"/>
-      <stop offset="100%" stop-color="#070B14"/>
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="40%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
     </linearGradient>
 
     <linearGradient id="term-border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#10B981" stop-opacity="0.8">
-        <animate attributeName="stop-color" values="#10B981;#38BDF8;#818CF8;#10B981" dur="7s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#3FB950" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#3FB950;#58A6FF;#8957E5;#3FB950" dur="7s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#1E293B" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.8">
-        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#10B981;#38BDF8" dur="7s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#30363D" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#58A6FF;#8957E5;#3FB950;#58A6FF" dur="7s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
@@ -60,9 +60,9 @@
 
   <!-- Window Titlebar -->
   <g transform="translate(0, 0)">
-    <rect width="580" height="32" rx="12" fill="#0E1626"/>
-    <rect y="24" width="580" height="8" fill="#0E1626"/>
-    <line x1="0" y1="32" x2="580" y2="32" stroke="#1E293B" stroke-width="1"/>
+    <rect width="580" height="32" rx="12" fill="#161B22"/>
+    <rect y="24" width="580" height="8" fill="#161B22"/>
+    <line x1="0" y1="32" x2="580" y2="32" stroke="#30363D" stroke-width="1"/>
 
     <!-- Traffic Light Buttons -->
     <circle cx="20" cy="16" r="5" fill="#FF5F56"/>
@@ -70,7 +70,7 @@
     <circle cx="52" cy="16" r="5" fill="#27C93F"/>
 
     <!-- Title Centered -->
-    <text x="290" y="20" text-anchor="middle" class="font-mono" font-size="11" font-weight="600" fill="#94A3B8">
+    <text x="290" y="20" text-anchor="middle" class="font-mono" font-size="11" font-weight="600" fill="#8B949E">
       gnanendra@dev-station: ~ (zsh)
     </text>
   </g>
@@ -79,21 +79,21 @@
   <g transform="translate(20, 52)">
     <!-- Line 1: Command 1 -->
     <g class="term-l1">
-      <text x="0" y="14" class="font-mono" font-size="11.5" font-weight="700" fill="#10B981">gnanendra@station:~$</text>
-      <text x="175" y="14" class="font-mono" font-size="11.5" font-weight="700" fill="#F8FAFC">whoami</text>
+      <text x="0" y="14" class="font-mono" font-size="11.5" font-weight="700" fill="#3FB950">gnanendra@station:~$</text>
+      <text x="175" y="14" class="font-mono" font-size="11.5" font-weight="700" fill="#F0F6FC">whoami</text>
     </g>
 
     <!-- Line 2: Response 1 -->
     <g class="term-l2" transform="translate(0, 26)">
-      <text x="0" y="14" class="font-mono" font-size="11.5" font-weight="700" fill="#38BDF8">
+      <text x="0" y="14" class="font-mono" font-size="11.5" font-weight="700" fill="#58A6FF">
         ➜ Chowreddygari Gnanendra Reddy (3rd-Year B.Tech CSE)
       </text>
     </g>
 
     <!-- Line 3: Command 2 -->
     <g class="term-l3" transform="translate(0, 56)">
-      <text x="0" y="14" class="font-mono" font-size="11.5" font-weight="700" fill="#10B981">gnanendra@station:~$</text>
-      <text x="175" y="14" class="font-mono" font-size="11.5" font-weight="700" fill="#F8FAFC">cat academic_manifest.json</text>
+      <text x="0" y="14" class="font-mono" font-size="11.5" font-weight="700" fill="#3FB950">gnanendra@station:~$</text>
+      <text x="175" y="14" class="font-mono" font-size="11.5" font-weight="700" fill="#F0F6FC">cat academic_manifest.json</text>
     </g>
 
     <!-- Line 4: JSON Output Part 1 -->
@@ -105,37 +105,37 @@
     <!-- Line 5: JSON Output Part 2 -->
     <g class="term-l5" transform="translate(0, 104)">
       <text x="14" y="14" class="font-mono" font-size="10.5" fill="#C084FC">"student_id":</text>
-      <text x="125" y="14" class="font-mono" font-size="10.5" fill="#38BDF8">"VTU29661"</text>
-      <text x="210" y="14" class="font-mono" font-size="10.5" fill="#94A3B8">|</text>
+      <text x="125" y="14" class="font-mono" font-size="10.5" fill="#58A6FF">"VTU29661"</text>
+      <text x="210" y="14" class="font-mono" font-size="10.5" fill="#8B949E">|</text>
       <text x="225" y="14" class="font-mono" font-size="10.5" fill="#C084FC">"reg_no":</text>
-      <text x="295" y="14" class="font-mono" font-size="10.5" fill="#38BDF8">"24UECS0503"</text>
+      <text x="295" y="14" class="font-mono" font-size="10.5" fill="#58A6FF">"24UECS0503"</text>
     </g>
 
     <!-- Line 6: JSON Output Part 3 -->
     <g class="term-l6" transform="translate(0, 126)">
       <text x="14" y="14" class="font-mono" font-size="10.5" fill="#C084FC">"core_stack":</text>
-      <text x="125" y="14" class="font-mono" font-size="10.5" fill="#10B981">["Java 21", "React 19", "IoT C++", "Next.js", "MySQL"]</text>
+      <text x="125" y="14" class="font-mono" font-size="10.5" fill="#3FB950">["Java 21", "React 19", "IoT C++", "Next.js", "MySQL"]</text>
     </g>
 
     <!-- Line 7: Command 3 -->
     <g class="term-l7" transform="translate(0, 158)">
-      <text x="0" y="14" class="font-mono" font-size="11.5" font-weight="700" fill="#10B981">gnanendra@station:~$</text>
-      <text x="175" y="14" class="font-mono" font-size="11.5" font-weight="700" fill="#F8FAFC">status --check-availability</text>
+      <text x="0" y="14" class="font-mono" font-size="11.5" font-weight="700" fill="#3FB950">gnanendra@station:~$</text>
+      <text x="175" y="14" class="font-mono" font-size="11.5" font-weight="700" fill="#F0F6FC">status --check-availability</text>
     </g>
 
     <!-- Line 8: Status Result with Glowing Cursor -->
     <g class="term-l8" transform="translate(0, 186)">
-      <rect x="0" y="0" width="540" height="28" rx="4" fill="#070B14" stroke="#10B981" stroke-width="0.8"/>
-      <circle cx="14" cy="14" r="3.5" fill="#10B981"/>
-      <text x="26" y="18" class="font-mono" font-size="10.5" font-weight="700" fill="#10B981">
+      <rect x="0" y="0" width="540" height="28" rx="4" fill="#0D1117" stroke="#3FB950" stroke-width="0.8"/>
+      <circle cx="14" cy="14" r="3.5" fill="#3FB950"/>
+      <text x="26" y="18" class="font-mono" font-size="10.5" font-weight="700" fill="#3FB950">
         ● STATUS: OPEN FOR INTERNSHIPS &amp; RESEARCH (2025–2028)
       </text>
     </g>
 
     <!-- Line 9: Active Command Prompt with Blinking Cursor -->
     <g transform="translate(0, 226)">
-      <text x="0" y="14" class="font-mono" font-size="11.5" font-weight="700" fill="#10B981">gnanendra@station:~$</text>
-      <rect x="178" y="2" width="8" height="15" fill="#10B981" class="anim-cursor" filter="url(#term-glow)"/>
+      <text x="0" y="14" class="font-mono" font-size="11.5" font-weight="700" fill="#3FB950">gnanendra@station:~$</text>
+      <rect x="178" y="2" width="8" height="15" fill="#3FB950" class="anim-cursor" filter="url(#term-glow)"/>
     </g>
   </g>
 </svg>

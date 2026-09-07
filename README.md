@@ -19,14 +19,14 @@
 
 <!-- Interactive Quick-Nav Jump Pills -->
 <p align="center">
-  <a href="#-about-me"><img src="https://img.shields.io/badge/🚀_About_Me-141C2E?style=for-the-badge&logo=codestream&logoColor=38BDF8" alt="About Me"/></a>
-  <a href="#-tech-stack--arsenal"><img src="https://img.shields.io/badge/🛠️_Tech_Arsenal-141C2E?style=for-the-badge&logo=visualstudiocode&logoColor=38BDF8" alt="Arsenal"/></a>
-  <a href="#-featured-live-project-tamil-nadu-tourism"><img src="https://img.shields.io/badge/🏛️_Live_Project-141C2E?style=for-the-badge&logo=compass&logoColor=D4AF37" alt="Live Project"/></a>
-  <a href="#-flagship-commerce-platform"><img src="https://img.shields.io/badge/⭐_Flagship-141C2E?style=for-the-badge&logo=sparkles&logoColor=F59E0B" alt="Flagship"/></a>
-  <a href="#-embedded-iot--algorithmic-research"><img src="https://img.shields.io/badge/💡_IoT_&_Research-141C2E?style=for-the-badge&logo=git&logoColor=10B981" alt="IoT & Research"/></a>
-  <a href="#-github-analytics--system-state"><img src="https://img.shields.io/badge/📊_Live_Analytics-141C2E?style=for-the-badge&logo=speedtest&logoColor=818CF8" alt="Analytics"/></a>
-  <a href="#-trophies--activity-graph"><img src="https://img.shields.io/badge/🏆_Trophies-141C2E?style=for-the-badge&logo=target&logoColor=ED8B00" alt="Trophies"/></a>
-  <a href="#-lets-connect"><img src="https://img.shields.io/badge/📬_Contact-141C2E?style=for-the-badge&logo=gmail&logoColor=EF4444" alt="Contact"/></a>
+  <a href="#-about-me"><img src="https://img.shields.io/badge/🚀_About_Me-161B22?style=for-the-badge&logo=codestream&logoColor=58A6FF" alt="About Me"/></a>
+  <a href="#-tech-stack--arsenal"><img src="https://img.shields.io/badge/🛠️_Tech_Arsenal-161B22?style=for-the-badge&logo=visualstudiocode&logoColor=58A6FF" alt="Arsenal"/></a>
+  <a href="#-featured-live-project-tamil-nadu-tourism"><img src="https://img.shields.io/badge/🏛️_Live_Project-161B22?style=for-the-badge&logo=compass&logoColor=D29922" alt="Live Project"/></a>
+  <a href="#-flagship-commerce-platform"><img src="https://img.shields.io/badge/⭐_Flagship-161B22?style=for-the-badge&logo=sparkles&logoColor=D29922" alt="Flagship"/></a>
+  <a href="#-embedded-iot--algorithmic-research"><img src="https://img.shields.io/badge/💡_IoT_&_Research-161B22?style=for-the-badge&logo=git&logoColor=3FB950" alt="IoT & Research"/></a>
+  <a href="#-github-analytics--system-state"><img src="https://img.shields.io/badge/📊_Live_Analytics-161B22?style=for-the-badge&logo=speedtest&logoColor=BC8CFF" alt="Analytics"/></a>
+  <a href="#-trophies--activity-graph"><img src="https://img.shields.io/badge/🏆_Trophies-161B22?style=for-the-badge&logo=target&logoColor=D29922" alt="Trophies"/></a>
+  <a href="#-lets-connect"><img src="https://img.shields.io/badge/📬_Contact-161B22?style=for-the-badge&logo=gmail&logoColor=F85149" alt="Contact"/></a>
 </p>
 
 <!-- Prominent Featured Project Live Link Banner Badge -->
@@ -46,13 +46,13 @@
     <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
   </a>
   &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=Gnanendra942&style=flat-square&color=38BDF8&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=Gnanendra942&style=flat-square&color=58A6FF&label=PROFILE+VIEWS" alt="Profile Views"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/STATUS-OPEN_FOR_ROLES-10B981?style=flat-square&logo=statuspage&logoColor=white" alt="Status"/>
+  <img src="https://img.shields.io/badge/STATUS-OPEN_FOR_ROLES-238636?style=flat-square&logo=statuspage&logoColor=white" alt="Status"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/DEGREE-B.TECH_CSE_'28-818CF8?style=flat-square&logo=open-access&logoColor=white" alt="Degree"/>
+  <img src="https://img.shields.io/badge/DEGREE-B.TECH_CSE_'28-8957E5?style=flat-square&logo=open-access&logoColor=white" alt="Degree"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/MOTION-60_FPS_FLUID-F59E0B?style=flat-square&logo=speedtest&logoColor=white" alt="60 FPS"/>
+  <img src="https://img.shields.io/badge/MOTION-60_FPS_FLUID-D29922?style=flat-square&logo=speedtest&logoColor=white" alt="60 FPS"/>
 </p>
 
 </div>
@@ -347,15 +347,15 @@ I am actively seeking software engineering internships, open-source collaboratio
 
 <p align="center">
   <a href="https://www.linkedin.com/in/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B0F19" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161B22" alt="LinkedIn"/>
   </a>
   &nbsp;
   <a href="https://github.com/Gnanendra942" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0B0F19" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=161B22" alt="GitHub"/>
   </a>
   &nbsp;
   <a href="mailto:gnanendrareddy19@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B0F19" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=161B22" alt="Email"/>
   </a>
 </p>
 
