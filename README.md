@@ -339,11 +339,6 @@ I am **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduat
 
 <div align="center">
 
-<!-- Live Spotify Audio Equalizer Session -->
-<img src="./assets/spotify_player.svg" width="100%" alt="Live Spotify Coding Session — Dancing Equalizer" />
-
-<br/><br/>
-
 ## 📬 Let's Connect
 
 I am actively seeking software engineering internships, open-source collaborations, full-stack web roles, and IoT embedded research opportunities. Let’s build something impactful together.
