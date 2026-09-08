@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 210" width="100%" height="100%">
   <defs>
     <!-- Dark Surface Gradient -->
     <linearGradient id="bg-flagship" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -9,26 +9,33 @@
 
     <!-- Animated Border Glow Beam -->
     <linearGradient id="flagship-beam" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#58A6FF">
-        <animate attributeName="stop-color" values="#58A6FF;#8957E5;#3FB950;#58A6FF" dur="5s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#05A2B3">
+        <animate attributeName="stop-color" values="#05A2B3;#3FB950;#58A6FF;#8957E5;#05A2B3" dur="5s" repeatCount="indefinite"/>
       </stop>
       <stop offset="50%" stop-color="#30363D" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#8957E5">
-        <animate attributeName="stop-color" values="#8957E5;#3FB950;#58A6FF;#8957E5" dur="5s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#3FB950">
+        <animate attributeName="stop-color" values="#3FB950;#58A6FF;#8957E5;#05A2B3;#3FB950" dur="5s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
     <!-- Shimmering Title Gradient -->
     <linearGradient id="flagship-title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF">
-        <animate attributeName="stop-color" values="#FFFFFF;#79C0FF;#FFFFFF" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#FFFFFF;#67E8F9;#FFFFFF" dur="4s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#79C0FF">
-        <animate attributeName="stop-color" values="#79C0FF;#FFFFFF;#58A6FF;#79C0FF" dur="4s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#67E8F9">
+        <animate attributeName="stop-color" values="#67E8F9;#FFFFFF;#05A2B3;#67E8F9" dur="4s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#58A6FF">
-        <animate attributeName="stop-color" values="#58A6FF;#8957E5;#FFFFFF;#58A6FF" dur="4s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#05A2B3">
+        <animate attributeName="stop-color" values="#05A2B3;#38BDF8;#FFFFFF;#05A2B3" dur="4s" repeatCount="indefinite"/>
       </stop>
+    </linearGradient>
+
+    <!-- Spin Orbit Gradient -->
+    <linearGradient id="teal-spin-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05A2B3"/>
+      <stop offset="50%" stop-color="#3FB950"/>
+      <stop offset="100%" stop-color="#58A6FF"/>
     </linearGradient>
 
     <filter id="f-glow" x="-20%" y="-20%" width="140%" height="140%">
@@ -45,69 +52,78 @@
       
       @keyframes floatIcon {
         0%, 100% { transform: translateY(0px) rotate(0deg); }
-        50% { transform: translateY(-4px) rotate(3deg); }
+        50% { transform: translateY(-4px) rotate(2deg); }
       }
       @keyframes radarPulse {
-        0% { r: 3px; opacity: 0.9; }
-        100% { r: 9px; opacity: 0; }
+        0% { r: 3.5px; opacity: 1; }
+        100% { r: 10px; opacity: 0; }
+      }
+      @keyframes spinRing {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
       }
       .anim-icon { animation: floatIcon 3.5s infinite ease-in-out; }
       .anim-beacon { animation: radarPulse 2s infinite ease-out; }
+      .anim-spin { animation: spinRing 10s linear infinite; transform-origin: 36px 36px; }
     </style>
   </defs>
 
   <!-- Container Box -->
-  <rect width="1200" height="180" rx="14" fill="url(#bg-flagship)" stroke="url(#flagship-beam)" stroke-width="1.6"/>
-  <rect x="0" y="0" width="1200" height="3" rx="1.5" fill="#58A6FF"/>
+  <rect width="1200" height="210" rx="14" fill="url(#bg-flagship)" stroke="url(#flagship-beam)" stroke-width="1.6"/>
+  <rect x="0" y="0" width="1200" height="3" rx="1.5" fill="#05A2B3"/>
 
   <!-- Left Icon Frame with Glowing Ambient -->
   <g transform="translate(36, 42)">
-    <rect width="70" height="70" rx="14" fill="#161B22" stroke="#30363D" stroke-width="1.2" filter="url(#f-glow)"/>
-    <g transform="translate(35, 45)">
+    <circle cx="36" cy="36" r="38" fill="none" stroke="url(#teal-spin-grad)" stroke-width="1.8" stroke-dasharray="6 4" class="anim-spin"/>
+    <rect width="72" height="72" rx="14" fill="#161B22" stroke="#30363D" stroke-width="1.2" filter="url(#f-glow)"/>
+    <g transform="translate(36, 48)">
       <g class="anim-icon">
-        <text text-anchor="middle" font-size="32">🛍️</text>
+        <text text-anchor="middle" font-size="34">🛍️</text>
       </g>
     </g>
   </g>
 
   <!-- Title & Description (Center) -->
-  <g transform="translate(130, 36)">
+  <g transform="translate(136, 32)">
     <!-- Status Tag Pill -->
     <g transform="translate(0, 0)">
-      <rect width="210" height="22" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-      <circle cx="12" cy="11" r="3.5" fill="#3FB950"/>
-      <circle cx="12" cy="11" r="3.5" fill="none" stroke="#3FB950" stroke-width="1" class="anim-beacon"/>
-      <text x="24" y="15" class="font-mono" font-size="10" font-weight="700" fill="#3FB950">● FLAGSHIP ARCHITECTURE</text>
-      <text x="180" y="15" class="font-mono" font-size="9" font-weight="700" fill="#58A6FF">LIVE</text>
+      <rect width="320" height="24" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <circle cx="14" cy="12" r="3.5" fill="#10B981"/>
+      <circle cx="14" cy="12" r="3.5" fill="none" stroke="#10B981" stroke-width="1.2" class="anim-beacon"/>
+      <text x="28" y="16" class="font-mono" font-size="10.5" font-weight="700" fill="#10B981">● FEATURED PROJECT #2</text>
+      <text x="210" y="16" class="font-mono" font-size="10" font-weight="700" fill="#05A2B3">100% LIVE ONLINE</text>
     </g>
 
     <!-- Main Title with Shimmering Gradient -->
-    <text x="0" y="52" class="font-display" font-size="25" font-weight="800" fill="url(#flagship-title-grad)">
+    <text x="0" y="58" class="font-display" font-size="26" font-weight="800" fill="url(#flagship-title-grad)">
       Women’s Empowerment Marketplace
     </text>
 
     <!-- Subtitle / Architecture Highlights -->
-    <text x="0" y="78" class="font-mono" font-size="12" fill="#58A6FF">
-      Full-stack digital commerce engine empowering women artisans &amp; local cottage entrepreneurs.
+    <text x="0" y="86" class="font-mono" font-size="12" fill="#38BDF8">
+      Full-stack digital commerce engine empowering women artisans &amp; cottage craft entrepreneurs.
     </text>
-    <text x="0" y="98" class="font-mono" font-size="11.5" fill="#8B949E">
-      Dynamic storefronts · Seller analytics suite · Encrypted JWT Auth · Distributed Order Pipeline
+    <text x="0" y="108" class="font-mono" font-size="11.5" fill="#8B949E">
+      ShopClues &amp; Deals UI · Artisan Provenance Engine · JWT Auth · Dynamic Cart · Seller Telemetry
+    </text>
+    <text x="0" y="130" class="font-mono" font-size="11" fill="#3FB950">
+      ⚡ Zero Listing Commissions · Fair-Wage Direct Remittance · 8 Artisan Craft Guilds
     </text>
   </g>
 
   <!-- Right Interactive Badges & Button -->
-  <g transform="translate(970, 36)">
-    <rect width="190" height="32" rx="7" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <text x="95" y="20" text-anchor="middle" class="font-display" font-size="11" font-weight="700" fill="#58A6FF">✦ FULL-STACK REACT</text>
+  <g transform="translate(970, 32)">
+    <rect width="195" height="32" rx="7" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <text x="97" y="20" text-anchor="middle" class="font-display" font-size="11" font-weight="700" fill="#05A2B3">✦ FULL-STACK REACT</text>
 
-    <g transform="translate(0, 40)">
-      <rect width="190" height="32" rx="7" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-      <text x="95" y="20" text-anchor="middle" class="font-display" font-size="11" font-weight="700" fill="#3FB950">✦ SECURE COMMERCE</text>
+    <g transform="translate(0, 42)">
+      <rect width="195" height="32" rx="7" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <text x="97" y="20" text-anchor="middle" class="font-display" font-size="11" font-weight="700" fill="#10B981">✦ VERIFIED LIVE DEMO</text>
     </g>
 
-    <g transform="translate(0, 80)">
-      <rect width="190" height="28" rx="7" fill="#2563EB"/>
-      <text x="95" y="18" text-anchor="middle" class="font-display" font-size="11" font-weight="700" fill="#FFFFFF">EXPLORE REPO ➔</text>
+    <g transform="translate(0, 84)">
+      <rect width="195" height="36" rx="8" fill="#05A2B3"/>
+      <text x="97" y="22" text-anchor="middle" class="font-display" font-size="12" font-weight="800" fill="#FFFFFF">VISIT LIVE STORE ➔</text>
     </g>
   </g>
 </svg>

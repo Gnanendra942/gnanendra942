@@ -21,18 +21,22 @@
 <p align="center">
   <a href="#-about-me"><img src="https://img.shields.io/badge/🚀_About_Me-161B22?style=for-the-badge&logo=codestream&logoColor=58A6FF" alt="About Me"/></a>
   <a href="#-tech-stack--arsenal"><img src="https://img.shields.io/badge/🛠️_Tech_Arsenal-161B22?style=for-the-badge&logo=visualstudiocode&logoColor=58A6FF" alt="Arsenal"/></a>
-  <a href="#-featured-live-project-tamil-nadu-tourism"><img src="https://img.shields.io/badge/🏛️_Live_Project-161B22?style=for-the-badge&logo=compass&logoColor=D29922" alt="Live Project"/></a>
-  <a href="#-flagship-commerce-platform"><img src="https://img.shields.io/badge/⭐_Flagship-161B22?style=for-the-badge&logo=sparkles&logoColor=D29922" alt="Flagship"/></a>
+  <a href="#-featured-live-project-1-tamil-nadu-tourism"><img src="https://img.shields.io/badge/🏛️_Live_Project_#1-161B22?style=for-the-badge&logo=compass&logoColor=D29922" alt="Live Project 1"/></a>
+  <a href="#-featured-live-project-2-womens-empowerment-marketplace"><img src="https://img.shields.io/badge/🛍️_Live_Project_#2-161B22?style=for-the-badge&logo=shopify&logoColor=05A2B3" alt="Live Project 2"/></a>
   <a href="#-embedded-iot--algorithmic-research"><img src="https://img.shields.io/badge/💡_IoT_&_Research-161B22?style=for-the-badge&logo=git&logoColor=3FB950" alt="IoT & Research"/></a>
   <a href="#-github-analytics--system-state"><img src="https://img.shields.io/badge/📊_Live_Analytics-161B22?style=for-the-badge&logo=speedtest&logoColor=BC8CFF" alt="Analytics"/></a>
   <a href="#-trophies--activity-graph"><img src="https://img.shields.io/badge/🏆_Trophies-161B22?style=for-the-badge&logo=target&logoColor=D29922" alt="Trophies"/></a>
   <a href="#-lets-connect"><img src="https://img.shields.io/badge/📬_Contact-161B22?style=for-the-badge&logo=gmail&logoColor=F85149" alt="Contact"/></a>
 </p>
 
-<!-- Prominent Featured Project Live Link Banner Badge -->
+<!-- Prominent Featured Projects Live Link Banner Badges -->
 <p align="center">
   <a href="https://gnanendra942.github.io/TAMILNADU-TOURISM-/" target="_blank">
-    <img src="https://img.shields.io/badge/🏛️_FEATURED_LIVE_PROJECT-TAMIL_NADU_TOURISM_(CLICK_TO_EXPLORE)-8A1538?style=for-the-badge&logo=compass&logoColor=white" alt="Featured Live Project"/>
+    <img src="https://img.shields.io/badge/🏛️_FEATURED_PROJECT_#1-TAMIL_NADU_TOURISM_(CLICK_TO_EXPLORE)-8A1538?style=for-the-badge&logo=compass&logoColor=white" alt="Featured Live Project 1"/>
+  </a>
+  &nbsp;
+  <a href="https://gnanendra942.github.io/Women-s-Empowerment-Marketplace/" target="_blank">
+    <img src="https://img.shields.io/badge/🛍️_FEATURED_PROJECT_#2-WOMEN'S_MARKETPLACE_(CLICK_TO_EXPLORE)-05A2B3?style=for-the-badge&logo=shopify&logoColor=white" alt="Featured Live Project 2"/>
   </a>
 </p>
 
@@ -132,12 +136,12 @@ I am **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduat
 <br/>
 
 <!-- ============================================================================== -->
-<!-- 03. FEATURED LIVE WEB PROJECT -->
+<!-- 03. FEATURED LIVE WEB PROJECT 1 -->
 <!-- ============================================================================== -->
 
 <img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
 
-## 🌐 Featured Live Project: Tamil Nadu Tourism
+## 🌐 Featured Live Project 1: Tamil Nadu Tourism
 
 <div align="center">
 
@@ -189,20 +193,43 @@ I am **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduat
 <br/>
 
 <!-- ============================================================================== -->
-<!-- 04. FLAGSHIP COMMERCE PLATFORM -->
+<!-- 04. FEATURED LIVE WEB PROJECT 2 -->
 <!-- ============================================================================== -->
 
 <img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
 
-## ⭐ Flagship Commerce Platform
+## 🛍️ Featured Live Project 2: Women’s Empowerment Marketplace
 
 <div align="center">
 
-<a href="https://github.com/Gnanendra942">
-  <img src="./assets/card_flagship.svg" width="100%" alt="Women’s Empowerment Marketplace — Flagship Project"/>
+<a href="https://gnanendra942.github.io/Women-s-Empowerment-Marketplace/" target="_blank">
+  <img src="./assets/card_flagship.svg" width="100%" alt="Women’s Empowerment Marketplace — Featured Live Project #2"/>
 </a>
 
+<br/><br/>
+
+<p align="center">
+  <a href="https://gnanendra942.github.io/Women-s-Empowerment-Marketplace/" target="_blank">
+    <img src="https://img.shields.io/badge/🛍️_Live_Interactive_Store-Visit_Now-05A2B3?style=for-the-badge&logo=shopify&logoColor=white" alt="Live Demo"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/Gnanendra942/Women-s-Empowerment-Marketplace" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository"/>
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Status-100%25_Live_Online-10B981?style=for-the-badge&logo=githubpages&logoColor=white" alt="Status Live"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Stack-React_%7C_Express_%7C_MongoDB-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="MERN Stack"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Artisans-8_Craft_Guilds-F59E0B?style=for-the-badge&logo=target&logoColor=white" alt="Artisan Guilds"/>
+</p>
+
 </div>
+
+<br/>
+
+> 💡 **Live Interactive Web Application:** [gnanendra942.github.io/Women-s-Empowerment-Marketplace](https://gnanendra942.github.io/Women-s-Empowerment-Marketplace/)  
+> **Key Highlights:** An end-to-end full-stack digital commerce and artisan empowerment ecosystem engineered to eliminate intermediary commissions for self-employed rural women artisans. Features a high-converting ShopClues & modern e-commerce storefront, cryptographic artisan provenance verification, dynamic cart & checkout workflows, verified seller analytics suite, and fair-wage direct remittance.
 
 <br/>
 
@@ -211,13 +238,15 @@ I am **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduat
 
 <br/>
 
-> **Problem Solved:** Traditional marketplaces charge prohibitive listing commissions and create technical friction for self-employed women artisans and small village enterprises.
+> **Problem Solved:** Traditional commercial e-commerce platforms levy prohibitive 20–35% listing commissions and enforce complex logistics that marginalize independent women artisans and rural cottage craft collectives.
 > 
-> **Architectural Highlights:**
-> - **Frontend:** Engineered with React and Tailwind CSS for lightning-fast responsive storefront catalog rendering.
-> - **Backend:** Express.js REST API with JWT role-based access control protecting seller dashboards and customer orders.
-> - **Database:** Structured MongoDB collections for dynamic inventories, transaction logs, and seller metric aggregation.
-> - **Security:** Token-based authentication, salted cryptographic credential hashing, and parameterized query validation.
+> **Key Engineering & Architectural Highlights:**
+> - **Frontend & Client Architecture:** High-performance responsive web application built with React, Tailwind CSS, and zero-latency standalone SPA architecture. Includes ShopClues-inspired multi-category deals grid, interactive product image magnifier, artisan impact stories, real-time coupon engine, and order status stepper.
+> - **Artisan Provenance Engine:** Cryptographic batch and artisan identity ledger tracking craft origin, creation hours, fair-wage direct payout transparency, and authentic GI-tag certifications.
+> - **Backend & REST APIs:** Modular Express.js REST API with JWT role-based access control (RBAC), securing separate seller administrative dashboards, stock replenishment streams, and customer orders.
+> - **Database & Modeling:** Scalable MongoDB collections indexing dynamic handicraft catalogs, artisan workshop bookings, transaction audits, and seller rating telemetry.
+> - **Security & Hardening:** Token-based authentication, salted cryptographic credential hashing, parameterized payload sanitization, and CORS-restricted endpoint protection.
+> - **Continuous Delivery & Hosting:** Deployed and publicly accessible on **GitHub Pages** at [gnanendra942.github.io/Women-s-Empowerment-Marketplace](https://gnanendra942.github.io/Women-s-Empowerment-Marketplace/).
 
 </details>
 
@@ -237,8 +266,8 @@ I am **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduat
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/Gnanendra942">
-        <img src="./assets/card_womens_marketplace.svg" width="100%" alt="Women’s Empowerment Market"/>
+      <a href="https://gnanendra942.github.io/Women-s-Empowerment-Marketplace/" target="_blank">
+        <img src="./assets/card_womens_marketplace.svg" width="100%" alt="Women’s Empowerment Market — Featured Live Project #2"/>
       </a>
     </td>
     <td width="50%" valign="top">
@@ -359,10 +388,14 @@ I am actively seeking software engineering internships, open-source collaboratio
   </a>
 </p>
 
-<!-- Direct Featured Live Project Launch Banner -->
+<!-- Direct Featured Live Projects Launch Banners -->
 <p align="center">
   <a href="https://gnanendra942.github.io/TAMILNADU-TOURISM-/" target="_blank">
-    <img src="https://img.shields.io/badge/🏛️_EXPERIENCE_LIVE_PROJECT-TAMIL_NADU_TOURISM_(60_FPS)-8A1538?style=for-the-badge&logo=compass&logoColor=white" alt="Live Demo"/>
+    <img src="https://img.shields.io/badge/🏛️_EXPERIENCE_LIVE_#1-TAMIL_NADU_TOURISM-8A1538?style=for-the-badge&logo=compass&logoColor=white" alt="Live Demo 1"/>
+  </a>
+  &nbsp;
+  <a href="https://gnanendra942.github.io/Women-s-Empowerment-Marketplace/" target="_blank">
+    <img src="https://img.shields.io/badge/🛍️_EXPERIENCE_LIVE_#2-WOMEN'S_MARKETPLACE-05A2B3?style=for-the-badge&logo=shopify&logoColor=white" alt="Live Demo 2"/>
   </a>
 </p>
 
