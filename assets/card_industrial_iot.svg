@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 220" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-iiot" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="50%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+
+    <linearGradient id="beam-iiot" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#3FB950;#8957E5;#38BDF8" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#3FB950"/>
+    </linearGradient>
+
+    <!-- Mesh Glow Filter -->
+    <filter id="iiot-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .font-display { font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace; }
+      .card-title { font-weight: 700; font-size: 17px; fill: #F0F6FC; }
+      .card-desc { font-size: 11px; fill: #8B949E; }
+      .card-chip { font-size: 10px; font-weight: 700; }
+
+      @keyframes radarPulse {
+        0% { r: 3px; opacity: 0.9; }
+        100% { r: 12px; opacity: 0; }
+      }
+      @keyframes meshPulse {
+        0%, 100% { transform: scale(1); opacity: 0.85; }
+        50% { transform: scale(1.15); opacity: 1; }
+      }
+      @keyframes dashFlow {
+        to { stroke-dashoffset: -20; }
+      }
+      .anim-radar { animation: radarPulse 2s infinite cubic-bezier(0, 0.2, 0.8, 1); }
+      .anim-mesh-hub { animation: meshPulse 2.5s infinite ease-in-out; transform-box: fill-box; transform-origin: center; }
+      .anim-dash { stroke-dasharray: 4 3; animation: dashFlow 1.5s linear infinite; }
+    </style>
+  </defs>
+
+  <rect width="580" height="220" rx="12" fill="url(#bg-iiot)" stroke="#30363D" stroke-width="1.2"/>
+  <rect x="0" y="0" width="580" height="3" rx="1.5" fill="url(#beam-iiot)"/>
+
+  <!-- Status Badge -->
+  <g transform="translate(370, 18)">
+    <rect width="185" height="24" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <circle cx="12" cy="12" r="3.5" fill="#38BDF8"/>
+    <circle cx="12" cy="12" r="3.5" fill="none" stroke="#38BDF8" stroke-width="1" class="anim-radar"/>
+    <text x="22" y="16" class="font-mono card-chip" fill="#38BDF8">INDUSTRY 4.0 · IIOT</text>
+  </g>
+
+  <!-- Animated Sensor Mesh Graphic (Right Ambient) -->
+  <g transform="translate(485, 105)" opacity="0.75">
+    <!-- Links -->
+    <line x1="-30" y1="-25" x2="0" y2="0" stroke="#38BDF8" stroke-width="1.2" class="anim-dash"/>
+    <line x1="30" y1="-20" x2="0" y2="0" stroke="#3FB950" stroke-width="1.2" class="anim-dash"/>
+    <line x1="-25" y1="25" x2="0" y2="0" stroke="#8957E5" stroke-width="1.2" class="anim-dash"/>
+    <line x1="28" y1="25" x2="0" y2="0" stroke="#38BDF8" stroke-width="1.2" class="anim-dash"/>
+
+    <!-- Outer Nodes -->
+    <circle cx="-30" cy="-25" r="4" fill="#38BDF8"/>
+    <circle cx="30" cy="-20" r="4" fill="#3FB950"/>
+    <circle cx="-25" cy="25" r="4" fill="#8957E5"/>
+    <circle cx="28" cy="25" r="4" fill="#38BDF8"/>
+
+    <!-- Central Hub -->
+    <circle cx="0" cy="0" r="9" fill="#161B22" stroke="#3FB950" stroke-width="1.8"/>
+    <circle cx="0" cy="0" r="5" fill="#3FB950" class="anim-mesh-hub" filter="url(#iiot-glow)"/>
+  </g>
+
+  <!-- Title & Description -->
+  <text x="24" y="38" class="font-display card-title">Industrial IoT &amp; Cyber-Physical Systems</text>
+  <text x="24" y="72" class="font-mono card-desc">
+    <tspan x="24" dy="0">• Elite Certified research in Industry 4.0 &amp; Industrial IoT architectures.</tspan>
+    <tspan x="24" dy="18">• Cyber-physical telemetry, sensor acquisition hubs &amp; edge computation.</tspan>
+    <tspan x="24" dy="18">• IIoT Protocols · Edge Computing · Smart Sensors · IIT / NPTEL Verified</tspan>
+  </text>
+
+  <!-- Telemetry Sensor Status Line -->
+  <g transform="translate(24, 134)">
+    <rect width="320" height="22" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <circle cx="12" cy="11" r="3" fill="#38BDF8"/>
+    <text x="22" y="15" class="font-mono" font-size="9.5" fill="#38BDF8">EDGE MESH: <tspan fill="#F0F6FC">IIT NPTEL ELITE RESEARCH SUITE</tspan></text>
+  </g>
+
+  <!-- Tech Tags -->
+  <g transform="translate(24, 172)">
+    <rect width="80" height="26" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <text x="40" y="17" text-anchor="middle" class="font-mono card-chip" fill="#38BDF8">IIOT 4.0</text>
+
+    <rect x="88" width="85" height="26" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <text x="130" y="17" text-anchor="middle" class="font-mono card-chip" fill="#3FB950">EDGE MESH</text>
+
+    <rect x="181" width="95" height="26" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <text x="228" y="17" text-anchor="middle" class="font-mono card-chip" fill="#8957E5">NPTEL ELITE</text>
+  </g>
+
+  <!-- Action Button -->
+  <g transform="translate(425, 172)">
+    <rect width="130" height="26" rx="5" fill="#0284C7"/>
+    <text x="65" y="17" text-anchor="middle" class="font-display" font-size="11" font-weight="700" fill="#FFFFFF">VIEW CREDENTIAL ➔</text>
+  </g>
+</svg>

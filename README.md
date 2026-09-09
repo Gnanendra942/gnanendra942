@@ -19,14 +19,15 @@
 
 <!-- Interactive Quick-Nav Jump Pills -->
 <p align="center">
-  <a href="#-about-me"><img src="https://img.shields.io/badge/🚀_About_Me-161B22?style=for-the-badge&logo=codestream&logoColor=58A6FF" alt="About Me"/></a>
-  <a href="#-tech-stack--arsenal"><img src="https://img.shields.io/badge/🛠️_Tech_Arsenal-161B22?style=for-the-badge&logo=visualstudiocode&logoColor=58A6FF" alt="Arsenal"/></a>
-  <a href="#-featured-live-project-1-tamil-nadu-tourism"><img src="https://img.shields.io/badge/🏛️_Live_Project_#1-161B22?style=for-the-badge&logo=compass&logoColor=D29922" alt="Live Project 1"/></a>
-  <a href="#-featured-live-project-2-womens-empowerment-marketplace"><img src="https://img.shields.io/badge/🛍️_Live_Project_#2-161B22?style=for-the-badge&logo=shopify&logoColor=05A2B3" alt="Live Project 2"/></a>
-  <a href="#-embedded-iot--algorithmic-research"><img src="https://img.shields.io/badge/💡_IoT_&_Research-161B22?style=for-the-badge&logo=git&logoColor=3FB950" alt="IoT & Research"/></a>
-  <a href="#-github-analytics--system-state"><img src="https://img.shields.io/badge/📊_Live_Analytics-161B22?style=for-the-badge&logo=speedtest&logoColor=BC8CFF" alt="Analytics"/></a>
-  <a href="#-trophies--activity-graph"><img src="https://img.shields.io/badge/🏆_Trophies-161B22?style=for-the-badge&logo=target&logoColor=D29922" alt="Trophies"/></a>
-  <a href="#-lets-connect"><img src="https://img.shields.io/badge/📬_Contact-161B22?style=for-the-badge&logo=gmail&logoColor=F85149" alt="Contact"/></a>
+  <a href="#about-me"><img src="https://img.shields.io/badge/🚀_About_Me-161B22?style=for-the-badge&logo=codestream&logoColor=58A6FF" alt="About Me"/></a>
+  <a href="#tech-arsenal"><img src="https://img.shields.io/badge/🛠️_Tech_Arsenal-161B22?style=for-the-badge&logo=visualstudiocode&logoColor=58A6FF" alt="Arsenal"/></a>
+  <a href="#featured-live-project-1"><img src="https://img.shields.io/badge/🏛️_Live_Project_#1-161B22?style=for-the-badge&logo=compass&logoColor=D29922" alt="Live Project 1"/></a>
+  <a href="#featured-live-project-2"><img src="https://img.shields.io/badge/🛍️_Live_Project_#2-161B22?style=for-the-badge&logo=shopify&logoColor=05A2B3" alt="Live Project 2"/></a>
+  <a href="#iot-systems-algorithms"><img src="https://img.shields.io/badge/💡_IoT_&_Engineering-161B22?style=for-the-badge&logo=git&logoColor=3FB950" alt="IoT & Engineering"/></a>
+  <a href="#certifications-education"><img src="https://img.shields.io/badge/📜_Certifications-161B22?style=for-the-badge&logo=open-access&logoColor=8957E5" alt="Certifications"/></a>
+  <a href="#live-analytics"><img src="https://img.shields.io/badge/📊_Live_Analytics-161B22?style=for-the-badge&logo=speedtest&logoColor=BC8CFF" alt="Analytics"/></a>
+  <a href="#trophies-activity"><img src="https://img.shields.io/badge/🏆_Trophies-161B22?style=for-the-badge&logo=target&logoColor=D29922" alt="Trophies"/></a>
+  <a href="#lets-connect"><img src="https://img.shields.io/badge/📬_Contact-161B22?style=for-the-badge&logo=gmail&logoColor=F85149" alt="Contact"/></a>
 </p>
 
 <!-- Prominent Featured Projects Live Link Banner Badges -->
@@ -42,12 +43,12 @@
 
 <!-- High-Impact Live Badges -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <a href="https://github.com/Gnanendra942" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Follow_@Gnanendra942-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
   </a>
   &nbsp;
-  <a href="https://github.com/Gnanendra942" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+  <a href="mailto:gnanendrareddy19@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Get_in_Touch-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   &nbsp;
   <img src="https://komarev.com/ghpvc/?username=Gnanendra942&style=flat-square&color=58A6FF&label=PROFILE+VIEWS" alt="Profile Views"/>
@@ -67,6 +68,7 @@
 <!-- 01. ABOUT ME & ACADEMIC HUB -->
 <!-- ============================================================================== -->
 
+<a id="about-me"></a>
 <img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
 
 ## 📌 About Me
@@ -93,10 +95,11 @@
 
 I am **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduate at **Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Chennai** (`VTU29661`, Reg No: `24UECS0503`). I engineer end-to-end digital solutions spanning **responsive full-stack web applications**, **robust Java backend architectures**, and **real-time embedded IoT hardware telemetry systems**.
 
-- 🎓 **Academic Orbit:** 3rd-Year B.Tech in CSE at **Vel Tech University** (2024–2028), maintaining consistent excellence across algorithms, data structures, and computer organization.
-- 🚀 **Full-Stack Web Engineering:** Architecting fluid, component-driven web apps with **React 19**, **Next.js**, **TypeScript**, **JavaScript (ES6+)**, **Node.js**, **Express.js**, and **Tailwind CSS**.
+- 🎓 **Academic Orbit:** 3rd-Year B.Tech in CSE at **Vel Tech University** (2024–2028, CGPA: 8.6), maintaining consistent excellence across data structures, algorithms, computer architecture, and object-oriented design.
+- 🚀 **Full-Stack Web Engineering:** Architecting fluid, component-driven web applications with **React 19**, **Next.js**, **TypeScript**, **JavaScript (ES6+)**, **Node.js**, **Express.js**, and **Tailwind CSS**.
 - ☕ **Core Java & Algorithmic Design:** Grounded in **Java 21**, Object-Oriented Programming (OOP), design patterns, and unit-tested DSA suites with verifiable test automation.
 - ⚡ **Smart Embedded IoT:** Hands-on designer of sensor acquisition pipelines, biomedical telemetry streams, and vehicular road safety devices built on **Arduino C++** and serial communication protocols.
+- 📜 **IIT / NPTEL Elite Certification:** Formally credentialed in **Industry 4.0 and Industrial Internet of Things (IIoT)** with an Elite classification.
 
 <br/>
 
@@ -104,6 +107,7 @@ I am **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduat
 <!-- 02. TECH STACK & ARSENAL -->
 <!-- ============================================================================== -->
 
+<a id="tech-arsenal"></a>
 <img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
 
 ## 🛠️ Tech Stack & Arsenal
@@ -120,12 +124,12 @@ I am **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduat
 
 | Domain | Core Technologies & Frameworks | Applied Proficiency |
 | :--- | :--- | :--- |
-| **Languages** | Java 21, JavaScript (ES6+), TypeScript, Python 3, C, HTML5, CSS3, SQL | Object-Oriented Architecture, Async Streams, Data Structures |
-| **Frontend Engineering** | React 19, Next.js, Tailwind CSS, Glassmorphic UI/UX, Responsive Layouts | 60 FPS Fluid Transitions, Micro-Animations, Component Modularity |
-| **Backend & APIs** | Node.js, Express.js, RESTful Architecture, JWT Authentication, JSON Schemas | Middleware Pipelines, Route Protection, Secure Sessions |
-| **IoT & Embedded Systems** | Arduino C++, Optical Pulse Sensors, Ultrasonic Sonar, Serial Telemetry Hubs | Analog Signal Filtering, Real-Time Sensor Telemetry, Edge Alerting |
+| **Languages** | Java 21, JavaScript (ES6+), TypeScript, Python 3, C, HTML5, CSS3, SQL | Object-Oriented Architecture, Async Streams, Data Structures & Algorithms |
+| **Frontend Engineering** | React 19, Next.js, Tailwind CSS, Glassmorphic UI/UX, Responsive Layouts | 60 FPS Fluid Transitions, Micro-Animations, Component Modularity, SPA |
+| **Backend & APIs** | Node.js, Express.js, RESTful Architecture, JWT Authentication, JSON Schemas | Middleware Pipelines, Route Protection, Secure Sessions, Fair-Wage Remittance |
+| **IoT & Embedded Systems** | Arduino C++, Optical Pulse Sensors, Ultrasonic Sonar, Serial Telemetry Hubs | Analog Signal Filtering, Real-Time Sensor Telemetry, Edge Alerting, IIoT 4.0 |
 | **Databases & Storage** | MySQL, PostgreSQL, MongoDB, Relational Modeling, Index Optimization | ACID Compliance, Schema Normalization, Document Datastores |
-| **DevOps & Engineering Tools** | Git, GitHub, GitHub Actions (CI/CD), Docker, Linux / Bash, Postman, VS Code | Automated Workflows, Continuous Deployment, Version Control |
+| **DevOps & Engineering Tools** | Git, GitHub, GitHub Actions (CI/CD), Docker, Linux / Bash, Postman, VS Code | Automated Workflows, Continuous Deployment, Version Control, Automation |
 
 <br/>
 
@@ -139,9 +143,10 @@ I am **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduat
 <!-- 03. FEATURED LIVE WEB PROJECT 1 -->
 <!-- ============================================================================== -->
 
+<a id="featured-live-project-1"></a>
 <img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
 
-## 🌐 Featured Live Project 1: Tamil Nadu Tourism
+## 🏛️ Featured Live Project 1: Tamil Nadu Tourism
 
 <div align="center">
 
@@ -196,6 +201,7 @@ I am **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduat
 <!-- 04. FEATURED LIVE WEB PROJECT 2 -->
 <!-- ============================================================================== -->
 
+<a id="featured-live-project-2"></a>
 <img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
 
 ## 🛍️ Featured Live Project 2: Women’s Empowerment Marketplace
@@ -253,12 +259,13 @@ I am **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduat
 <br/>
 
 <!-- ============================================================================== -->
-<!-- 05. EMBEDDED IOT & ALGORITHMIC RESEARCH -->
+<!-- 05. SYSTEMS, IOT & ALGORITHMIC ENGINEERING -->
 <!-- ============================================================================== -->
 
+<a id="iot-systems-algorithms"></a>
 <img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
 
-## 💡 Embedded IoT & Algorithmic Research
+## 💡 Systems, IoT & Algorithmic Engineering
 
 <div align="center">
 
@@ -266,25 +273,25 @@ I am **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduat
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <a href="https://gnanendra942.github.io/Women-s-Empowerment-Marketplace/" target="_blank">
-        <img src="./assets/card_womens_marketplace.svg" width="100%" alt="Women’s Empowerment Market — Featured Live Project #2"/>
-      </a>
-    </td>
-    <td width="50%" valign="top">
       <a href="https://github.com/Gnanendra942">
         <img src="./assets/card_road_safety.svg" width="100%" alt="Intelligent Curved Road Safety"/>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Gnanendra942">
         <img src="./assets/card_pulse_monitor.svg" width="100%" alt="IoT Pulse Rate Monitor"/>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Gnanendra942/Problem-solving-and-testing-S2-2">
         <img src="./assets/card_java_algorithms.svg" width="100%" alt="Problem Solving &amp; Testing Suite"/>
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Gnanendra942">
+        <img src="./assets/card_industrial_iot.svg" width="100%" alt="Industrial IoT &amp; Cyber-Physical Systems"/>
       </a>
     </td>
   </tr>
@@ -295,9 +302,33 @@ I am **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduat
 <br/>
 
 <!-- ============================================================================== -->
-<!-- 06. GITHUB ANALYTICS & SYSTEM STATE -->
+<!-- 06. CERTIFICATIONS & ACADEMIC DISTINCTIONS -->
 <!-- ============================================================================== -->
 
+<a id="certifications-education"></a>
+<img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
+
+## 📜 Certifications & Academic Distinctions
+
+<div align="center">
+  <img src="./assets/certifications_card.svg" width="100%" alt="Certifications &amp; Academic Distinctions"/>
+</div>
+
+<br/>
+
+| Qualification / Credential | Institution / Issuer | Classification & Score | Key Focus Areas |
+| :--- | :--- | :--- | :--- |
+| **Introduction to Industry 4.0 & IIoT** | **NPTEL / IIT** (Ministry of Education, Govt. of India) | 🎖️ **Elite** (Score: 64/100) | Industrial IoT, Cyber-Physical Systems, Embedded Sensors & Smart Automation |
+| **B.Tech Computer Science & Engineering** | **Vel Tech R&D Institute of Science & Technology**, Chennai | 🎓 **CGPA: 8.6 / 10** (Class of '28) | Data Structures, Java OOP, Full-Stack Architecture, Distributed Systems |
+| **Intermediate (MPC - Maths, Physics, Chem)** | **Sri Chaitanya Junior College**, Andhra Pradesh | 🏛️ **Score: 8.51 / 10** | Advanced Mathematics, Analytical Problem Solving, Scientific Computing |
+
+<br/>
+
+<!-- ============================================================================== -->
+<!-- 07. GITHUB ANALYTICS & SYSTEM STATE -->
+<!-- ============================================================================== -->
+
+<a id="live-analytics"></a>
 <img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
 
 ## 📊 GitHub Analytics & System State
@@ -339,9 +370,10 @@ I am **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduat
 <br/>
 
 <!-- ============================================================================== -->
-<!-- 07. ACHIEVEMENTS, TROPHIES & GRAPH -->
+<!-- 08. ACHIEVEMENTS, TROPHIES & GRAPH -->
 <!-- ============================================================================== -->
 
+<a id="trophies-activity"></a>
 <img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
 
 ## 🏆 Trophies & Activity Graph
@@ -361,9 +393,10 @@ I am **Chowreddygari Gnanendra Reddy**, a 3rd-year Computer Science undergraduat
 <br/>
 
 <!-- ============================================================================== -->
-<!-- 08. CONNECT & FOOTER -->
+<!-- 09. CONNECT & FOOTER -->
 <!-- ============================================================================== -->
 
+<a id="lets-connect"></a>
 <img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
 
 <div align="center">
@@ -375,12 +408,8 @@ I am actively seeking software engineering internships, open-source collaboratio
 <br/>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161B22" alt="LinkedIn"/>
-  </a>
-  &nbsp;
   <a href="https://github.com/Gnanendra942" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=161B22" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-Follow_@Gnanendra942-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=161B22" alt="GitHub"/>
   </a>
   &nbsp;
   <a href="mailto:gnanendrareddy19@gmail.com">
