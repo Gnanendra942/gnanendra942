@@ -5,7 +5,7 @@
 <!-- ============================================================================== -->
 
 <a href="https://github.com/Gnanendra942">
-  <img src="./assets/hero_3d_station.svg" width="100%" alt="Chowreddygari Gnanendra Reddy — Full-Stack Architect &amp; IoT Systems Engineer"/>
+  <img src="./assets/hero_3d_station.svg?v=3" width="100%" alt="Chowreddygari Gnanendra Reddy — Full-Stack Architect &amp; IoT Systems Engineer"/>
 </a>
 
 <br/><br/>
@@ -69,12 +69,12 @@
 <!-- ============================================================================== -->
 
 <a id="about-me"></a>
-<img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
+<img src="./assets/cyber_divider.svg?v=3" width="100%" alt="Divider"/>
 
 ## 📌 Profile Dossier &amp; Engineering Hub
 
 <div align="center">
-  <img src="./assets/bento_student_hub.svg" width="100%" alt="Student &amp; Engineering Hub"/>
+  <img src="./assets/bento_student_hub.svg?v=3" width="100%" alt="Student &amp; Engineering Hub"/>
 </div>
 
 <br/>
@@ -83,10 +83,10 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <img src="./assets/terminal_bio.svg" width="100%" alt="Interactive Terminal Bio" />
+      <img src="./assets/terminal_bio.svg?v=3" width="100%" alt="Interactive Terminal Bio" />
     </td>
     <td width="50%" valign="top">
-      <img src="./assets/skill_bars.svg" width="100%" alt="Engineering Proficiency &amp; Skill Bars" />
+      <img src="./assets/skill_bars.svg?v=3" width="100%" alt="Engineering Proficiency &amp; Skill Bars" />
     </td>
   </tr>
 </table>
@@ -108,7 +108,7 @@ I am **Chowreddygari Gnanendra Reddy**, a high-velocity 3rd-year Computer Scienc
 <!-- ============================================================================== -->
 
 <a id="tech-arsenal"></a>
-<img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
+<img src="./assets/cyber_divider.svg?v=3" width="100%" alt="Divider"/>
 
 ## 🛠️ Tech Arsenal &amp; System Architecture
 
@@ -134,7 +134,7 @@ I am **Chowreddygari Gnanendra Reddy**, a high-velocity 3rd-year Computer Scienc
 <br/>
 
 <div align="center">
-  <img src="./assets/architecture_telemetry_flow.svg" width="100%" alt="End-to-End Telemetry &amp; System Architecture — IoT to Reactive Cloud"/>
+  <img src="./assets/architecture_telemetry_flow.svg?v=3" width="100%" alt="End-to-End Telemetry &amp; System Architecture — IoT to Reactive Cloud"/>
 </div>
 
 <br/>
@@ -144,14 +144,14 @@ I am **Chowreddygari Gnanendra Reddy**, a high-velocity 3rd-year Computer Scienc
 <!-- ============================================================================== -->
 
 <a id="featured-live-project-1"></a>
-<img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
+<img src="./assets/cyber_divider.svg?v=3" width="100%" alt="Divider"/>
 
 ## 🏛️ Featured Live Project 1: Tamil Nadu Tourism
 
 <div align="center">
 
 <a href="https://gnanendra942.github.io/TAMILNADU-TOURISM-/" target="_blank">
-  <img src="./assets/card_tamilnadu_tourism.svg" width="100%" alt="Tamil Nadu Tourism — Interactive Discovery Platform"/>
+  <img src="./assets/card_tamilnadu_tourism.svg?v=3" width="100%" alt="Tamil Nadu Tourism — Interactive Discovery Platform"/>
 </a>
 
 <br/><br/>
@@ -202,14 +202,14 @@ I am **Chowreddygari Gnanendra Reddy**, a high-velocity 3rd-year Computer Scienc
 <!-- ============================================================================== -->
 
 <a id="featured-live-project-2"></a>
-<img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
+<img src="./assets/cyber_divider.svg?v=3" width="100%" alt="Divider"/>
 
 ## 🛍️ Featured Live Project 2: Women’s Empowerment Marketplace
 
 <div align="center">
 
 <a href="https://gnanendra942.github.io/Women-s-Empowerment-Marketplace/" target="_blank">
-  <img src="./assets/card_flagship.svg" width="100%" alt="Women’s Empowerment Marketplace — Featured Live Project #2"/>
+  <img src="./assets/card_flagship.svg?v=3" width="100%" alt="Women’s Empowerment Marketplace — Featured Live Project #2"/>
 </a>
 
 <br/><br/>
@@ -263,7 +263,7 @@ I am **Chowreddygari Gnanendra Reddy**, a high-velocity 3rd-year Computer Scienc
 <!-- ============================================================================== -->
 
 <a id="iot-systems-algorithms"></a>
-<img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
+<img src="./assets/cyber_divider.svg?v=3" width="100%" alt="Divider"/>
 
 ## 💡 Systems, IoT &amp; Algorithmic Engineering
 
@@ -274,24 +274,24 @@ I am **Chowreddygari Gnanendra Reddy**, a high-velocity 3rd-year Computer Scienc
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Gnanendra942">
-        <img src="./assets/card_road_safety.svg" width="100%" alt="Intelligent Curved Road Safety"/>
+        <img src="./assets/card_road_safety.svg?v=3" width="100%" alt="Intelligent Curved Road Safety"/>
       </a>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Gnanendra942">
-        <img src="./assets/card_pulse_monitor.svg" width="100%" alt="IoT Pulse Rate Monitor"/>
+        <img src="./assets/card_pulse_monitor.svg?v=3" width="100%" alt="IoT Pulse Rate Monitor"/>
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Gnanendra942/Problem-solving-and-testing-S2-2">
-        <img src="./assets/card_java_algorithms.svg" width="100%" alt="Problem Solving &amp; Testing Suite"/>
+        <img src="./assets/card_java_algorithms.svg?v=3" width="100%" alt="Problem Solving &amp; Testing Suite"/>
       </a>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Gnanendra942">
-        <img src="./assets/card_industrial_iot.svg" width="100%" alt="Industrial IoT &amp; Cyber-Physical Systems"/>
+        <img src="./assets/card_industrial_iot.svg?v=3" width="100%" alt="Industrial IoT &amp; Cyber-Physical Systems"/>
       </a>
     </td>
   </tr>
@@ -306,12 +306,12 @@ I am **Chowreddygari Gnanendra Reddy**, a high-velocity 3rd-year Computer Scienc
 <!-- ============================================================================== -->
 
 <a id="certifications-education"></a>
-<img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
+<img src="./assets/cyber_divider.svg?v=3" width="100%" alt="Divider"/>
 
 ## 📜 Certifications &amp; Academic Distinctions
 
 <div align="center">
-  <img src="./assets/certifications_card.svg" width="100%" alt="Certifications &amp; Academic Distinctions"/>
+  <img src="./assets/certifications_card.svg?v=3" width="100%" alt="Certifications &amp; Academic Distinctions"/>
 </div>
 
 <br/>
@@ -329,14 +329,14 @@ I am **Chowreddygari Gnanendra Reddy**, a high-velocity 3rd-year Computer Scienc
 <!-- ============================================================================== -->
 
 <a id="live-analytics"></a>
-<img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
+<img src="./assets/cyber_divider.svg?v=3" width="100%" alt="Divider"/>
 
 ## 📊 GitHub Analytics &amp; Live System State
 
 <div align="center">
 
 <!-- Dynamic Animated Status Badge -->
-<img src="./assets/status_badge.svg" width="100%" alt="System Status" />
+<img src="./assets/status_badge.svg?v=3" width="100%" alt="System Status" />
 
 <br/><br/>
 
@@ -344,18 +344,18 @@ I am **Chowreddygari Gnanendra Reddy**, a high-velocity 3rd-year Computer Scienc
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <img src="./assets/stats_activity.svg" width="100%" alt="GitHub Metrics &amp; Activity"/>
+      <img src="./assets/stats_activity.svg?v=3" width="100%" alt="GitHub Metrics &amp; Activity"/>
     </td>
     <td width="50%" valign="top">
-      <img src="./assets/stats_languages.svg" width="100%" alt="Most Used Languages"/>
+      <img src="./assets/stats_languages.svg?v=3" width="100%" alt="Most Used Languages"/>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="./assets/stats_streak.svg" width="100%" alt="Engineering Output &amp; Streaks"/>
+      <img src="./assets/stats_streak.svg?v=3" width="100%" alt="Engineering Output &amp; Streaks"/>
     </td>
     <td width="50%" valign="top">
-      <img src="./assets/stats_iot_arch.svg" width="100%" alt="Engineering Architecture"/>
+      <img src="./assets/stats_iot_arch.svg?v=3" width="100%" alt="Engineering Architecture"/>
     </td>
   </tr>
 </table>
@@ -363,7 +363,7 @@ I am **Chowreddygari Gnanendra Reddy**, a high-velocity 3rd-year Computer Scienc
 <br/>
 
 <!-- Contribution Snake -->
-<img src="./assets/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake" />
+<img src="./assets/github-contribution-grid-snake-dark.svg?v=3" width="100%" alt="Contribution Snake" />
 
 </div>
 
@@ -374,19 +374,19 @@ I am **Chowreddygari Gnanendra Reddy**, a high-velocity 3rd-year Computer Scienc
 <!-- ============================================================================== -->
 
 <a id="trophies-activity"></a>
-<img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
+<img src="./assets/cyber_divider.svg?v=3" width="100%" alt="Divider"/>
 
 ## 🏆 Verified Achievements, Trophies &amp; Activity Graph
 
 <div align="center">
 
 <!-- Animated Trophies Card -->
-<img src="./assets/stats_trophies.svg" width="100%" alt="GitHub Achievements &amp; Verified Trophies"/>
+<img src="./assets/stats_trophies.svg?v=3" width="100%" alt="GitHub Achievements &amp; Verified Trophies"/>
 
 <br/><br/>
 
 <!-- Animated Contribution Velocity Graph -->
-<img src="./assets/stats_activity_graph.svg" width="100%" alt="Contribution Velocity &amp; Activity Graph"/>
+<img src="./assets/stats_activity_graph.svg?v=3" width="100%" alt="Contribution Velocity &amp; Activity Graph"/>
 
 </div>
 
@@ -397,7 +397,7 @@ I am **Chowreddygari Gnanendra Reddy**, a high-velocity 3rd-year Computer Scienc
 <!-- ============================================================================== -->
 
 <a id="lets-connect"></a>
-<img src="./assets/cyber_divider.svg" width="100%" alt="Divider"/>
+<img src="./assets/cyber_divider.svg?v=3" width="100%" alt="Divider"/>
 
 <div align="center">
 
@@ -435,6 +435,6 @@ I am actively open to software engineering internships, open-source collaboratio
 <br/>
 
 <!-- Animated Cyber Footer -->
-<img src="./assets/cyber_footer.svg" width="100%" alt="Footer"/>
+<img src="./assets/cyber_footer.svg?v=3" width="100%" alt="Footer"/>
 
 </div>
