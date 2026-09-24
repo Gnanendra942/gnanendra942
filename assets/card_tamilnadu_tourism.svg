@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 210" width="100%" height="100%">
   <defs>
-    <!-- Deep Maroon-Obsidian Gradient -->
+    <!-- Deep Obsidian-Cyan Gradient -->
     <linearGradient id="tn-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0D1117"/>
-      <stop offset="40%" stop-color="#0D1117"/>
-      <stop offset="100%" stop-color="#0D1117"/>
+      <stop offset="0%" stop-color="#060913"/>
+      <stop offset="50%" stop-color="#0B1224"/>
+      <stop offset="100%" stop-color="#060913"/>
     </linearGradient>
 
-    <!-- Animated Gold-Maroon Perimeter Border Beam -->
+    <!-- Animated Gold-Cyan Perimeter Border Beam -->
     <linearGradient id="tn-border-beam" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#D4AF37">
-        <animate attributeName="stop-color" values="#D4AF37;#8A1538;#58A6FF;#D4AF37" dur="5s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#F59E0B">
+        <animate attributeName="stop-color" values="#F59E0B;#00F0FF;#8B5CF6;#F59E0B" dur="5s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#30363D" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#8A1538">
-        <animate attributeName="stop-color" values="#8A1538;#58A6FF;#D4AF37;#8A1538" dur="5s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#1E293B" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00F0FF">
+        <animate attributeName="stop-color" values="#00F0FF;#8B5CF6;#F59E0B;#00F0FF" dur="5s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
@@ -50,8 +50,8 @@
     </clipPath>
 
     <style>
-      .font-display { font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace; }
+      .font-display { font-family: 'Space Grotesk', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, Consolas, monospace; }
 
       @keyframes floatEmblem {
         0%, 100% { transform: translateY(0px); }
@@ -91,9 +91,9 @@
 
     <!-- Verified Badge Underneath -->
     <g transform="translate(52, 114)">
-      <rect x="-46" y="0" width="92" height="20" rx="4" fill="#161B22" stroke="#8A1538" stroke-width="1"/>
-      <circle cx="-34" cy="10" r="3.5" fill="#3FB950"/>
-      <circle cx="-34" cy="10" r="3.5" fill="none" stroke="#3FB950" stroke-width="1" class="anim-radar"/>
+      <rect x="-46" y="0" width="92" height="20" rx="4" fill="#0F172A" stroke="#F59E0B" stroke-width="1"/>
+      <circle cx="-34" cy="10" r="3.5" fill="#10B981"/>
+      <circle cx="-34" cy="10" r="3.5" fill="none" stroke="#10B981" stroke-width="1" class="anim-radar"/>
       <text x="6" y="14" text-anchor="middle" class="font-mono" font-size="9" font-weight="700" fill="#FFE699">TN TOURISM</text>
     </g>
   </g>
@@ -102,11 +102,11 @@
   <g transform="translate(160, 34)">
     <!-- Status Tag Pill -->
     <g transform="translate(0, 0)">
-      <rect width="285" height="24" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-      <circle cx="12" cy="12" r="3.5" fill="#3FB950"/>
-      <circle cx="12" cy="12" r="3.5" fill="none" stroke="#3FB950" stroke-width="1" class="anim-radar"/>
-      <text x="24" y="16" class="font-mono" font-size="10" font-weight="700" fill="#3FB950">FEATURED SHOWCASE PROJECT</text>
-      <text x="235" y="16" class="font-mono" font-size="9" font-weight="700" fill="#D4AF37">LIVE 60 FPS</text>
+      <rect width="285" height="24" rx="5" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="12" cy="12" r="3.5" fill="#10B981"/>
+      <circle cx="12" cy="12" r="3.5" fill="none" stroke="#10B981" stroke-width="1" class="anim-radar"/>
+      <text x="24" y="16" class="font-mono" font-size="10" font-weight="700" fill="#10B981">FEATURED SHOWCASE PROJECT</text>
+      <text x="235" y="16" class="font-mono" font-size="9" font-weight="700" fill="#F59E0B">LIVE 60 FPS</text>
     </g>
 
     <!-- Main Title with Shimmering Gold Gradient -->
@@ -115,31 +115,31 @@
     </text>
 
     <!-- Subtitle / Architecture Highlights -->
-    <text x="0" y="80" class="font-mono" font-size="12" fill="#58A6FF">
+    <text x="0" y="80" class="font-mono" font-size="12" fill="#00F0FF">
       Editorial travel discovery platform · 12 Heritage Destinations · 5 Geographic Zones · Vector Maps
     </text>
-    <text x="0" y="100" class="font-mono" font-size="11.5" fill="#8B949E">
+    <text x="0" y="100" class="font-mono" font-size="11.5" fill="#94A3B8">
       Pure Vanilla Web Engine · Zero Runtime Dependencies · Algorithmic Smart Trip Itinerary Planner
     </text>
 
     <!-- 4 Quick Feature Chips -->
     <g transform="translate(0, 120)">
-      <rect width="135" height="24" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <rect width="135" height="24" rx="4" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
       <text x="67" y="16" text-anchor="middle" class="font-mono" font-size="9.5" font-weight="600" fill="#FFE699">🏛️ 12 CIRCUITS</text>
 
       <g transform="translate(145, 0)">
-        <rect width="165" height="24" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-        <text x="82" y="16" text-anchor="middle" class="font-mono" font-size="9.5" font-weight="600" fill="#58A6FF">🧭 TRIP PLANNER</text>
+        <rect width="165" height="24" rx="4" fill="#0F172A" stroke="#0284C7" stroke-width="1"/>
+        <text x="82" y="16" text-anchor="middle" class="font-mono" font-size="9.5" font-weight="600" fill="#00F0FF">🧭 TRIP PLANNER</text>
       </g>
 
       <g transform="translate(320, 0)">
-        <rect width="150" height="24" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-        <text x="75" y="16" text-anchor="middle" class="font-mono" font-size="9.5" font-weight="600" fill="#3FB950">⚡ 0 DEPENDENCIES</text>
+        <rect width="150" height="24" rx="4" fill="#0F172A" stroke="#059669" stroke-width="1"/>
+        <text x="75" y="16" text-anchor="middle" class="font-mono" font-size="9.5" font-weight="600" fill="#10B981">⚡ 0 DEPENDENCIES</text>
       </g>
 
       <g transform="translate(480, 0)">
-        <rect width="130" height="24" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-        <text x="65" y="16" text-anchor="middle" class="font-mono" font-size="9.5" font-weight="600" fill="#D4AF37">🌊 60 FPS FLUID</text>
+        <rect width="130" height="24" rx="4" fill="#0F172A" stroke="#D97706" stroke-width="1"/>
+        <text x="65" y="16" text-anchor="middle" class="font-mono" font-size="9.5" font-weight="600" fill="#F59E0B">🌊 60 FPS FLUID</text>
       </g>
     </g>
   </g>
@@ -148,21 +148,21 @@
   <g transform="translate(950, 42)">
     <!-- Primary CTA: Live Demo -->
     <g>
-      <rect width="210" height="38" rx="8" fill="#8A1538" stroke="#D4AF37" stroke-width="1.2" filter="url(#tn-glow)"/>
+      <rect width="210" height="38" rx="8" fill="#8A1538" stroke="#F59E0B" stroke-width="1.2" filter="url(#tn-glow)"/>
       <text x="105" y="24" text-anchor="middle" class="font-display" font-size="12" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">🚀 VISIT LIVE WEBSITE ➔</text>
     </g>
 
     <!-- Secondary CTA: GitHub Repo -->
     <g transform="translate(0, 48)">
-      <rect width="210" height="36" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1.2"/>
-      <text x="105" y="23" text-anchor="middle" class="font-display" font-size="11.5" font-weight="700" fill="#58A6FF">📁 VIEW ON GITHUB ➔</text>
+      <rect width="210" height="36" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1.2"/>
+      <text x="105" y="23" text-anchor="middle" class="font-display" font-size="11.5" font-weight="700" fill="#00F0FF">📁 VIEW ON GITHUB ➔</text>
     </g>
 
     <!-- Verification Pill -->
     <g transform="translate(0, 94)">
-      <rect width="210" height="22" rx="4" fill="#0D1117" stroke="#30363D" stroke-width="0.8"/>
-      <circle cx="12" cy="11" r="3" fill="#3FB950"/>
-      <text x="24" y="15" class="font-mono" font-size="9" font-weight="600" fill="#8B949E">DEPLOYED ON GITHUB PAGES</text>
+      <rect width="210" height="22" rx="4" fill="#060913" stroke="#1E293B" stroke-width="0.8"/>
+      <circle cx="12" cy="11" r="3" fill="#10B981"/>
+      <text x="24" y="15" class="font-mono" font-size="9" font-weight="600" fill="#94A3B8">DEPLOYED ON GITHUB PAGES</text>
     </g>
   </g>
 </svg>

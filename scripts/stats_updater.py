@@ -17,41 +17,41 @@ import urllib.request
 import urllib.error
 import ssl
 
-# Unified GitHub Dark Mode Palette
-COLOR_BG_START = "#0D1117"
-COLOR_BG_END = "#0D1117"
-COLOR_CARD_SURFACE = "#161B22"
-COLOR_CARD_BORDER = "#30363D"
-COLOR_CARD_BORDER_ACCENT = "#30363D"
+# Unified Cyber Neon Aurora & Deep Space Obsidian Palette
+COLOR_BG_START = "#060913"
+COLOR_BG_END = "#060913"
+COLOR_CARD_SURFACE = "#0F172A"
+COLOR_CARD_BORDER = "#1E293B"
+COLOR_CARD_BORDER_ACCENT = "#334155"
 
-COLOR_AZURE = "#58A6FF"
-COLOR_BLUE = "#79C0FF"
-COLOR_INDIGO = "#8957E5"
-COLOR_EMERALD = "#3FB950"
-COLOR_AMBER = "#D29922"
-COLOR_ROSE = "#F85149"
-COLOR_PURPLE = "#BC8CFF"
+COLOR_AZURE = "#00F0FF"
+COLOR_BLUE = "#38BDF8"
+COLOR_INDIGO = "#8B5CF6"
+COLOR_EMERALD = "#10B981"
+COLOR_AMBER = "#F59E0B"
+COLOR_ROSE = "#F43F5E"
+COLOR_PURPLE = "#A855F7"
 
-COLOR_TEXT_PRIMARY = "#F0F6FC"
-COLOR_TEXT_MUTED = "#8B949E"
-COLOR_TEXT_DIM = "#6E7681"
+COLOR_TEXT_PRIMARY = "#F8FAFC"
+COLOR_TEXT_MUTED = "#94A3B8"
+COLOR_TEXT_DIM = "#64748B"
 
 # Clean, Modern Typography
-FONT_DISPLAY = "'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
-FONT_MONO = "'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace"
+FONT_DISPLAY = "'Space Grotesk', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+FONT_MONO = "'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, Consolas, monospace"
 
 # Known Language Colors
 LANG_COLORS = {
-    "Java": "#ED8B00",
+    "Java": "#F59E0B",
     "JavaScript": "#F7DF1E",
-    "TypeScript": "#3178C6",
+    "TypeScript": "#00F0FF",
     "Python": "#38BDF8",
-    "C++": "#F34B7D",
-    "C": "#555555",
-    "HTML": "#E34F26",
-    "CSS": "#563D7C",
-    "SQL": "#4479A1",
-    "Shell": "#89E051",
+    "C++": "#F43F5E",
+    "C": "#64748B",
+    "HTML": "#EA580C",
+    "CSS": "#8B5CF6",
+    "SQL": "#0284C7",
+    "Shell": "#10B981",
 }
 
 
@@ -197,14 +197,14 @@ class SVGRenderer:
       <stop offset="100%" stop-color="{COLOR_INDIGO}"/>
     </linearGradient>
     <linearGradient id="rainbowBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38BDF8">
-        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#EC4899;#F59E0B;#10B981;#38BDF8" dur="8s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#00F0FF">
+        <animate attributeName="stop-color" values="#00F0FF;#8B5CF6;#F43F5E;#F59E0B;#10B981;#00F0FF" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#818CF8">
-        <animate attributeName="stop-color" values="#818CF8;#EC4899;#F59E0B;#10B981;#38BDF8;#818CF8" dur="8s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#8B5CF6">
+        <animate attributeName="stop-color" values="#8B5CF6;#F43F5E;#F59E0B;#10B981;#00F0FF;#8B5CF6" dur="8s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#10B981">
-        <animate attributeName="stop-color" values="#10B981;#38BDF8;#818CF8;#EC4899;#F59E0B;#10B981" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#10B981;#00F0FF;#8B5CF6;#F43F5E;#F59E0B;#10B981" dur="8s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
     <style>
@@ -375,13 +375,13 @@ class SVGRenderer:
     </linearGradient>
     <linearGradient id="rainbowBorderStreak" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#F59E0B">
-        <animate attributeName="stop-color" values="#F59E0B;#EF4444;#818CF8;#38BDF8;#10B981;#F59E0B" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#F59E0B;#F43F5E;#8B5CF6;#00F0FF;#10B981;#F59E0B" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#818CF8">
-        <animate attributeName="stop-color" values="#818CF8;#38BDF8;#10B981;#F59E0B;#EF4444;#818CF8" dur="8s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#8B5CF6">
+        <animate attributeName="stop-color" values="#8B5CF6;#00F0FF;#10B981;#F59E0B;#F43F5E;#8B5CF6" dur="8s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#10B981">
-        <animate attributeName="stop-color" values="#10B981;#F59E0B;#EF4444;#818CF8;#38BDF8;#10B981" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#10B981;#F59E0B;#F43F5E;#8B5CF6;#00F0FF;#10B981" dur="8s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
     <style>

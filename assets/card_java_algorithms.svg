@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 220" width="100%" height="100%">
   <defs>
     <linearGradient id="bg-ja" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0D1117"/>
-      <stop offset="50%" stop-color="#0D1117"/>
-      <stop offset="100%" stop-color="#0D1117"/>
+      <stop offset="0%" stop-color="#060913"/>
+      <stop offset="50%" stop-color="#0B1224"/>
+      <stop offset="100%" stop-color="#060913"/>
     </linearGradient>
 
     <linearGradient id="beam-ja" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ED8B00">
-        <animate attributeName="stop-color" values="#ED8B00;#D29922;#ED8B00" dur="3s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#F59E0B">
+        <animate attributeName="stop-color" values="#F59E0B;#00F0FF;#8B5CF6;#F59E0B" dur="3s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#58A6FF"/>
+      <stop offset="100%" stop-color="#00F0FF"/>
     </linearGradient>
 
     <style>
-      .font-display { font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace; }
-      .card-title { font-weight: 700; font-size: 17px; fill: #F0F6FC; }
-      .card-desc { font-size: 11px; fill: #8B949E; }
+      .font-display { font-family: 'Space Grotesk', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, Consolas, monospace; }
+      .card-title { font-weight: 700; font-size: 17px; fill: #F8FAFC; }
+      .card-desc { font-size: 11px; fill: #94A3B8; }
       .card-chip { font-size: 10px; font-weight: 700; }
 
       @keyframes sortBar1 { 0%, 100% { height: 6px; y: 144px; } 50% { height: 16px; y: 134px; } }
@@ -40,14 +40,14 @@
     </style>
   </defs>
 
-  <rect width="580" height="220" rx="12" fill="url(#bg-ja)" stroke="#30363D" stroke-width="1.2"/>
+  <rect width="580" height="220" rx="12" fill="url(#bg-ja)" stroke="#1E293B" stroke-width="1.3"/>
   <rect x="0" y="0" width="580" height="3" rx="1.5" fill="url(#beam-ja)"/>
   
   <!-- Status Badge -->
   <g transform="translate(370, 18)">
-    <rect width="185" height="24" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <circle cx="12" cy="12" r="3.5" fill="#ED8B00" class="anim-pulse-node"/>
-    <text x="22" y="16" class="font-mono card-chip" fill="#ED8B00">CORE JAVA 21 &amp; DSA</text>
+    <rect width="185" height="24" rx="5" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="12" cy="12" r="3.5" fill="#F59E0B" class="anim-pulse-node"/>
+    <text x="22" y="16" class="font-mono card-chip" fill="#F59E0B">CORE JAVA 21 &amp; DSA</text>
   </g>
 
   <!-- Title & Description -->
@@ -58,34 +58,35 @@
     <tspan x="24" dy="18">• Java 21 · JUnit Testing · OOP Design Patterns · ACS Verification</tspan>
   </text>
 
-  <!-- Animated Sorting Visualizer & Binary Tree Nodes -->
+  <!-- Live Animated Sorting Algorithm Visualizer -->
   <g transform="translate(24, 126)">
-    <rect width="320" height="30" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+    <rect width="320" height="30" rx="4" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="20" class="font-mono" font-size="9.5" fill="#94A3B8">ALGO SIM: <tspan fill="#F59E0B">MERGE / HEAP SORT</tspan></text>
     
-    <!-- Sorting Bars -->
-    <g transform="translate(14, 0)">
-      <rect x="0" width="4" rx="1.5" fill="#ED8B00" class="sb-1"/>
-      <rect x="8" width="4" rx="1.5" fill="#D29922" class="sb-2"/>
-      <rect x="16" width="4" rx="1.5" fill="#58A6FF" class="sb-3"/>
-      <rect x="24" width="4" rx="1.5" fill="#3FB950" class="sb-4"/>
-      <rect x="32" width="4" rx="1.5" fill="#8957E5" class="sb-5"/>
+    <!-- Animated Bars -->
+    <g transform="translate(195, -125)">
+      <rect x="0" y="140" width="8" height="10" rx="2" fill="#F59E0B" class="sb-1"/>
+      <rect x="12" y="136" width="8" height="14" rx="2" fill="#F59E0B" class="sb-2"/>
+      <rect x="24" y="132" width="8" height="18" rx="2" fill="#F59E0B" class="sb-3"/>
+      <rect x="36" y="142" width="8" height="8" rx="2" fill="#F59E0B" class="sb-4"/>
+      <rect x="48" y="138" width="8" height="12" rx="2" fill="#F59E0B" class="sb-5"/>
+      <rect x="60" y="134" width="8" height="16" rx="2" fill="#10B981" class="sb-1"/>
+      <rect x="72" y="144" width="8" height="6" rx="2" fill="#00F0FF" class="sb-3"/>
+      <rect x="84" y="132" width="8" height="18" rx="2" fill="#10B981" class="sb-2"/>
+      <rect x="96" y="138" width="8" height="12" rx="2" fill="#00F0FF" class="sb-4"/>
     </g>
-
-    <text x="60" y="19" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#3FB950">
-      TEST RUNNER: <tspan fill="#F0F6FC">ALL ACS ASSERTIONS PASSED (100%)</tspan>
-    </text>
   </g>
 
   <!-- Tech Tags -->
   <g transform="translate(24, 172)">
-    <rect width="70" height="26" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <text x="35" y="17" text-anchor="middle" class="font-mono card-chip" fill="#ED8B00">JAVA 21</text>
+    <rect width="75" height="26" rx="5" fill="#0F172A" stroke="#D97706" stroke-width="1"/>
+    <text x="37" y="17" text-anchor="middle" class="font-mono card-chip" fill="#F59E0B">JAVA 21</text>
 
-    <rect x="78" width="95" height="26" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <text x="125" y="17" text-anchor="middle" class="font-mono card-chip" fill="#58A6FF">ALGORITHMS</text>
+    <rect x="83" width="95" height="26" rx="5" fill="#0F172A" stroke="#0284C7" stroke-width="1"/>
+    <text x="130" y="17" text-anchor="middle" class="font-mono card-chip" fill="#00F0FF">ALGORITHMS</text>
 
-    <rect x="181" width="85" height="26" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-    <text x="223" y="17" text-anchor="middle" class="font-mono card-chip" fill="#3FB950">UNIT TESTS</text>
+    <rect x="186" width="95" height="26" rx="5" fill="#0F172A" stroke="#059669" stroke-width="1"/>
+    <text x="233" y="17" text-anchor="middle" class="font-mono card-chip" fill="#10B981">JUNIT / TEST</text>
   </g>
 
   <!-- View Repo Link -->

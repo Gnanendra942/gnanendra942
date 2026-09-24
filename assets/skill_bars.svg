@@ -2,45 +2,45 @@
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="skills-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0D1117"/>
-      <stop offset="40%" stop-color="#161B22"/>
-      <stop offset="100%" stop-color="#0D1117"/>
+      <stop offset="0%" stop-color="#060913"/>
+      <stop offset="40%" stop-color="#0B1224"/>
+      <stop offset="100%" stop-color="#060913"/>
     </linearGradient>
 
     <!-- Border Beam -->
     <linearGradient id="skills-border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#58A6FF">
-        <animate attributeName="stop-color" values="#58A6FF;#8957E5;#3FB950;#58A6FF" dur="6s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#00F0FF">
+        <animate attributeName="stop-color" values="#00F0FF;#8B5CF6;#10B981;#00F0FF" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#30363D" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#8957E5">
-        <animate attributeName="stop-color" values="#8957E5;#3FB950;#58A6FF;#8957E5" dur="6s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#1E293B" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8B5CF6">
+        <animate attributeName="stop-color" values="#8B5CF6;#10B981;#00F0FF;#8B5CF6" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
     <!-- Bar Gradients -->
     <linearGradient id="bar-java" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#D29922"/>
-      <stop offset="100%" stop-color="#ED8B00"/>
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
     </linearGradient>
 
     <linearGradient id="bar-react" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="0%" stop-color="#00F0FF"/>
       <stop offset="100%" stop-color="#0284C7"/>
     </linearGradient>
 
     <linearGradient id="bar-iot" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3FB950"/>
+      <stop offset="0%" stop-color="#10B981"/>
       <stop offset="100%" stop-color="#059669"/>
     </linearGradient>
 
     <linearGradient id="bar-node" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8957E5"/>
+      <stop offset="0%" stop-color="#8B5CF6"/>
       <stop offset="100%" stop-color="#6366F1"/>
     </linearGradient>
 
     <linearGradient id="bar-db" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FB7185"/>
+      <stop offset="0%" stop-color="#F43F5E"/>
       <stop offset="100%" stop-color="#E11D48"/>
     </linearGradient>
 
@@ -53,22 +53,22 @@
     </filter>
 
     <style>
-      .font-display { font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, monospace; }
+      .font-display { font-family: 'Space Grotesk', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Menlo, Consolas, monospace; }
 
       @keyframes radarBeacon {
         0% { r: 3px; opacity: 0.9; }
         100% { r: 10px; opacity: 0; }
       }
-      @keyframes fillProgress1 { 0% { width: 0; } 100% { width: 338px; } }
-      @keyframes fillProgress2 { 0% { width: 0; } 100% { width: 327px; } }
-      @keyframes fillProgress3 { 0% { width: 0; } 100% { width: 316px; } }
-      @keyframes fillProgress4 { 0% { width: 0; } 100% { width: 306px; } }
-      @keyframes fillProgress5 { 0% { width: 0; } 100% { width: 295px; } }
+      @keyframes fillProgress1 { 0% { width: 0; } 100% { width: 500px; } }
+      @keyframes fillProgress2 { 0% { width: 0; } 100% { width: 484px; } }
+      @keyframes fillProgress3 { 0% { width: 0; } 100% { width: 468px; } }
+      @keyframes fillProgress4 { 0% { width: 0; } 100% { width: 452px; } }
+      @keyframes fillProgress5 { 0% { width: 0; } 100% { width: 436px; } }
       
       @keyframes iconPulse {
-        0%, 100% { transform: scale(1); opacity: 0.85; }
-        50% { transform: scale(1.08); opacity: 1; filter: drop-shadow(0 0 6px rgba(56, 189, 248, 0.7)); }
+        0%, 100% { transform: scale(1); opacity: 0.9; }
+        50% { transform: scale(1.06); opacity: 1; filter: drop-shadow(0 0 6px rgba(0, 240, 255, 0.7)); }
       }
 
       .anim-radar { animation: radarBeacon 2s infinite cubic-bezier(0, 0.2, 0.8, 1); }
@@ -86,16 +86,16 @@
   </defs>
 
   <!-- Container Surface -->
-  <rect width="580" height="330" rx="12" fill="url(#skills-bg)" stroke="url(#skills-border)" stroke-width="1.4"/>
+  <rect width="580" height="330" rx="12" fill="url(#skills-bg)" stroke="url(#skills-border)" stroke-width="1.5"/>
 
   <!-- Card Header -->
   <g transform="translate(24, 24)">
-    <circle cx="5" cy="5" r="4" fill="#58A6FF"/>
-    <circle cx="5" cy="5" r="4" fill="none" stroke="#58A6FF" stroke-width="1.2" class="anim-radar"/>
-    <text x="18" y="9" class="font-display" font-size="12" font-weight="800" fill="#F0F6FC" letter-spacing="0.5">
+    <circle cx="5" cy="5" r="4" fill="#00F0FF"/>
+    <circle cx="5" cy="5" r="4" fill="none" stroke="#00F0FF" stroke-width="1.2" class="anim-radar"/>
+    <text x="18" y="9" class="font-display" font-size="12" font-weight="800" fill="#F8FAFC" letter-spacing="0.5">
       ENGINEERING MASTERY &amp; SKILL METRICS
     </text>
-    <text x="532" y="9" text-anchor="end" class="font-mono" font-size="9.5" font-weight="700" fill="#3FB950">
+    <text x="532" y="9" text-anchor="end" class="font-mono" font-size="9.5" font-weight="700" fill="#10B981">
       LIVE 60 FPS
     </text>
   </g>
@@ -104,83 +104,73 @@
   <g transform="translate(24, 50)">
     <!-- Skill 1: Java 21 -->
     <g transform="translate(0, 0)">
-      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F0F6FC">Core Java 21 &amp; Applied OOP</text>
-      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#D29922">94%</text>
+      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F8FAFC">Core Java 21 &amp; Applied OOP</text>
+      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#F59E0B">94%</text>
       <!-- Track -->
-      <rect y="22" width="532" height="10" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <rect y="22" width="532" height="10" rx="5" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
       <!-- Fill -->
-      <rect y="22" height="10" rx="5" fill="url(#bar-java)" class="bar-fill-1">
-        <animate attributeName="width" from="0" to="500" dur="1.5s" fill="freeze"/>
-      </rect>
+      <rect y="22" height="10" rx="5" fill="url(#bar-java)" class="bar-fill-1"/>
     </g>
 
     <!-- Skill 2: React 19 -->
     <g transform="translate(0, 48)">
-      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F0F6FC">React 19, Next.js &amp; Tailwind</text>
-      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#58A6FF">91%</text>
+      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F8FAFC">React 19, Next.js &amp; Tailwind</text>
+      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#00F0FF">91%</text>
       <!-- Track -->
-      <rect y="22" width="532" height="10" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <rect y="22" width="532" height="10" rx="5" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
       <!-- Fill -->
-      <rect y="22" height="10" rx="5" fill="url(#bar-react)" class="bar-fill-2">
-        <animate attributeName="width" from="0" to="484" dur="1.5s" begin="0.15s" fill="freeze"/>
-      </rect>
+      <rect y="22" height="10" rx="5" fill="url(#bar-react)" class="bar-fill-2"/>
     </g>
 
     <!-- Skill 3: IoT C++ -->
     <g transform="translate(0, 96)">
-      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F0F6FC">Embedded IoT &amp; Arduino C++</text>
-      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#3FB950">88%</text>
+      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F8FAFC">Embedded IoT &amp; Arduino C++</text>
+      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#10B981">88%</text>
       <!-- Track -->
-      <rect y="22" width="532" height="10" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <rect y="22" width="532" height="10" rx="5" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
       <!-- Fill -->
-      <rect y="22" height="10" rx="5" fill="url(#bar-iot)" class="bar-fill-3">
-        <animate attributeName="width" from="0" to="468" dur="1.5s" begin="0.3s" fill="freeze"/>
-      </rect>
+      <rect y="22" height="10" rx="5" fill="url(#bar-iot)" class="bar-fill-3"/>
     </g>
 
     <!-- Skill 4: Node.js & REST -->
     <g transform="translate(0, 144)">
-      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F0F6FC">Node.js, Express &amp; REST APIs</text>
-      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#8957E5">85%</text>
+      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F8FAFC">Node.js, Express &amp; REST APIs</text>
+      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#8B5CF6">85%</text>
       <!-- Track -->
-      <rect y="22" width="532" height="10" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <rect y="22" width="532" height="10" rx="5" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
       <!-- Fill -->
-      <rect y="22" height="10" rx="5" fill="url(#bar-node)" class="bar-fill-4">
-        <animate attributeName="width" from="0" to="452" dur="1.5s" begin="0.45s" fill="freeze"/>
-      </rect>
+      <rect y="22" height="10" rx="5" fill="url(#bar-node)" class="bar-fill-4"/>
     </g>
 
     <!-- Skill 5: Databases -->
     <g transform="translate(0, 192)">
-      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F0F6FC">MySQL &amp; MongoDB Datastores</text>
-      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#FB7185">82%</text>
+      <text x="0" y="14" class="font-display" font-size="11" font-weight="700" fill="#F8FAFC">MySQL &amp; MongoDB Datastores</text>
+      <text x="532" y="14" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#F43F5E">82%</text>
       <!-- Track -->
-      <rect y="22" width="532" height="10" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <rect y="22" width="532" height="10" rx="5" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
       <!-- Fill -->
-      <rect y="22" height="10" rx="5" fill="url(#bar-db)" class="bar-fill-5">
-        <animate attributeName="width" from="0" to="436" dur="1.5s" begin="0.6s" fill="freeze"/>
-      </rect>
+      <rect y="22" height="10" rx="5" fill="url(#bar-db)" class="bar-fill-5"/>
     </g>
   </g>
 
   <!-- Bottom Interactive Tech Stack Quick Pills -->
   <g transform="translate(24, 288)">
-    <rect width="118" height="24" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" class="icon-p1"/>
-    <text x="59" y="16" text-anchor="middle" class="font-mono" font-size="9" font-weight="700" fill="#58A6FF">⚛️ REACT 19</text>
+    <rect width="118" height="24" rx="5" fill="#0F172A" stroke="#0284C7" stroke-width="1" class="icon-p1"/>
+    <text x="59" y="16" text-anchor="middle" class="font-mono" font-size="9" font-weight="700" fill="#00F0FF">⚛️ REACT 19</text>
 
     <g transform="translate(136, 0)">
-      <rect width="118" height="24" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" class="icon-p2"/>
-      <text x="59" y="16" text-anchor="middle" class="font-mono" font-size="9" font-weight="700" fill="#ED8B00">☕ JAVA 21</text>
+      <rect width="118" height="24" rx="5" fill="#0F172A" stroke="#D97706" stroke-width="1" class="icon-p2"/>
+      <text x="59" y="16" text-anchor="middle" class="font-mono" font-size="9" font-weight="700" fill="#F59E0B">☕ JAVA 21</text>
     </g>
 
     <g transform="translate(272, 0)">
-      <rect width="118" height="24" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" class="icon-p3"/>
-      <text x="59" y="16" text-anchor="middle" class="font-mono" font-size="9" font-weight="700" fill="#3FB950">⚡ ARDUINO C++</text>
+      <rect width="118" height="24" rx="5" fill="#0F172A" stroke="#059669" stroke-width="1" class="icon-p3"/>
+      <text x="59" y="16" text-anchor="middle" class="font-mono" font-size="9" font-weight="700" fill="#10B981">⚡ ARDUINO C++</text>
     </g>
 
     <g transform="translate(408, 0)">
-      <rect width="124" height="24" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" class="icon-p4"/>
-      <text x="62" y="16" text-anchor="middle" class="font-mono" font-size="9" font-weight="700" fill="#8957E5">🚀 NEXT.JS / REST</text>
+      <rect width="124" height="24" rx="5" fill="#0F172A" stroke="#7C3AED" stroke-width="1" class="icon-p4"/>
+      <text x="62" y="16" text-anchor="middle" class="font-mono" font-size="9" font-weight="700" fill="#8B5CF6">🚀 NEXT.JS / REST</text>
     </g>
   </g>
 </svg>
